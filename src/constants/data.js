@@ -1,142 +1,144 @@
-/** 
- * FileName - data.js
- * FileType - .js (JavaScript file)
- * Lines - 821
- * Created On - 15/8/2023, 01:19:20
- * Author - [Author Name]
- * Description - This file imports and exports all data as arrays of objects to organize team members, events, projects, and more.
- */
 
-// Executive Team List
-export const ExecList = [
-    {
-      id: 0,
-      name: 'John Doe',
-      position: 'Chairperson',
-      image: JohnDoeImage,
-      linkedin: "https://linkedin.com/in/johndoe",
-      github: "https://github.com/johndoe",
-      instagram: "https://instagram.com/johndoe",
-    },
-    {
-      id: 1,
-      name: 'Jane Doe',
-      position: 'Vice-Chairperson',
-      image: JaneDoeImage,
-      linkedin: "https://linkedin.com/in/janedoe",
-      github: "https://github.com/janedoe",
-      instagram: "https://instagram.com/janedoe",
-    },
-    // Add more executive team members
-  ];
-  
-  // Home Page Events List
-  export const EventsList = [
-    {
-      id: 'event-1',
-      name: 'Tech Conference 2023',
-      image: TechConferenceImage,
-      desc: 'The annual Tech Conference brings together over 1000 participants to explore the latest innovations in technology, focusing on AI, IoT, and cybersecurity.',
-    },
-    {
-      id: 'event-2',
-      name: 'Hackathon 2024',
-      image: HackathonImage,
-      desc: 'A 48-hour hackathon where participants push the boundaries of innovation in software development, collaborating to solve real-world problems.',
-    },
-    // Add more events
-  ];
-  
-  // Gallery List
-  export const GalleryList = [
-    {
-      img: EventImage1,
-      title: 'Opening Ceremony 2023',
-    },
-    {
-      img: EventImage2,
-      title: 'Keynote Speech by Industry Expert',
-    },
-    // Add more gallery images
-  ];
-  
-  // Projects List
-  export const ProjectsList = [
-    {
-      id: 'Project-1',
-      photo: AIProjectImage,
-      title: 'AI for Accessibility',
-      description: 'This project focuses on using artificial intelligence to assist individuals with disabilities by offering real-time accessibility solutions.',
-    },
-    {
-      id: 'Project-2',
-      photo: IoTProjectImage,
-      title: 'IoT Smart Home',
-      description: 'An IoT-based smart home system that allows users to control their home appliances remotely via mobile devices.',
-    },
-    // Add more projects
-  ];
-  
-  // Team Heads List
-  export const TeamHeadsList = [
-    // Community Managers
-    {
-      id: 0,
-      teamName: 'Community Managers',
-      heads: [
-        {
-          id: 0,
-          photo: Manager1Image,
-          name: 'Alice Smith',
-          post: 'Community Manager',
-        },
-        {
-          id: 1,
-          photo: Manager2Image,
-          name: 'Bob Johnson',
-          post: 'Community Manager',
-        },
-      ]
-    },
-    // Events Team
-    {
-      id: 1,
-      teamName: 'Events',
-      heads: [
-        {
-          id: 0,
-          photo: EventHead1Image,
-          name: 'Charlie Williams',
-          post: 'Head of Events',
-        },
-        {
-          id: 1,
-          photo: EventHead2Image,
-          name: 'Dana Brown',
-          post: 'Deputy Head of Events',
-        },
-        // Add more event team members
-      ]
-    },
-    // Finance Team
-    {
-      id: 2,
-      teamName: 'Finance',
-      heads: [
-        {
-          id: 0,
-          photo: FinanceHead1Image,
-          name: 'Edward Green',
-          post: 'Head of Finance',
-        },
-        {
-          id: 1,
-          photo: FinanceHead2Image,
-          name: 'Fiona Blue',
-          post: 'Deputy Head of Finance',
-        },
-      ]
-    },
-    // Add more teams (e.g., marketing, technical, etc.)
-  ];
-  
+// Shrouya Roy speech
+import Sh1 from "../assets/Images/Shrouya_Roy/Img1.jpeg";
+import Sh2 from "../assets/Images/Shrouya_Roy/Img2.jpeg";
+import Sh3 from "../assets/Images/Shrouya_Roy/Img3.jpeg";
+import Sh4 from "../assets/Images/Shrouya_Roy/Img4.jpeg";
+
+export const shouryaRoy = [    
+  {
+    id:0,
+    image: Sh1,
+  },  
+  {
+    id:1,
+    image: Sh2,
+  },
+  {
+    id:2,
+    image: Sh3,
+  },
+  {
+    id:3,
+    image: Sh4,     
+  }       
+]      
+
+// Summer Boost Program
+import SB1 from "../assets/Images/Summer_Boost/Img1.jpeg";
+import SB2 from "../assets/Images/Summer_Boost/Img2.jpeg";
+
+export const summerBoost = [    
+  {
+    id:0,
+    image: SB1,
+  },  
+  {
+    id:1,
+    image: SB2,
+  }       
+]
+
+// Tech Quest
+import TQ1 from "../assets/Images/Tech_Quest/Img1.jpeg";
+import TQ2 from "../assets/Images/Tech_Quest/Img2.jpeg";
+export const techQuest = [
+  {
+    id:0,
+    image: TQ1,
+  },
+  {
+    id:1,
+    image: TQ2,
+  }
+]
+
+// Venkateshwaran
+import V1 from "../assets/Images/Venkateshwaran/Img1.jpeg";
+import V2 from "../assets/Images/Venkateshwaran/Img2.jpeg";
+import V3 from "../assets/Images/Venkateshwaran/Img3.jpeg"; 
+import V4 from "../assets/Images/Venkateshwaran/Img4.jpeg";
+export const venkateshwaran = [
+  {
+    id:0,
+    image: V1,
+  },
+  {
+    id:1,
+    image: V2,
+  },
+  {
+    id:2,
+    image: V3,
+  },
+  {
+    id:3,
+    image: V4,
+  } 
+]
+
+// Vertex Ai
+import VA1 from "../assets/Images/Vertex_Ai/Img1.jpeg";
+import VA2 from "../assets/Images/Vertex_Ai/Img2.jpeg";
+import VA3 from "../assets/Images/Vertex_Ai/Img3.jpeg";
+export const vertexAi = [
+  {
+    id:0,
+    image: VA1,
+  },
+  {
+    id:1,
+    image: VA2,
+  },
+  {
+    id:2,
+    image: VA3,
+  },
+
+]
+
+// Virtual Code Corner
+import VC1 from "../assets/Images/Virtual_Code_Corner/Img1.jpeg";
+import VC2 from "../assets/Images/Virtual_Code_Corner/Img2.jpeg";
+export const virtualCodeCorner = [
+  {
+    id:0,
+    image: VC1,
+  },
+  {
+    id:1,
+    image: VC2,
+  },
+]
+
+// Gen Ai Webinar
+import GW1 from "../assets/Images/Gen_Ai_Webinar/Img1.jpeg";
+import GW2 from "../assets/Images/Gen_Ai_Webinar/Img2.jpeg";
+export const genAiWebinar = [   
+  {
+    id:0,
+    image: GW1,
+  },  
+  {
+    id:1,
+    image: GW2,
+  }       
+]
+
+//Human Computer Interaction Webinar
+import HC1 from "../assets/Images/Human_Computer_Interaction_Webinar/Img1.jpeg";
+export const humanComputerInteractionWebinar = [   
+  {
+    id:0,
+    image: HC1,
+  },       
+]
+
+// Sql Knight
+import SK1 from "../assets/Images/Sql_Knight/Img1.jpeg"; 
+export const sqlKnight = [
+  {
+    id:0,
+    image: SK1,
+  },
+]
