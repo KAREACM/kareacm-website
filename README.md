@@ -94,13 +94,34 @@ A typical Vite project structure looks like this:
 └── package.json      # Project configuration and dependencies
 ```
 
-## Useful Scripts
+## Other useful Git Commands 
 
-Here are some commonly used scripts in Vite projects:
+# 1. Create a new branch
+git checkout -b <feature-branch-name>
 
-- **`npm run dev`**: Starts the development server.
-- **`npm run build`**: Builds the project for production.
-- **`npm run preview`**: Previews the production build.
+# 2. Stage and commit changes
+git add .
+git commit -m "Add feature description"
+
+# 3. Push the feature branch to the remote repository
+git push origin <feature-branch-name>
+
+# 4. Switch back to the main branch
+git checkout main
+
+# 5. Pull the latest changes from the main branch
+git pull origin main
+
+# 6. Merge the feature branch into the main branch
+git merge <feature-branch-name>
+
+# 7. Push the updated main branch to the remote repository
+git push origin main
+
+# 8. Delete the feature branch locally and remotely (optional)
+git branch -d <feature-branch-name>
+git push origin --delete <feature-branch-name>
+
 
 ## Learn More
 
