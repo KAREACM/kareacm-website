@@ -65,8 +65,6 @@ npm run preview
 
 # OR
 
-# Using yarn
-yarn preview
 ```
 
 This will start a server to serve the production files on:
@@ -96,31 +94,47 @@ A typical Vite project structure looks like this:
 
 ## Other useful Git Commands 
 
-# 1. Create a new branch
+### 1. Create a new branch
+```bash
 git checkout -b <feature-branch-name>
+```
 
-# 2. Stage and commit changes
+### 2. Stage and commit changes
+```bash
 git add .
 git commit -m "Add feature description"
+```
 
-# 3. Push the feature branch to the remote repository
+### 3. Push the feature branch to the remote repository
+```bash
 git push origin <feature-branch-name>
+```
 
-# 4. Switch back to the main branch
+### 4. Switch back to the main branch
+```bash
 git checkout main
+```
 
-# 5. Pull the latest changes from the main branch
+### 5. Pull the latest changes from the main branch
+```bash
 git pull origin main
+```
 
-# 6. Merge the feature branch into the main branch
+### 6. Merge the feature branch into the main branch
+```bash
 git merge <feature-branch-name>
+```
 
-# 7. Push the updated main branch to the remote repository
+### 7. Push the updated main branch to the remote repository
+```bash
 git push origin main
+```
 
-# 8. Delete the feature branch locally and remotely (optional)
+### 8. Delete the feature branch locally and remotely (optional)
+```bash
 git branch -d <feature-branch-name>
 git push origin --delete <feature-branch-name>
+```
 
 
 ## Learn More
