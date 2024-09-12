@@ -86,6 +86,7 @@ A typical Vite project structure looks like this:
 |   ├── components    # Contains the reuseable components (Contact Card, Navbar,Footer)
 |   ├── pages         # Contains the different pages (Home Page, About Page)
 |   ├── sections      # Contains the different sections (Hero Section, Profile Section)
+|   ├── constants     # Contains This file imports and exports all data as arrays of objects to organize team members, events, projects, and more
 │   ├── main.jsx      # Entry JavaScript file
 │   └── App.jsx       # Main application component
 ├── /public           # Static assets (favicon,logo)
