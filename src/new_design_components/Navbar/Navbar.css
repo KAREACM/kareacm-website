@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+:root{
+
+    /*===== Font and Typography Variables ======*/
+    --font-size-small : 1rem;
+    --font-size-medium : 2rem;
+    --font-size-large : 4rem;
+    --body-font-family : "Inter", sans-serif;   
+    --body-font-weight : 700;
+
+    /* =====Color Variables ====== */
+    --body-bg-color : #05010D;
+
+    /* ======= MORE VARIABLES YET TO BE ADDED ======== */
+
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: var(--body-bg-color);
+}
+
+/* ======= HEADER  ====== */
+
+.header{
+    background-color: var(--body-bg-color);
+    height: auto;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 9.06rem auto auto 45%;
+    grid-template-rows: auto;
+    /* padding: 0.8rem; */
+    padding-right: 3rem;
+    align-items: center;
+    /* justify-items: center; */
+    /* border: 1px solid red; */
+}
+
+/* ======== ACM Logo ==========  */
+
+.kare_acm_logo_navbar{
+    background-size: contain;
+    width: 7.0625rem;
+    height: 5.6719rem;
+    scale: 0.75;
+    
+    
+}
+
+/* ======== ACM KARE Text in HEADER =======*/
+
+#header .acm_kare{
+    font-size: var(--font-size-medium);
+    padding-left: 1rem;
+    color: #00F0FF; 
+    
+    font-family: var(--body-font-family);
+    font-weight: var(--body-font-weight);
+}
+
+/* ========== NAVBAR ========== */
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-items: flex-end;
+    font-family: var(--body-font-family);
+    font-weight: var(--body-font-weight);
+    font-size: var(--font-size-small);
+    letter-spacing: 0.2px;
+    line-height: 1rem;
+    color: #ffff;
+}
+
