@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
-
+#root{
+    overflow-x: hidden;
+}
 :root{
 
     /*===== Font and Typography Variables ======*/
@@ -10,6 +12,7 @@
     --font-size-large : 4rem;
     --body-font-family : "Inter", sans-serif;   
     --body-font-weight : 700;
+    --white : #FFFFFF;
 
     /* =====Color Variables ====== */
     --body-bg-color : #05010D;
@@ -37,7 +40,7 @@ body{
     height: auto;
     width: 100vw;
     display: grid;
-    grid-template-columns: 9.06rem auto auto 45%;
+    grid-template-columns: 9.06rem 190px auto 45%;
     grid-template-rows: auto;
     /* padding: 0.8rem; */
     padding-right: 3rem;
@@ -61,11 +64,14 @@ body{
 
 #header .acm_kare{
     font-size: var(--font-size-medium);
-    padding-left: 1rem;
-    color: #00F0FF; 
-    
+    /* padding-left: 1rem; */
+    background: linear-gradient(to right, #00F0FF 0%, #347499 60%) ; 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-family: var(--body-font-family);
     font-weight: var(--body-font-weight);
+    line-height: normal;
+    letter-spacing: 0.2px;
 }
 
 /* ========== NAVBAR ========== */

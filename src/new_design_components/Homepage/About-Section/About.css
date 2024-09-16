@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ======== CONTAINER FOR THE ABOUT SECTION WHICH IS PRESENT BELOW THE HERO-SECTION ========= */
+
+.about-container {
+    height: auto;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ========= TITLE BELOW HERO SECTION (ACM STUDENT CHAPTER KARE) ========= */
+
+.title {
+    font-size: var(--font-size-medium);
+    background: linear-gradient(to right, #00F0FF 0%, #07c0cd 50%,  #347499 80%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family: var(--body-font-family);
+    font-weight: var(--body-font-weight);
+}
+
+/* ========== CSS FOR CONTENT BELOW THE TITLE ============ */
+
+.content1 {
+    color: var(--white);
+    font-family: var(--body-font-family);
+    /* font-weight: 300; */
+    font-size: var(--font-size-medium);
+    width: 75%;
+    text-align: center;
+}
+
+/* ======== CSS FOR CONTENT WHICH IS BELOW THE CLASS CONTENT1 ========== */
+
+.content2 {
+    background: radial-gradient(circle at center, #4294C7 0%, #204861 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: var(--body-font-family);
+    font-weight: var(--body-font-weight);
+    font-size: var(--font-size-medium);
+    width: 80%;
+    text-align: center;
+}
+
+/* ========== CSS FOR THE CONTENT WHICH IS BELOW THE CLASS CONTENT2 =========== */
+
+.content3 {
+    display: grid;
+    width: 1258.47px;
+    /* border: 1px solid red; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 129px;
+    align-items: center;
+    justify-items: center;
+    background: linear-gradient(to right, #467EB5 33%, #416EA5 42%, #1C093A 100%);
+
+}
+
+.members,
+.events2,
+.societies,
+.mentors {
+    color: #B2CDD5;
+    font-size: var(--font-size-medium);
+    font-weight: var(--body-font-weight);
+    font-family: var(--body-font-family);
+    text-align: center;
+}
