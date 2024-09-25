@@ -3,6 +3,7 @@ import kare_acm_sc_logo from './../../../../Athithya/src/Assets/Photos/kare-acm-
 
 
 import './../Hero-Section/Hero.css'
+import About from '../About-Section/About';
 
 function Hero() {
     return (
@@ -60,6 +61,10 @@ function Hero() {
                 <div className="mini-circles icon15 flx-justify-align">
                     <i className="fa-solid fa-link"></i>
                 </div>
+            </div>
+
+            <div>
+                <About/>
             </div>
 
         </div>

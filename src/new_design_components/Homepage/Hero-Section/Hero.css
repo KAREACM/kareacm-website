@@ -8,12 +8,11 @@
 
 .hero-container{
     width: 100%;
-    height: auto;
-    /* border: 1px solid red; */
+    height: 40rem;
+    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40rem;
 }
 
 /* ======== KARE-ACM LOGO ========= */
@@ -41,8 +40,8 @@
 /* ======== MINI ICONS AROUND KARE-ACM-LOGO ======= */
 
 .mini-circles{
-    height: 35px;
-    width: 35px;
+    height: 2.187rem;
+    width: 2.187rem;
     background-color: #686363;
     border-radius: 50%;
     position: absolute;
@@ -54,80 +53,89 @@
 /* ======= SETTING POSITION OF THE MINI ICONS AROUND THE LOGO =========*/
 
 .icon1{
-    top: 20rem;
-    left: 22rem;
+    top: 45%;
+    left: 22%;
 }
 
-.icon1-img{
-    width: 60px;
-    height: 60px;
-    /* color: #ffff; */
-}
+
 
 .icon2{
-    top: 13rem;
-    left: 35rem;
+    top: 25%;
+    left: 37%;
 }
 
 .icon3{
-    top: 8rem;
-    left: 40rem;
+    top: 18%;
+    left: 43%;
+    
 }
 
 .icon4{
-    top: 14rem;
-    left: 40rem;
+    top: 30%;
+    left: 41%;
+    
 }
 
 .icon5{
-    top: 10rem;
-    left: 55rem;
+    top: 24%;
+    left: 60%;
+    
 }
 
 .icon6{
-    top: 15rem;
-    left: 70rem;
+    top: 30%;
+    left: 76%;
+    
+    
 }
 
 .icon7{
-    top: 18rem;
-    left: 64rem;
+    top: 38%;
+    left: 67%;
+    
 }
 .icon8{
-    top: 23rem;
-    left: 68rem;
+    top: 47%;
+    left: 72%;
+    
 }
 .icon9{
-    top: 26.5rem;
-    left: 69.5rem;
+    top: 57%;
+    left: 73.5%;
+    
 }
 
 .icon10{
-    top: 30rem;
-    left: 63rem;
+    top: 65%;
+    left: 66%;
+    
 }
 .icon11{
-    top: 35rem;
-    left: 60rem;
+    top: 77%;
+    left: 63%;
+    
 }
 
 .icon12{
-    top: 41rem;
-    left: 50rem;
+    top: 89%;
+    left: 52%;
+    
 }
 
 .icon13{
-    top: 37rem;
-    left: 35rem;
+    top: 80%;
+    left: 38%;
+    
 }
 
 .icon14{
-    top: 28rem;
-    left: 33rem;
+    top: 63%;
+    left: 35%;
+    
 }
 .icon15{
-    top: 27rem;
-    left: 27rem;
+    top: 58%;
+    left: 28%;
 }
 
 /* ======== CREATED A SEPARATE CLASS ONLY FOR FLEX PROPERTY ======== */

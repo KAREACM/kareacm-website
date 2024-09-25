@@ -37,7 +37,7 @@ body{
 
 .header{
     background-color: var(--body-bg-color);
-    height: auto;
+    height: 6rem;
     width: 100vw;
     display: grid;
     grid-template-columns: 9.06rem 190px auto 45%;
@@ -87,3 +87,6 @@ body{
     color: #ffff;
 }
 
+.home, .about, .teams, .events, .blogs, .gallery, .contact{
+    color: #ffff;
+}
