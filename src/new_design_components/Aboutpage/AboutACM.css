@@ -1,4 +1,320 @@
-body{
-    color: wheat;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* css of about acm */
+.rect1{
+
+    width: 748px;
+    height: 800px;
+    font-family: 'Inter';
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 60.51px;
+    color: #FFFFFF;
+    border: 2px solid #ffff;
+    border-radius: 25%;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+    border-left: none;
+
 }
 
+.about-container2{
+    margin: 50px 0 0 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 100px;
+}
+
+.globe1 {
+    width: 550px;
+    height: 650px;
+    background-size: cover;
+
+}
+
+.underline1{
+    width: 180.96px;
+    height: 20.02px;
+    background-color: #0FA3FF;
+
+}
+
+.content_p1,
+.content_p2  {
+    border-top-right-radius: 5%;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38.73px;
+    text-align: left;
+    margin-left: 5% ;
+    margin-right: 5%;
+
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gl_blur {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: #0FA3FF;
+    filter: blur(200px);
+    position: absolute;
+    top: 50%;
+    right: 10%;
+}
+
+/* css of text */
+
+.con  {
+    height: auto;
+    width: 100%;
+    font-family: "Inter";
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 84.72px;
+    text-align: center;
+    color:  #63C2F8 
+
+}
+
+/* css of about kare */
+
+.about-container3 {
+    margin: 50px 0 0 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 50px;
+}
+.rect3 {
+
+    width: 996px;
+    height: 629px;
+    font-family: 'Inter';
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 60.51px;
+    color: #FFFFFF;
+    border: 2px solid #ffff;
+    border-radius: 25%;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-right: none;
+
+}
+
+.globe3 {
+    width: 640px;
+    height: 730px;
+    background-size: cover;
+
+}
+
+.underline3 {
+    width: 194.22px;
+    height: 13.84px;
+
+    background-color: #0FA3FF;
+
+}
+
+.content_p3 {
+
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38.73px;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.wrapper3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gl_blur3 {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: #0FA3FF;
+    filter: blur(200px);
+    position: absolute;
+    top: 164%;
+    left: 0%;
+}
+/* css of text */
+
+.con3 {
+    height: auto;
+    width: 100%;
+    font-family: "Inter";
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 84.72px;
+    text-align: center;
+    color: #0FA3FF;
+
+}
+/* css of our aim */
+
+.rect4{
+
+    width: 1200px;
+    height:650px;
+    font-family: 'Inter';
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 60.51px;
+    color: #FFFFFF;
+    border: 2px solid #ffff;
+    border-radius: 25%;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+    border-left: none;
+
+}
+
+.about-container4{
+    margin: 50px 0 0 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 50px;
+}
+
+.globe4 {
+    width: 650px;
+    height: 780px;
+    background-size: cover;
+
+}
+
+.underline4{
+    width: 195px;
+    height: 16.26px;    
+    background-color: #0FA3FF;
+
+}
+
+.content_p4  {
+
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38.73px;
+    text-align: left;
+    margin-right: 5%;
+    margin-left: 5%;
+
+}
+
+.wrapper4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gl_blur4 {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: #0FA3FF;
+    filter: blur(200px);
+    position: absolute;
+    top: 290%;
+    right: 0%;
+}
+/* css of text */
+
+.con4  {
+    height: auto;
+    width: 100%;
+    font-family: "Inter";
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 84.72px;
+    text-align: center;
+    color:  #63C2F8 
+
+}
+
+/* css of our mission */
+
+.about-container5 {
+    margin: 50px 0 0 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 50px;
+}
+.rect5 {
+
+    width: 950px;
+    height: 600px;
+    font-family: 'Inter';
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 60.51px;
+    color: #FFFFFF;
+    border: 2px solid #ffff;
+    border-radius: 25%;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-right: none;
+
+}
+
+.globe5 {
+    width: 600px;
+    height: 700px;
+    background-size: cover;
+
+}
+
+.underline5 {
+    width: 194.22px;
+    height: 13.84px;
+
+    background-color: #0FA3FF;
+
+}
+
+.content_p5 {
+
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38.73px;
+    text-align: left;
+    margin-right: 5% ;
+    margin-left: 5%;
+
+}
+
+.wrapper5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gl_blur5 {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: #0FA3FF;
+    filter: blur(200px);
+    position: absolute;
+   top: 427%;
+    left: 0%;
+}
