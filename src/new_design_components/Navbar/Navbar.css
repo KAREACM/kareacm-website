@@ -37,7 +37,7 @@ body{
 
 .header{
     background-color: var(--body-bg-color);
-    height: 6rem;
+    height: 13vmin;
     width: 100vw;
     display: grid;
     grid-template-columns: 9.06rem 190px auto 45%;

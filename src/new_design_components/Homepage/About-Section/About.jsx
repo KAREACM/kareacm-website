@@ -1,5 +1,6 @@
 import React from 'react'
 import './../../Homepage/About-Section/About.css'
+import Faculties from '../Faculty Coordinators/Faculties';
 
 function About() {
   return (
@@ -39,6 +40,9 @@ function About() {
                 <div>Mentors</div>
               </div>
             </div>
+        </div>
+        <div className="faculties">
+          <Faculties/>
         </div>
     </div>
   )

@@ -8,8 +8,8 @@
 
 .hero-container{
     width: 100%;
-    height: 40rem;
-    border: 1px solid red;
+    height: 87vmin;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,8 +20,10 @@
 .kare_acm_sc_logo{
     filter: brightness(1);
     filter: contrast(1.3);
-    width: 420px;
-    height: 400px;
+    width: 28%;
+    height: 65%;
+    /* width: 420px;
+    height: 400px; */
 
 }
 

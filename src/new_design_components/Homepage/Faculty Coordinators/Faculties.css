@@ -3,7 +3,29 @@
     font-family: var(--body-font-family);
     font-weight: var(--body-font-weight);
     text-align: center;
-    background: linear-gradient(to right, #00F0FF 0%, #347499 60%) ; 
+    background: linear-gradient(to right, #00F0FF 0%, #347499 70%) ; 
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.faculty-coordinator-pics{
+    display: grid;
+    grid-template-columns: 18.812rem 18.812rem;
+    justify-content: center;
+    gap: 4.125rem 3.125rem;
+    height: auto;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin: 2.5rem 0;
+}
+
+.box{
+    height: 20.0625rem;
+    width: 18.812rem;
+    border: 1px solid green;
+}
+.faculty-img{
+    height: 20.0625rem;
+    width: 18.812rem;
+
 }

@@ -75,3 +75,8 @@
     font-family: var(--body-font-family);
     text-align: center;
 }
+
+.faculties{
+    margin: 6rem 0;
+    /* border: 1px solid red; */
+}

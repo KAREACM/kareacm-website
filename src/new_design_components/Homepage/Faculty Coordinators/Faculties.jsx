@@ -1,12 +1,60 @@
 import React from 'react'
 import './../Faculty Coordinators/Faculties.css'
+import image1 from './../../../assets/Images/Shrouya_Roy/Img1.jpeg';
+import image2 from './../../../assets/Images/Shrouya_Roy/Img2.jpeg';
+import image3 from './../../../assets/Images/Shrouya_Roy/Img3.jpeg';
+import image4 from './../../../assets/Images/Shrouya_Roy/Img4.jpeg';
 
 function Faculties() {
+    const faculty_coordinators = 
+    [
+        {
+            id : 1,
+            name : "Image1",
+            position : "Faculty Coordinator",
+            image : image1
+
+        },
+        {
+            id : 2,
+            name : "Image2",
+            position : "Faculty Coordinator",
+            image : image2
+        },
+        {
+            id : 3,
+            name : "Image3",
+            position : "Faculty Coordinator",
+            image : image3
+        },
+        {
+            id : 4,
+            name : "Image4",
+            position : "Faculty Coordinator",
+            image : image4
+
+        }
+    ]
     return (
         <div>
-            <div className="facuties-container">
+            <div className="faculties-container">
                 <div className="faculty-coordinators-heading">
                     Faculty Coordinators
+                </div>
+
+                <div className="faculty-coordinator-pics">
+                    {faculty_coordinators.map((value, index)=> {
+                        return(
+                            <div className='box ' key={value.id}>
+                                <img src={value.image} alt="" className='faculty-img' />
+                            </div>
+
+                        )
+                    })}
+
+                    {/* <div className='box '>2</div>
+                    <div className='box '>3</div>
+                    <div className='box '>4</div> */}
                 </div>
             </div>
         </div>
