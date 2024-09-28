@@ -1,0 +1,43 @@
+.office-barriers-container {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+    padding-bottom: 2rem;
+}
+
+
+
+.office-barriers-list1-pics {
+    display: grid;
+    grid-template-columns: 18.812rem 18.812rem 18.812rem;
+    justify-content: center;
+    gap: 4.125rem 3.125rem;
+    height: auto;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin: 2.1rem 0;
+}
+
+
+.box2 {
+    height: 20.0625rem;
+    width: 18.812rem;
+    /* border: 1px solid green; */
+    /* object-fit: contain; */
+}
+
+.box2 img {
+    height: 100%;
+    width: 100%;
+}
+
+.office-barriers-list2-pics {
+    display: grid;
+    grid-template-columns: 18.812rem 18.812rem 18.812rem 18.812rem;
+    justify-content: center;
+    gap: 4.125rem 3.125rem;
+    height: auto;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin: 2.1rem 0;
+}

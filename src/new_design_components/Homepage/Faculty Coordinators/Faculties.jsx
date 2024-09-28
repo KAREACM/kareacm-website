@@ -4,6 +4,7 @@ import image1 from './../../../assets/Images/Shrouya_Roy/Img1.jpeg';
 import image2 from './../../../assets/Images/Shrouya_Roy/Img2.jpeg';
 import image3 from './../../../assets/Images/Shrouya_Roy/Img3.jpeg';
 import image4 from './../../../assets/Images/Shrouya_Roy/Img4.jpeg';
+import Officebarriers from '../Office Barriers/Officebarriers';
 
 function Faculties() {
     const faculty_coordinators = 
@@ -38,7 +39,7 @@ function Faculties() {
     return (
         <div>
             <div className="faculties-container">
-                <div className="faculty-coordinators-heading">
+                <div className="faculty-coordinators-heading heading-style">
                     Faculty Coordinators
                 </div>
 
@@ -52,10 +53,11 @@ function Faculties() {
                         )
                     })}
 
-                    {/* <div className='box '>2</div>
-                    <div className='box '>3</div>
-                    <div className='box '>4</div> */}
+                    
                 </div>
+            </div>
+            <div className="office-barriers">
+                <Officebarriers/>
             </div>
         </div>
     )
