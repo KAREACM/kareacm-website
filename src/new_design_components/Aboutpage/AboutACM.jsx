@@ -157,4 +157,4 @@ function AboutACM() {
     )
 }
 
-export default AboutACM
+export default AboutACM;
