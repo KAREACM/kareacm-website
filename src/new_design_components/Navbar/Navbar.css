@@ -17,6 +17,9 @@
     /* =====Color Variables ====== */
     --body-bg-color : #05010D;
 
+    /* ========= About Page Font Size =========== */
+    --about-page-font-size : 1.8rem;
+
     /* ======= MORE VARIABLES YET TO BE ADDED ======== */
 
 }
