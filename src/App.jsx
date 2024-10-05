@@ -10,6 +10,7 @@ import AboutACM from './new_design_components/Aboutpage/AboutACM.jsx';
 import ACMTeams from './new_design_components/Teamspage/ACMteams.jsx';
 import ACMevents from './new_design_components/Eventspage/ACMevents.jsx';
 import ACMblogs from './new_design_components/Blogspage/ACMblogs.jsx';
+import ACMcontact from './new_design_components/Contactpage/ACMcontact.jsx';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
             <Route path='/teams' element={<ACMTeams/>} />
             <Route path='/events' element={<ACMevents/>}/>
             <Route path='/blogs' element={<ACMblogs/>}/>
+            <Route path='/contact' element={<ACMcontact/>}/>
 
         </Routes>
 

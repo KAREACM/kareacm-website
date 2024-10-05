@@ -1,5 +1,78 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+.teams-acm-heading {
+    background: radial-gradient(circle, #75BCE5 0%, #5A3499 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5rem;
+    font-family: var(--body-font-family);
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+}
+
+.teams-heading {
+    /* height: 1vmin; */
+    /* border: 1px solid red; */
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #5A3499;
+    height: auto;
+    width: 100%;
+}
+
+
+.basic-teams-heading-style , .finance-team-heading{
+    font-family: var(--body-font-family);
+    font-weight: var(--body-font-weight);
+    font-size: var(--font-size-large);
+    background: linear-gradient(to right, #75BCE5 0%, #5A3499 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.basic-teams-container-style{
+    /* border: 1px solid red; */
+    height: auto;
+    width: 100%;
+    padding-bottom: 3%;
+}
+
+.finance-team-row1 , .graphics-team-row1, .web-dev-team-row1, .social-media-team-row1 , .lens-team-row1, .event-coordinators-team-row1{
+    display: grid;
+    grid-template-columns: 18.812rem 18.812rem 18.812rem;
+    justify-content: center;
+    gap: 4.125rem 3.125rem;
+    height: auto;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin: 2.1rem 0;
+}
+
+.finance-team-row2 , .web-dev-team-row2 , .social-media-team-row2, .event-coordinators-team-row2{
+    display: grid;
+    grid-template-columns: 18.812rem 18.812rem;
+    justify-content: center;
+    gap: 4.125rem 3.125rem;
+    height: auto;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin: 2.1rem 0;
+}
+
+.innovation-team-row1, .innovation-team-row2{
+    display: grid;
+    grid-template-columns: 18.812rem 18.812rem 18.812rem 18.812rem;
+    justify-content: center;
+    gap: 4.125rem 3.125rem;
+    height: auto;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin: 2.1rem 0;
 }

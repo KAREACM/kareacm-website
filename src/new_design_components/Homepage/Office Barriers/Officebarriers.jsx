@@ -4,6 +4,8 @@ import image1 from './../../../assets/Images/Shrouya_Roy/Img1.jpeg';
 import image2 from './../../../assets/Images/Shrouya_Roy/Img2.jpeg';
 import image3 from './../../../assets/Images/Shrouya_Roy/Img3.jpeg';
 import image4 from './../../../assets/Images/Shrouya_Roy/Img4.jpeg';
+import ACMTeams from '../../Teamspage/ACMteams';
+import { NavLink } from 'react-router-dom';
 
 function Officebarriers() {
     const office_barriers_list1 =
@@ -61,7 +63,7 @@ function Officebarriers() {
         <div>
             <div className="office-barriers-container">
                 <div className="office-barriers-heading heading-style">
-                    Office Barriers
+                    Office Bearers
                 </div>
                 <div className="office-barriers-list1-pics">
                     {office_barriers_list1.map((value, index) => {
@@ -88,8 +90,16 @@ function Officebarriers() {
 
                 </div>
             </div>
+            <div className="view-team-button">
+
+                <button>
+                    <a >
+                        <span>View Team</span>
+                    </a>
+                </button>
+            </div>
         </div>
     )
 }
 
-export default Officebarriers
+export default Officebarriers;
