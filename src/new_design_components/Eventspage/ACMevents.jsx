@@ -16,7 +16,7 @@ import {
   hour_of_codes,
   idea_spark_1,
   idea_sparks_2
-} from '../constants/data'; 
+} from './../../constants/data.js'; 
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import styles from './ACMEvents.css'; 
