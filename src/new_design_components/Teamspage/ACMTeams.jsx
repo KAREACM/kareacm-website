@@ -430,7 +430,7 @@ function ACMTeams() {
 
         <div className="event-coordinators-team-container basic-teams-container-style">
           <div className="event-coordinators-team-heading basic-teams-heading-style">
-            Social Media Team
+            Event Coordination Team
           </div>
           <div className="event-coordinators-team-row1">
             {event_coordinators_team_row1.map((value, index) => {
