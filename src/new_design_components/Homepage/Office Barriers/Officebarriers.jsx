@@ -1,10 +1,14 @@
 import React from 'react'
-import './../Office Barriers/Officebarriers.css'
-import image1 from './../../../assets/Images/Shrouya_Roy/Img1.jpeg';
-import image2 from './../../../assets/Images/Shrouya_Roy/Img2.jpeg';
-import image3 from './../../../assets/Images/Shrouya_Roy/Img3.jpeg';
-import image4 from './../../../assets/Images/Shrouya_Roy/Img4.jpeg';
-import ACMTeams from '../../Teamspage/ACMteams';
+import './../Office Barriers/Officebarriers.css';
+import Chair_person from './../../../../Athithya/src/Assets/Office Barriers/BHANU PRATHAP SHOURYA V.jpg';
+import Vice_Chair_person from './../../../../Athithya/src/Assets/Office Barriers/B LOKESH KUMAR.jpg';
+import Secretary from './../../../../Athithya/src/Assets/Office Barriers/S JASWANTH.jpg';
+import Treasurer from './../../../../Athithya/src/Assets/Office Barriers/LIGORIS D.jpg';
+import Web_Master from './../../../../Athithya/src/Assets/Office Barriers/YASHWANTH A.jpg';
+import Membership_chair from './../../../../Athithya/src/Assets/Office Barriers/T JEYRUS JOSHUA.jpg';
+import Event_Coordinator from './../../../../Athithya/src/Assets/Office Barriers/bhavan sai.jpg';
+
+// import ACMTeams from '../../Teamspage/ACMteams';
 import { NavLink } from 'react-router-dom';
 
 function Officebarriers() {
@@ -12,50 +16,50 @@ function Officebarriers() {
         [
             {
                 id: 1,
-                name: "Image1",
-                position: "Office Barrier",
-                image: image1
+                name: "V BHANU PRATHAP SHOURYA",
+                position: "Chair Person",
+                image: Chair_person
 
             },
             {
                 id: 2,
-                name: "Image2",
-                position: "Office Barrier",
-                image: image2
+                name: "B LOKESH KUMAR",
+                position: "Vice Chair Person",
+                image: Vice_Chair_person
             },
             {
                 id: 3,
-                name: "Image3",
-                position: "Office Barrier",
-                image: image3
+                name: "JASWANTH S",
+                position: "Secretary",
+                image: Secretary
             }
         ]
     const office_barriers_list2 =
         [
             {
                 id: 1,
-                name: "Image1",
-                position: "Office Barrier",
-                image: image1
+                name: "LIGORIS CABRINI DEVANANDRAJ",
+                position: "Treasurer",
+                image: Treasurer
 
             },
             {
                 id: 2,
-                name: "Image2",
-                position: "Office Barrier",
-                image: image2
+                name: "YASHWANTH A",
+                position: "Web Master",
+                image: Web_Master
             },
             {
                 id: 3,
-                name: "Image3",
-                position: "Office Barrier",
-                image: image3
+                name: "T JEYRUS JOSHUA",
+                position: "Membership Chair",
+                image: Membership_chair
             },
             {
                 id: 4,
-                name: "Image4",
-                position: "Faculty Coordinator",
-                image: image4
+                name: "Bhavan Sai",
+                position: "Event Coordinator",
+                image: Event_Coordinator
 
             }
         ]
