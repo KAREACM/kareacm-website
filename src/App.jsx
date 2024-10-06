@@ -7,7 +7,7 @@ import Navbar from './new_design_components/Navbar/Navbar.jsx';
 import About from './new_design_components/Homepage/About-Section/About.jsx';
 import { Route, Routes } from 'react-router-dom';
 import AboutACM from './new_design_components/Aboutpage/AboutACM.jsx';
-import ACMTeams from './new_design_components/Teamspage/ACMteams.jsx';
+import ACMTeams from './new_design_components/Teamspage/ACMTeams.jsx';
 import ACMevents from './new_design_components/Eventspage/ACMevents.jsx';
 import ACMblogs from './new_design_components/Blogspage/ACMblogs.jsx';
 import ACMcontact from './new_design_components/Contactpage/ACMcontact.jsx';

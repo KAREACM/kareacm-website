@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /**
  * FileName - data.js
  * FileType - .js (JavaScript file)
@@ -76,18 +76,18 @@ export const ExecList = [
 ];
 
 // code sprint
-import cs from "src\assets\Images\code_sprint\img.jpeg";
+import cs from "./../../src/assets/Images/code_sprint/img.jpeg";
 export const codex =[
   {
     id:0,
-    image: cs,
-  },
+    image: cs
+  }
 ]
 
-// conversation on ai ml
+///conver/ation on ai m/
 
-import cmi1 from "src\assets\Images\conversation_on_ml_sw_hw\img1.jpeg";
-import cmi2 from "src\assets\Images\conversation_on_ml_sw_hw\img2.jpeg";
+import cmi1 from "./../../src/assets/Images/conversation_on_ml_sw_hw/img1.jpeg";
+import cmi2 from "./../../src/assets/Images/conversation_on_ml_sw_hw/img2.jpeg";
 export const aiml =[
   {
     id:0,
@@ -99,15 +99,15 @@ export const aiml =[
   },
 ]
 
-//cook the code
-import ctc1 from "src\assets\Images\cook_the_code\img1.jpg";
-import ctc2 from "src\assets\Images\cook_the_code\img2.jpg";
-import ctc3 from "src\assets\Images\cook_the_code\img3.jpg";
-import ctc4 from "src\assets\Images\cook_the_code\img4.jpg";
-import ctc5 from "src\assets\Images\cook_the_code\img5.jpeg";
-import ctc6 from "src\assets\Images\cook_the_code\img6.jpeg";
-import ctc7 from "src\assets\Images\cook_the_code\img7.jpeg";
-import ctc8 from "src\assets\Images\cook_the_code\img8.jpeg";
+//cook the cod/
+import ctc2 from "./../../src/assets/Images/cook_the_code/img2.jpg";
+import ctc1 from "./../../src/assets/Images/cook_the_code/img1.jpg";
+import ctc3 from "./../../src/assets/Images/cook_the_code/img3.jpg";
+import ctc4 from "./../../src/assets/Images/cook_the_code/img4.jpg";
+import ctc5 from "./../../src/assets/Images/cook_the_code/img5.jpeg";
+import ctc6 from "./../../src/assets/Images/cook_the_code/img6.jpeg";
+import ctc7 from "./../../src/assets/Images/cook_the_code/img7.jpeg";
+import ctc8 from "./../../src/assets/Images/cook_the_code/img8.jpeg";
 
 export const cookthecode =[
   {
@@ -145,11 +145,11 @@ export const cookthecode =[
 ]
 
 // es by prashanth
-import es1 from "src\assets\Images\es_by_prashanth\img1.jpeg";
-import es2 from "src\assets\Images\es_by_prashanth\img2.jpeg";
-import es3 from "src\assets\Images\es_by_prashanth\img3.jpeg";
-import es4 from "src\assets\Images\es_by_prashanth\img4.jpeg";
-import es5 from "src\assets\Images\es_by_prashanth\img5.jpeg";
+import es1 from "./../../src/assets/Images/es_by_prashanth/img1.jpeg";
+import es2 from "./../../src/assets/Images/es_by_prashanth/img2.jpeg";
+import es3 from "./../../src/assets/Images/es_by_prashanth/img3.jpeg";
+import es4 from "./../../src/assets/Images/es_by_prashanth/img4.jpeg";
+import es5 from "./../../src/assets/Images/es_by_prashanth/img5.jpeg";
 
 export const prashanth =[
   {
@@ -186,12 +186,12 @@ export const prashanth =[
   },
 ]
 // esp blast
-import esp1 from "src\assets\Images\esp_blast\img1.jpeg";
-import esp2 from "src\assets\Images\esp_blast\img2.jpg";
-import esp3 from "src\assets\Images\esp_blast\img3.jpg";
-import esp4 from "src\assets\Images\esp_blast\img4.jpg";
-import esp5 from "src\assets\Images\esp_blast\img5.jpg";
-import esp6 from "src\assets\Images\esp_blast\img6.jpg";
+import esp1 from "./../../src/assets/Images/esp_blast/img1.jpeg";
+import esp2 from "./../../src/assets/Images/esp_blast/img2.jpg";
+import esp3 from "./../../src/assets/Images/esp_blast/img3.jpg";
+import esp4 from "./../../src/assets/Images/esp_blast/img4.jpg";
+import esp5 from "./../../src/assets/Images/esp_blast/img5.jpg";
+import esp6 from "./../../src/assets/Images/esp_blast/img6.jpg";
 
 export const espblast =[
   {
@@ -217,7 +217,8 @@ export const espblast =[
   {
     id:5,
     image:esp6,
-=======
+  }
+]
 
 // Shrouya Roy speech
 import Sh1 from "../assets/Images/Shrouya_Roy/Img1.jpeg";
@@ -245,8 +246,8 @@ export const shouryaRoy = [
 ]      
 
 // Summer Boost Program
-import SB1 from "../assets/Images/Summer_Boost/Img1.jpeg";
-import SB2 from "../assets/Images/Summer_Boost/Img2.jpeg";
+import SB1 from "../assets/Images/Summer_Boost_Program/Img1.jpeg";
+import SB2 from "../assets/Images/Summer_Boost_Program/Img2.jpeg";
 
 export const summerBoost = [    
   {
@@ -298,9 +299,9 @@ export const venkateshwaran = [
 ]
 
 // Vertex Ai
-import VA1 from "../assets/Images/Vertex_Ai/Img1.jpeg";
-import VA2 from "../assets/Images/Vertex_Ai/Img2.jpeg";
-import VA3 from "../assets/Images/Vertex_Ai/Img3.jpeg";
+import VA1 from "../assets/Images/Vertex_Ai/Img1.jpg";
+import VA2 from "../assets/Images/Vertex_Ai/Img2.jpg";
+import VA3 from "../assets/Images/Vertex_Ai/Img3.jpg";
 export const vertexAi = [
   {
     id:0,
@@ -313,16 +314,13 @@ export const vertexAi = [
   {
     id:2,
     image: VA3,
->>>>>>> 57d99e7c072dbf44a2b12f7817fdb92de8d46b96
-  },
-
+  }
 ]
 
-<<<<<<< HEAD
-//esp in analytics
+// esp in analytics
 
-import espa1 from "src\assets\Images\esp_in_analytics\img1.jpeg";
-import espa2 from "src\assets\Images\esp_in_analytics\img2.jpeg";
+import espa1 from "./../../src/assets/Images/esp_in_analytics/img1.jpeg";
+import espa2 from "./../../src/assets/Images/esp_in_analytics/img2.jpeg";
 export const esp_in_analytics =[
   {
     id:0,
@@ -336,11 +334,11 @@ export const esp_in_analytics =[
 
 //esp on ioe
 
-import ioe1 from "src\assets\Images\esp_on_ioe\img1.jpeg";
-import ioe2 from "src\assets\Images\esp_on_ioe\img2.jpg";
-import ioe3 from "src\assets\Images\esp_on_ioe\img3.jpg";
-import ioe4 from "src\assets\Images\esp_on_ioe\img4.jpg";
-import ioe5 from "src\assets\Images\esp_on_ioe\img5.jpg";
+import ioe1 from "./../../src/assets/Images/esp_on_ioe/img1.jpeg";
+import ioe2 from "./../../src/assets/Images/esp_on_ioe/img2.jpg";
+import ioe3 from "./../../src/assets/Images/esp_on_ioe/img3.jpg";
+import ioe4 from "./../../src/assets/Images/esp_on_ioe/img4.jpg";
+import ioe5 from "./../../src/assets/Images/esp_on_ioe/img5.jpg";
 
 
 export const esp_on_ioe =[
@@ -367,16 +365,16 @@ export const esp_on_ioe =[
 ]
 
 //esp on security
-import esps1 from "src\assets\Images\esp_on_security_trust\img1.jpeg";
-import esps2 from "src\assets\Images\esp_on_security_trust\img2.jpg";
-import esps3 from "src\assets\Images\esp_on_security_trust\img3.jpg";
-import esps4 from "src\assets\Images\esp_on_security_trust\img4.jpg";
-import esps5 from "src\assets\Images\esp_on_security_trust\img5.jpg";
-import esps6 from "src\assets\Images\esp_on_security_trust\img6.jpg";
-import esps7 from "src\assets\Images\esp_on_security_trust\img7.jpg";
-import esps8 from "src\assets\Images\esp_on_security_trust\img8.jpg";
-import esps9 from "src\assets\Images\esp_on_security_trust\img9.jpg";
-import esps10 from "src\assets\Images\esp_on_security_trust\img10.jpg";
+import esps1 from "./../../src/assets/Images/esp_on_security_trust/img1.jpeg";
+import esps2 from "./../../src/assets/Images/esp_on_security_trust/img2.jpg";
+import esps3 from "./../../src/assets/Images/esp_on_security_trust/img3.jpg";
+import esps4 from "./../../src/assets/Images/esp_on_security_trust/img4.jpg";
+import esps5 from "./../../src/assets/Images/esp_on_security_trust/img5.jpg";
+import esps6 from "./../../src/assets/Images/esp_on_security_trust/img6.jpg";
+import esps7 from "./../../src/assets/Images/esp_on_security_trust/img7.jpg";
+import esps8 from "./../../src/assets/Images/esp_on_security_trust/img8.jpg";
+import esps9 from "./../../src/assets/Images/esp_on_security_trust/img9.jpg";
+import esps10 from "./../../src/assets/Images/esp_on_security_trust/img10.jpg";
 
 export const esp_on_security =[
   {
@@ -423,8 +421,8 @@ export const esp_on_security =[
 ]
 
 // fun with algorithms
-import fwa1 from "src\assets\Images\fun_with_algorithms\img1.jpeg";
-import fwa2 from "src\assets\Images\fun_with_algorithms\img2.jpeg";
+import fwa1 from "./../../src/assets/Images/fun_with_algorithms/img1.jpeg";
+import fwa2 from "./../../src/assets/Images/fun_with_algorithms/img2.jpeg";
 
 export const fun_with_algorithms =[
   {
@@ -439,12 +437,12 @@ export const fun_with_algorithms =[
 ]
 
 //hackare
-import hac1 from "src\assets\Images\HACKARE\img1.jpeg";
-import hac2 from "src\assets\Images\HACKARE\img2.jpeg";
-import hac3 from "src\assets\Images\HACKARE\img3.jpeg";
-import hac4 from "src\assets\Images\HACKARE\img4.jpg";
-import hac5 from "src\assets\Images\HACKARE\img5.jpeg";
-import hac6 from "src\assets\Images\HACKARE\img6.jpeg";
+import hac1 from "./../../src/assets/Images/HACKARE/img1.jpeg";
+import hac2 from "./../../src/assets/Images/HACKARE/img2.jpeg";
+import hac3 from "./../../src/assets/Images/HACKARE/img3.jpeg";
+import hac4 from "./../../src/assets/Images/HACKARE/img4.jpg";
+import hac5 from "./../../src/assets/Images/HACKARE/img5.jpeg";
+import hac6 from "./../../src/assets/Images/HACKARE/img6.jpeg";
 
 export const hackare=[
   {
@@ -474,13 +472,13 @@ export const hackare=[
 ]
 
 //hackodyssesy
-import hod1 from "src\assets\Images\hack_odyssey\img1.jpeg";
-import hod2 from "src\assets\Images\hack_odyssey\img2.jpeg";
-import hod3 from "src\assets\Images\hack_odyssey\img3.jpeg";
-import hod4 from "src\assets\Images\hack_odyssey\img4.jpeg";
-import hod5 from "src\assets\Images\hack_odyssey\img5.jpeg";
-import hod6 from "src\assets\Images\hack_odyssey\img6.jpeg";
-import hod7 from "src\assets\Images\hack_odyssey\img7.jpeg";
+import hod1 from "./../../src/assets/Images/hack_odyssey/img1.jpeg";
+import hod2 from "./../../src/assets/Images/hack_odyssey/img2.jpeg";
+import hod3 from "./../../src/assets/Images/hack_odyssey/img3.jpeg";
+import hod4 from "./../../src/assets/Images/hack_odyssey/img4.jpeg";
+import hod5 from "./../../src/assets/Images/hack_odyssey/img5.jpeg";
+import hod6 from "./../../src/assets/Images/hack_odyssey/img6.jpeg";
+import hod7 from "./../../src/assets/Images/hack_odyssey/img7.jpeg";
 
 export const hack_odyssey=[
   {
@@ -515,8 +513,8 @@ export const hack_odyssey=[
 
 //hour of code
 
-import hofc1 from "src\assets\Images\hour_of_code\img1.jpeg";
-import hofc2 from "src\assets\Images\hour_of_code\img2.jpeg";
+import hofc1 from "./../../src/assets/Images/hour_of_code/img1.jpeg";
+import hofc2 from "./../../src/assets/Images/hour_of_code/img2.jpeg";
 
 export const hour_of_codes=[
   {
@@ -533,13 +531,13 @@ export const hour_of_codes=[
 
 //round1
 
-import is1 from "src\assets\Images\idea sparks\round_1\img1.jpeg"
-import is2 from "src\assets\Images\idea sparks\round_1\img2.jpeg"
-import is3 from "src\assets\Images\idea sparks\round_1\img3.DNG"
-import is4 from "src\assets\Images\idea sparks\round_1\img4.png"
-import is5 from "src\assets\Images\idea sparks\round_1\img5.png"
-import is6 from "src\assets\Images\idea sparks\round_1\img6.png"
-import is7 from "src\assets\Images\idea sparks\round_1\img7.png"
+import is1 from "./../../src/assets/Images/idea sparks/round_1/img1.jpeg"
+import is2 from "./../../src/assets/Images/idea sparks/round_1/img2.jpeg"
+import is3 from "./../../src/assets/Images/idea sparks/round_1/img3.DNG"
+import is4 from "./../../src/assets/Images/idea sparks/round_1/img4.png"
+import is5 from "./../../src/assets/Images/idea sparks/round_1/img5.png"
+import is6 from "./../../src/assets/Images/idea sparks/round_1/img6.png"
+import is7 from "./../../src/assets/Images/idea sparks/round_1/img7.png"
 
 export const idea_spark_1=[
   {
@@ -573,10 +571,10 @@ export const idea_spark_1=[
 ]
 
 //round2
-import iss1 from "src\assets\Images\idea sparks\round_2\img1.jpeg"
-import iss2 from "src\assets\Images\idea sparks\round_2\img2.jpg"
-import iss3 from "src\assets\Images\idea sparks\round_2\img3.jpg"
-import iss4 from "src\assets\Images\idea sparks\round_2\img4.jpg"
+import iss1 from "./../../src/assets/Images/idea sparks/round_2/img1.jpg"
+import iss2 from "./../../src/assets/Images/idea sparks/round_2/img2.jpg"
+import iss3 from "./../../src/assets/Images/idea sparks/round_2/img3.jpg"
+import iss4 from "./../../src/assets/Images/idea sparks/round_2/img.4.jpeg"
 
 export const idea_sparks_2=[
   {
@@ -964,7 +962,7 @@ export const VolunteersTeam = {
         ]
 
       };
-=======
+
 // Virtual Code Corner
 import VC1 from "../assets/Images/Virtual_Code_Corner/Img1.jpeg";
 import VC2 from "../assets/Images/Virtual_Code_Corner/Img2.jpeg";
@@ -1010,4 +1008,4 @@ export const sqlKnight = [
     image: SK1,
   },
 ]
->>>>>>> 57d99e7c072dbf44a2b12f7817fdb92de8d46b96
+
