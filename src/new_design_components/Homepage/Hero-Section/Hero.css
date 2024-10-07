@@ -50,6 +50,15 @@
     filter: blur(0.4px);
     opacity: 0.8;
     color: white;
+    animation: float 6s ease-in-out infinite;
+}
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
 }
 
 /* ======= SETTING POSITION OF THE MINI ICONS AROUND THE LOGO =========*/

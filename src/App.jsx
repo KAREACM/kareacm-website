@@ -11,6 +11,7 @@ import ACMTeams from './new_design_components/Teamspage/ACMTeams.jsx';
 import ACMevents from './new_design_components/Eventspage/ACMevents.jsx';
 import ACMblogs from './new_design_components/Blogspage/ACMblogs.jsx';
 import ACMcontact from './new_design_components/Contactpage/ACMcontact.jsx';
+import ACMFooter from './new_design_components/Footer/ACMFooter.jsx';
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
             <Route path='/contact' element={<ACMcontact/>}/>
 
         </Routes>
+        {/* <ACMFooter/> */}
 
       </div>
 
