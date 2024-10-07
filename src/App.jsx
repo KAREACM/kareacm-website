@@ -12,6 +12,7 @@ import ACMevents from './new_design_components/Eventspage/ACMevents.jsx';
 import ACMblogs from './new_design_components/Blogspage/ACMblogs.jsx';
 import ACMcontact from './new_design_components/Contactpage/ACMcontact.jsx';
 import ACMFooter from './new_design_components/Footer/ACMFooter.jsx';
+import ACMGallery from './new_design_components/Gallerypage/ACMGallery.jsx';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
             <Route path='/events' element={<ACMevents/>}/>
             <Route path='/blogs' element={<ACMblogs/>}/>
             <Route path='/contact' element={<ACMcontact/>}/>
+            <Route path='/gallery' element={<ACMGallery/>}/>
 
         </Routes>
         {/* <ACMFooter/> */}

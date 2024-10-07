@@ -1,0 +1,27 @@
+.basic-gallery-heading-style{
+    font-family: var(--body-font-family);
+    font-weight: var(--body-font-weight);
+    font-size: var(--font-size-large);
+    background: linear-gradient(to right, #75BCE5 0%, #5A3499 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.student-acheivements-pics-conatiner{
+    display: grid;
+    grid-template-columns: 18.812rem 18.812rem 18.812rem;
+    justify-content: center;
+    gap: 4.125rem 3.125rem;
+    height: auto;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin: 2.1rem 0;
+}
+
+.winners-pics{
+    height: 25.0625rem;
+    width: 19.812rem;
+    /* border: 1px solid green; */
+    /* object-fit: contain; */
+}
