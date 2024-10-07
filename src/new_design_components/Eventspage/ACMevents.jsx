@@ -19,7 +19,7 @@ import {
 } from './../../constants/data.js'; 
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import './ACMEvents.css';  // CSS file import
+import './ACMEvents.css';  
 
 function ACMevents() {
   const renderCarousel = (eventData, eventName) => (
