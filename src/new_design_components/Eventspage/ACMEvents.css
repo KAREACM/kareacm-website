@@ -1,149 +1,144 @@
+.container {
+  background-color: #0d1b2a; 
+  color: #e0e1dd; 
+  padding: 20px;
+  min-height: 100vh;
+  animation: fadeIn 1s ease-in-out; 
+}
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
-  
-  .container {
-    background-color: #0d1b2a; 
-    color: #e0e1dd; 
-    padding: 20px;
-    min-height: 100vh;
-    animation: fadeIn 1s ease-in-out; 
+.eventSection {
+  margin-bottom: 3rem;
+  width: 100%;
+  max-width: 1000px;
+  text-align: center;
+  animation: slideUp 1.2s ease-in-out;
+  opacity: 0;
+  transform: translateY(20px);
+  animation-fill-mode: forwards;
+}
+
+.eventSection:nth-child(even) {
+  animation-delay: 0.2s; 
+}
+.eventSection:nth-child(odd) {
+  animation-delay: 0.4s;
+}
+
+@keyframes slideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #f0f0f0;
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px 4px #000;
+  animation: fadeInText 1s ease-in-out;
+}
+
+@keyframes fadeInText {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
   }
-  
-  
-  .eventSection {
-    margin-bottom: 3rem;
-    width: 100%;
-    max-width: 1000px;
-    text-align: center;
-    animation: slideUp 1.2s ease-in-out;
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.eventsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #a6a6a6;
+  transition: color 0.3s ease-in-out; 
+}
+
+h2:hover {
+  color: #f9a602; 
+}
+
+.carousel {
+  background-color: #1b263b; 
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  animation: fadeIn 1s ease-in-out;
+  transform-origin: center;
+}
+
+.carouselItem img {
+  border-radius: 10px;
+  max-height: 300px;
+  object-fit: cover;
+  transition: transform 0.5s ease, box-shadow 0.3s ease; 
+}
+
+.carouselItem img:hover {
+  transform: scale(1.1); 
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.8);
+}
+
+.carousel .control-dots .dot {
+  background-color: #e0e1dd; 
+  transition: background-color 0.3s ease;
+}
+
+.carousel .control-dots .dot.selected {
+  background-color: #f9a602; 
+}
+
+.carousel .thumb {
+  border: none;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.carousel .arrow {
+  background: transparent;
+  border: none;
+  color: #e0e1dd;
+  font-size: 2rem;
+  transition: transform 0.2s ease;
+}
+
+.carousel .arrow:hover {
+  transform: scale(1.2); 
+}
+
+.carousel .legend {
+  background-color: #1b263b;
+  color: #f0f0f0;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 0 0 10px 10px;
+}
+
+@keyframes staggerFadeIn {
+  0% {
     opacity: 0;
     transform: translateY(20px);
-    animation-fill-mode: forwards;
   }
-  
-  .eventSection:nth-child(even) {
-    animation-delay: 0.2s; 
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
-  .eventSection:nth-child(odd) {
-    animation-delay: 0.4s;
-  }
-  
-  @keyframes slideUp {
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-  h1 {
-    text-align: center;
-    font-size: 2.5rem;
-    color: #f0f0f0;
-    margin-bottom: 2rem;
-    text-shadow: 2px 2px 4px #000;
-    animation: fadeInText 1s ease-in-out;
-  }
-  
-  @keyframes fadeInText {
-    0% {
-      opacity: 0;
-      transform: translateY(-20px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-  .eventsWrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  h2 {
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
-    color: #a6a6a6;
-    transition: color 0.3s ease-in-out; 
-  }
-  
-  h2:hover {
-    color: #f9a602; 
-  }
-  
-  .carousel {
-    background-color: #1b263b; 
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
-    padding: 20px;
-    animation: fadeIn 1s ease-in-out;
-    transform-origin: center;
-  }
-  
-  .carouselItem img {
-    border-radius: 10px;
-    max-height: 300px;
-    object-fit: cover;
-    transition: transform 0.5s ease, box-shadow 0.3s ease; 
-  }
-  
-  .carouselItem img:hover {
-    transform: scale(1.1); 
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.8);
-  }
-  
-  .carousel .control-dots .dot {
-    background-color: #e0e1dd; 
-    transition: background-color 0.3s ease;
-  }
-  
-  .carousel .control-dots .dot.selected {
-    background-color: #f9a602; 
-  }
-  
-  .carousel .thumb {
-    border: none;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-  }
-  
-  .carousel .arrow {
-    background: transparent;
-    border: none;
-    color: #e0e1dd;
-    font-size: 2rem;
-    transition: transform 0.2s ease;
-  }
-  
-  .carousel .arrow:hover {
-    transform: scale(1.2); 
-  }
-  
-  .carousel .legend {
-    background-color: #1b263b;
-    color: #f0f0f0;
-    font-size: 1rem;
-    padding: 10px;
-    border-radius: 0 0 10px 10px;
-  }
-  
-  
-  @keyframes staggerFadeIn {
-    0% {
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
+}
