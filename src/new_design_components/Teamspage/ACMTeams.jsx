@@ -2,15 +2,15 @@ import React from 'react';
 import './../Teamspage/ACMTeams.css';
 import Setu_sai_ram from './../../../Athithya/src/Assets/Core Team Members/Finance Team/Setu Sai Ram Y.jpg';
 import Yashwanth from './../../../Athithya/src/Assets/Core Team Members/Finance Team/yaswanth.jpg';
-import Amarnath from './../../../Athithya/src/Assets/Core Team Members/Finance Team/amarnath.jpg';
+import Amarnath from './../../../Athithya/src/Assets/Core Team Members/Finance Team/Amarnath.png';
 import Sowmya from './../../../Athithya/src/Assets/Core Team Members/Finance Team/K Sowmya.jpg';
 import Sathvika from './../../../Athithya/src/Assets/Core Team Members/Finance Team/P.sathvika.jpg';
 import Geetheshwar from './../../../Athithya/src/Assets/Core Team Members/Graphics Team/geetheshwar.jpg';
-import P_Harsha_Pavan from './../../../Athithya/src/Assets/Core Team Members/Graphics Team/geetheshwar.jpg';
+import P_Harsha_Pavan from './../../../Athithya/src/Assets/Core Team Members/Graphics Team/Harsha pavan.png';
 import Lakshmikar from './../../../Athithya/src/Assets/Core Team Members/Graphics Team/lakshmikar reddy.jpg';
 import Karthik from './../../../Athithya/src/Assets/Core Team Members/Web Dev Team/CH K V KRISHNA SRI VARMA .jpg';
 import Harshad from './../../../Athithya/src/Assets/Core Team Members/Web Dev Team/V S Harshad.jpeg';
-import Athithya from './../../../Athithya/src/Assets/Core Team Members/Web Dev Team/V S Harshad.jpeg';
+import Athithya from './../../../Athithya/src/Assets/Core Team Members/Web Dev Team/Athithya.png';
 import Maha from './../../../Athithya/src/Assets/Core Team Members/Web Dev Team/Maha Sri B.jpg';
 import Pranavi from './../../../Athithya/src/Assets/Core Team Members/Web Dev Team/K.Pranavi Srinivas.jpg';
 import M_Sowmya from './../../../Athithya/src/Assets/Core Team Members/Social Media Team/M Sowmya.jpg';
@@ -18,23 +18,26 @@ import Bavesh from './../../../Athithya/src/Assets/Core Team Members/Social Medi
 import Maruthi from './../../../Athithya/src/Assets/Core Team Members/Social Media Team/maruthikumar.jpg';
 import Sujitha from './../../../Athithya/src/Assets/Core Team Members/Social Media Team/Sujitha.jpg';
 import Vijaya_Kumari from './../../../Athithya/src/Assets/Core Team Members/Social Media Team/vijay kumari.jpg';
-import Deva from './../../../Athithya/src/Assets/Core Team Members/Social Media Team/maruthikumar.jpg';
-import Chetan from './../../../Athithya/src/Assets/Core Team Members/Social Media Team/maruthikumar.jpg';
-import Veera from './../../../Athithya/src/Assets/Core Team Members/Social Media Team/maruthikumar.jpg';
-import Tejasree from './../../../Athithya/src/Assets/Core Team Members/Event Coordinators/K.Tejasree-99230040872.jpg';
-import Soniesh from './../../../Athithya/src/Assets/Core Team Members/Event Coordinators/I soniesh.jpg';
+import Deva from './../../../Athithya/src/Assets/Core Team Members/Lens and Edit Team/Deva.png';
+import Chetan from './../../../Athithya/src/Assets/Core Team Members/Lens and Edit Team/Chetan.png';
+import Vineeth from './../../../Athithya/src/Assets/Core Team Members/Lens and Edit Team/Vineeth.png';
+import Teja_sree from './../../../Athithya/src/Assets/Core Team Members/Event Coordinators/Teja sree.png';
+import Soniesh from './../../../Athithya/src/Assets/Core Team Members/Event Coordinators/Soniesh.png';
 import Jaideep from './../../../Athithya/src/Assets/Core Team Members/Event Coordinators/Jaideep.jpg';
-import Pavithra from './../../../Athithya/src/Assets/Core Team Members/Event Coordinators/J.Pavithra.jpg';
+import Pavithra from './../../../Athithya/src/Assets/Core Team Members/Event Coordinators/Pavithra.png';
 import Indumathi from './../../../Athithya/src/Assets/Core Team Members/Event Coordinators/Vempati Indumathi - 99220040224.jpg';
 import Issac from './../../../Athithya/src/Assets/Core Team Members/Innovation Team/B.Issac preetham(99220040244).jpg';
-import Chatura from './../../../Athithya/src/Assets/Core Team Members/Innovation Team/chatura p.jpg';
+import Chatura from './../../../Athithya/src/Assets/Core Team Members/Innovation Team/Chatura.png';
 import Bharghav from './../../../Athithya/src/Assets/Core Team Members/Innovation Team/bharghav.jpg';
 import Girija from './../../../Athithya/src/Assets/Core Team Members/Innovation Team/Ch.Girija sai siri(99220041157) (1).jpg';
-import Meenakshi from './../../../Athithya/src/Assets/Core Team Members/Innovation Team/Y Meenakshi.jpg';
-import Karnikasri from './../../../Athithya/src/Assets/Core Team Members/Innovation Team/Karnikasri S.jpg';
+import Meenakshi from './../../../Athithya/src/Assets/Core Team Members/Innovation Team/Meenakshi.png';
+import Karnikasri from './../../../Athithya/src/Assets/Core Team Members/Innovation Team/Karnika Sri.png';
 import Sreeja from './../../../Athithya/src/Assets/Core Team Members/Innovation Team/Sai sreeja.jpg';
-import Harshitha from './../../../Athithya/src/Assets/Core Team Members/Innovation Team/Sai sreeja.jpg';
-// import Saathvik from './../../../Athithya/src/Assets/Core Team Members/Volunteers/'
+import Harshitha from './../../../Athithya/src/Assets/Core Team Members/Innovation Team/Harshitha.png';
+import Saathvik from './../../../Athithya/src/Assets/Core Team Members/Volunteers/Saathvik.png';
+import Tanuja from './../../../Athithya/src/Assets/Core Team Members/Volunteers/Tanuja.png';
+import Vanaja from './../../../Athithya/src/Assets/Core Team Members/Volunteers/Vanaja.png';
+
 
 
 function ACMTeams() {
@@ -195,7 +198,7 @@ function ACMTeams() {
         id: 3,
         name: "B VEERA SAI VINEETH KUMAR REDDY",
         position: "Lens and Edit Team Member",
-        image: Veera
+        image: Vineeth
       }
     ]
   const event_coordinators_team_row1 =
@@ -204,7 +207,7 @@ function ACMTeams() {
         id: 1,
         name: "Tejasree",
         position: "Event Coordinator Team Member",
-        image: Tejasree
+        image: Teja_sree
 
       },
       {
@@ -293,28 +296,28 @@ function ACMTeams() {
         image: Harshitha
       }
     ]
-    // const volunteer_team_row1 =
-    // [
-    //   {
-    //     id: 1,
-    //     name: "J SAATHVIK REDDY",
-    //     position: "Event Coordinator Team Member",
-    //     image: Saathvik
+    const volunteer_team_row1 =
+    [
+      {
+        id: 1,
+        name: "J SAATHVIK REDDY",
+        position: "Event Coordinator Team Member",
+        image: Saathvik
 
-    //   },
-    //   {
-    //     id: 2,
-    //     name: "M.Tanuja",
-    //     position: "Event Coordinator Team Member",
-    //     image: Tanuja
-    //   },
-    //   {
-    //     id: 3,
-    //     name: "M.Vanaja",
-    //     position: "Event Coordinator Team Member",
-    //     image: Vanaja
-    //   }
-    // ]
+      },
+      {
+        id: 2,
+        name: "M.Tanuja",
+        position: "Event Coordinator Team Member",
+        image: Tanuja
+      },
+      {
+        id: 3,
+        name: "M.Vanaja",
+        position: "Event Coordinator Team Member",
+        image: Vanaja
+      }
+    ]
 
   return (
     <div>
@@ -478,9 +481,9 @@ function ACMTeams() {
           </div>
         </div>
 
-        {/* <div className="volunteer-team-container basic-teams-container-style">
+        <div className="volunteer-team-container basic-teams-container-style">
           <div className="volunteer-team-heading basic-teams-heading-style">
-            Graphics Team
+            Volunteer Team
           </div>
           <div className="volunteer-team-row1">
             {volunteer_team_row1.map((value, index) => {
@@ -492,7 +495,7 @@ function ACMTeams() {
             })}
 
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   )

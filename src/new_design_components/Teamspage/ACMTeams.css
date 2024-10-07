@@ -27,7 +27,8 @@
 }
 
 
-.basic-teams-heading-style , .finance-team-heading{
+.basic-teams-heading-style,
+.finance-team-heading {
     font-family: var(--body-font-family);
     font-weight: var(--body-font-weight);
     font-size: var(--font-size-large);
@@ -37,14 +38,20 @@
     text-align: center;
 }
 
-.basic-teams-container-style{
+.basic-teams-container-style {
     /* border: 1px solid red; */
     height: auto;
     width: 100%;
     padding-bottom: 3%;
 }
 
-.finance-team-row1 , .graphics-team-row1, .web-dev-team-row1, .social-media-team-row1 , .lens-team-row1, .event-coordinators-team-row1{
+.finance-team-row1,
+.graphics-team-row1,
+.web-dev-team-row1,
+.social-media-team-row1,
+.lens-team-row1,
+.event-coordinators-team-row1,
+.volunteer-team-row1 {
     display: grid;
     grid-template-columns: 18.812rem 18.812rem 18.812rem;
     justify-content: center;
@@ -55,7 +62,10 @@
     margin: 2.1rem 0;
 }
 
-.finance-team-row2 , .web-dev-team-row2 , .social-media-team-row2, .event-coordinators-team-row2{
+.finance-team-row2,
+.web-dev-team-row2,
+.social-media-team-row2,
+.event-coordinators-team-row2 {
     display: grid;
     grid-template-columns: 18.812rem 18.812rem;
     justify-content: center;
@@ -66,7 +76,8 @@
     margin: 2.1rem 0;
 }
 
-.innovation-team-row1, .innovation-team-row2{
+.innovation-team-row1,
+.innovation-team-row2 {
     display: grid;
     grid-template-columns: 18.812rem 18.812rem 18.812rem 18.812rem;
     justify-content: center;

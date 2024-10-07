@@ -533,7 +533,7 @@ export const hour_of_codes=[
 
 import is1 from "./../../src/assets/Images/idea sparks/round_1/img1.jpeg"
 import is2 from "./../../src/assets/Images/idea sparks/round_1/img2.jpeg"
-import is3 from "./../../src/assets/Images/idea sparks/round_1/img3.DNG"
+// import is3 from "./../../src/assets/Images/idea sparks/round_1/img3.DNG"
 import is4 from "./../../src/assets/Images/idea sparks/round_1/img4.png"
 import is5 from "./../../src/assets/Images/idea sparks/round_1/img5.png"
 import is6 from "./../../src/assets/Images/idea sparks/round_1/img6.png"
@@ -550,22 +550,19 @@ export const idea_spark_1=[
   },
   {
     id:2,
-    image:is3,
-  },
-  {
-    id:3,
     image:is4,
   },
   {
-    id:4,
+    id:3,
     image:is5,
   },
   {
-    id:5,
+    id:4,
+    
     image:is6,
   },
   {
-    id:6,
+    id:5,
     image:is7,
   },
 ]
