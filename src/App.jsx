@@ -24,7 +24,7 @@ function App() {
             <Route path='/' element={<Hero />} />
             <Route path='/about' element={<AboutACM />} />
             <Route path='/teams' element={<ACMTeams/>} />
-            <Route path='/events' element={<ACMevents/>}/>
+            {/* <Route path='/events' element={<ACMevents/>}/> */}
             <Route path='/blogs' element={<ACMblogs/>}/>
             <Route path='/contact' element={<ACMcontact/>}/>
             <Route path='/gallery' element={<ACMGallery/>}/>
