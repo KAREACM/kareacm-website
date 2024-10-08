@@ -1,45 +1,82 @@
-.faculty-coordinators-heading , .heading-style{
+.faculty-coordinators-heading, .heading-style {
     font-size: var(--font-size-large);
     font-family: var(--body-font-family);
     font-weight: var(--body-font-weight);
     text-align: center;
-    background: linear-gradient(to right, #00F0FF 0%, #347499 70%) ; 
+    background: linear-gradient(to right, #00F0FF 0%, #347499 70%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.faculties-container{
+.faculties-container {
     width: 100%;
     height: auto;
-    /* border: 1px solid red; */
     padding-bottom: 2rem;
 }
 
-.faculty-coordinator-pics{
+.faculty-coordinator-pics {
     display: grid;
-    grid-template-columns: 18.812rem 18.812rem;
+    grid-template-columns: repeat(2, 18.812rem);
     justify-content: center;
     gap: 2.225rem 3.125rem;
     height: auto;
     width: 100%;
-    /* border: 1px solid red; */
     margin: 2.1rem 0;
 }
 
-.box{
+.box {
+    position: relative;
     height: 20.0625rem;
     width: 18.812rem;
-    /* border: 1px solid green; */
-    /* object-fit: contain; */
+    overflow: hidden;
 }
 
-.box img{
+.box img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
-/* .faculty-img{
-    height: 20.0625rem;
-    width: 18.812rem;
-    object-fit: contain;
 
-} */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover .overlay {
+    opacity: 1;
+}
+
+.info {
+    text-align: center;
+    color: var(--white);
+    font-size: var(--font-size-small);
+    font-family: var(--body-font-family);
+    font-weight: var(--body-font-weight);
+}
+
+.info p {
+    margin: 0.5rem 0;
+}
+
+.info a {
+    color: var(--white);
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    display: block;
+    transition: all 0.5s ease-out;
+    
+}
+
+.info a:hover {
+    scale: 1.5;
+    /* transition: all 0.5s ease-out; */
+}
