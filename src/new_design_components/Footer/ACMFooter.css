@@ -4,13 +4,10 @@
     /* background-color: blue;   */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 5vmin;
 
 }
 
-.border{
-    border: 1px solid red;
-
-}
 .footer-logo{
     height: 20%;
     width: 17%;    
@@ -31,14 +28,20 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     align-items: center;
+    padding-left: 5%;
     
 }
-/* .footer-useful-links{
+.footer-useful-links{
     height: auto;
-    width: 40%;
-    border: 1px solid red;
-} */
-.footer-useful-links-heading{
+    /* width: 40%; */
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.3rem;
+    padding-top: 5% ;
+}
+.footer-useful-links-heading, .footer-contact-heading{
     font-size: 1.3rem;
     font-family: var(--body-font-family);
     font-weight: var(--body-font-weight);
@@ -49,9 +52,72 @@
 }
 
 .hr-line2{
-    width: 40%;
+    width: 100%;
+    margin-top: 0.4rem;
 }
 
-/* .basic-font-styles{
+.hr-line3{
+    width: 90%;
+}
 
-} */
+.basic-font-styles{
+    font-size: 1rem;
+    font-family: var(--body-font-family);
+    font-weight: 500;
+    background: linear-gradient(to right, #00F0FF 0%, #347499 60%) ; 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    line-height: 150%;
+
+}
+.basic-font-styles:hover{
+    background: white ; 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    /* transition: all 0.5s ease-out; */
+}
+
+.footer-email-container, .footer-location-container{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 5%;
+    
+}
+
+.footer-email{
+    color: var(--white);
+    /* background-color: var(--white); */
+    scale: 1.4;
+}
+
+.footer-location{
+    color: var(--white);
+    scale: 1.4;
+}
+.footer-location-address{
+    text-align: left;
+}
+
+.footer-contact-heading{
+    padding-top: 4% ;
+    /* text-align: center; */
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hr-line4{
+    width: 23%;
+    margin-top: 0.4rem;
+}
+.footer-contact-container2{
+    display: flex;
+    flex-direction: column;
+    /* height: 55vmin; */
+    /* border: 1px solid red; */
+    padding: 5%;
+}
