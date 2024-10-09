@@ -1,10 +1,57 @@
-.hr-line{
-    background-color: #5A3499;
-    /* border: 1px solid red; */
-    color: #5A3499;
-}
-.content{
-    border: 1px solid red;
-    color: wheat;
+.footer-container{
+    width: 100%;
+    height: 55vmin;
+    /* background-color: blue;   */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
 }
 
+.border{
+    border: 1px solid red;
+
+}
+.footer-logo{
+    height: 20%;
+    width: 17%;    
+}
+
+.acm-logo-footer{
+    height: 100%;
+    width: 100%;
+}
+
+.footer-logo-container{
+    display: flex;
+    gap: 3%;
+    font-size: 1.3rem;
+    font-family: var(--body-font-family);
+    font-weight: var(--body-font-weight);
+    background: linear-gradient(to right, #00F0FF 0%, #347499 60%) ; 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    align-items: center;
+    
+}
+/* .footer-useful-links{
+    height: auto;
+    width: 40%;
+    border: 1px solid red;
+} */
+.footer-useful-links-heading{
+    font-size: 1.3rem;
+    font-family: var(--body-font-family);
+    font-weight: var(--body-font-weight);
+    background: linear-gradient(to right, #00F0FF 0%, #347499 60%) ; 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* text-align: center; */
+}
+
+.hr-line2{
+    width: 40%;
+}
+
+/* .basic-font-styles{
+
+} */
