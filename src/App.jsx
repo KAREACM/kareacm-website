@@ -30,7 +30,7 @@ function App() {
             <Route path='/gallery' element={<ACMGallery/>}/>
 
         </Routes>
-        {/* <ACMFooter/> */}
+        <ACMFooter/>
 
       </div>
 
