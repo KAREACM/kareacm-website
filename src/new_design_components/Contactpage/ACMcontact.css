@@ -1,272 +1,121 @@
-body {
-
-    /* position: relative; */
-    /* width: 1440px;
-    height: 1093px; */
-
-    background: #05010D;
-
-}
-
-h1 {
-
-    position: absolute;
-    width: 641px;
-    height: 76px;
-    left: 400px;
-    top: 85px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 64px;
-    line-height: 77px;
-    text-align: center;
-
-    background: radial-gradient(50% 50% at 50% 50%, rgba(95, 196, 210, 0.9) 0%, rgba(93, 137, 202, 0.9) 44.9%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.contact-heading-container{
+    height: auto;
+    width: 100%;
+    font-size: var(--font-size-large);
+    font-weight: var(--body-font-weight);
+    background: linear-gradient(to right, #00F0FF 0%, #347499 60%) ; 
     background-clip: text;
-
-
-
-}
-
-h2 {
-
-
-    position: absolute;
-    width: 545px;
-    height: 24px;
-    left: 90px;
-    top: 250px;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 46px;
-    line-height: 24px;
-    /* identical to box height, or 52% */
-    letter-spacing: 0.01em;
-
-    color: #ffffff;
-
-
-}
-
-.Touch {
-    position: absolute;
-    width: 545px;
-    height: 24px;
-    left: 225px;
-    top: 250px;
-
+    -webkit-text-fill-color: transparent;
     font-family: var(--body-font-family);
-    font-style: normal;
-    font-weight: 600;
-    font-size: 46px;
-    line-height: 24px;
-
-    letter-spacing: 0.01em;
-
-    color: #56C2FF;
-
-
-}
-
-h3 {
-    position: absolute;
-    width: 496px;
-    height: 154px;
-    left: 120px;
-    top: 310px;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 35px;
-
-    letter-spacing: 0.01em;
-
-    color: rgba(255, 255, 255, 0.95);
-
-
-}
-
-.location_logo_image {
-    position: absolute;
-    width: 40px;
-    height: 43px;
-    left: 150px;
-    top: 470px;
-
-
-}
-
-.kare_address {
-    /* Krishnankoil, Srivilliputhur, Tamil Nadu 626126 */
-
-    position: absolute;
-    width: 452px;
-    height: 65px;
-    left: 205px;
-    top: 440px;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 25px;
-    line-height: 30px;
-
-    letter-spacing: 0.01em;
-
-    background: linear-gradient(90deg, #469ED5 0%, #479FD8 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-
-
-}
-
-.phnum_logo_image {
-    position: absolute;
-    width: 25px;
-    height: 27px;
-    left: 158px;
-    top: 550px;
-}
-
-.kare_phnum {
-    /* 04563 289 042 */
-
-    position: absolute;
-    width: 157px;
-    height: 33px;
-    left: 200px;
-    top: 530px;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 25px;
-    line-height: 30px;
-    /* or 150% */
-    letter-spacing: 0.01em;
-    text-decoration-line: underline;
-
-    background: linear-gradient(90deg, #479FD0 0%, #73ABCA 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-
-
-
-}
-
-.gmail_logo_image {
-    position: absolute;
-    width: 33px;
-    height: 36px;
-    left: 157px;
-    top: 605px;
-}
-
-.kare_gmail {
-
-    position: absolute;
-    width: 220px;
-    height: 36px;
-    left: 200px;
-    top: 590px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 25px;
-    line-height: 24px;
+    /* border: 1px solid red; */
     text-align: center;
-
-    background: linear-gradient(90deg, #469ED5 0%, #479FD8 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-
 }
 
-.Form {
-    position: absolute;
-    width: 626px;
-    height: 430px;
-    left: 753px;
-    top: 240px;
-
-    background: linear-gradient(180deg, #28465A 0%, #150830 100%);
-
-}
-
-.form_inputs {
-
+.contact-page-content-container{
+    width: 100%;
+    height: 78vmin;
+    /* border: 1px solid red; */
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 8px;
-
-    /* position: absolute; */
-    width: 548px;
-    height: 200px;
-    left: 800px;
-    /* top: 355; */
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
-.form_inputs input {
-    width: 200px;
-    border: none;
-    background: none;
-    border-bottom: 2px rgb(113, 106, 106) solid;
-    width: 550px;
-    height: 15px;
-    padding: 9px;
-    margin-left: 22px;
-    margin-top: 20px;
-    outline: none;
+.contact-page-address-container{
+    padding-left: 7%;
+    padding-top: 2%;
+}
+.contact-page-form-container{
+    padding-top: 1%;
+}
+
+.d-inline{
+    display: inline;
+}
+
+.gradient-font-color-style{
+    background: linear-gradient(to right, #00F0FF 0%, #347499 60%) ; 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.contact-address-heading{
+    font-size: 3rem;
+    font-weight: var(--body-font-weight);
     font-family: var(--body-font-family);
     color: var(--white);
-
+    letter-spacing: 0.15rem;
 }
-
-.Quey_input textarea {
-    width: 550px;
-    height: 130px;
-    margin-left: 22px;
-    padding: 9px;
-    background: #D9D9D9;
+.contact-acmkare{
+    color: var(--white);
+    font-size: var(--font-size-medium);
+    font-weight: var(--body-font-weight);
     font-family: var(--body-font-family);
+    letter-spacing: 0.1rem;
+    word-spacing: 0.4rem;
+    padding-top: 4%;
 }
 
-
-
-.Submitbutton {
-
+.contact-acmkare-location, .contact-acmkare-phone, .contact-acmkare-mail{
+    font-weight: var(--body-font-weight);
+    font-size: 1.3rem;
+    font-family: var(--body-font-family);
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding: 16px 0px;
-    gap: 10px;
+    gap: 3%;
+    line-height: 2rem;
+    margin: 1rem 0 0.5rem 3rem;
+}
 
-    /* position: absolute; */
-    width: 549px;
-    height: 54px;
+.contact-acmkare-location-icon {
+    color: var(--white);
+    scale: 1.3;
+}
+.contact-acmkare-phone-icon, .contact-acmkare-mail-icon{
+    color: var(--white);
+    scale: 1.2;
+}
+.contact-page-form-container, .contact-page-address-container{
+    width: 50%;
+}
+.contact-page-form{
+    background: linear-gradient(to bottom, #28465A 0%, #150830 100%);
+    width: 80%;
+    height: auto;
+    /* border: 1px solid red; */
+    padding: 5% 6% 9% 6%;
+}
 
-    margin-left: 35px;
-    margin-top: 8px;
-
-    background: #0982FE;
-    border-radius: 10px;
+.contact-page-form input{
+    width: 100%;
+    background-color: transparent;
     border: none;
-    color: #ffffff;
-    font-weight: bold;
+    outline: none;
+    color: var(--white);
+    padding: 1rem ;
+}
+
+.contact-page-text-area{
+    width: 100%;
+    min-height: 20vmin !important;
+    background-color: #D9D9D9;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    margin-top: 5%;
+}
+
+.contact-page-button{
+    width: 100%;
+    padding: 3% 3%;
+    text-align: center;
+    color: var(--white);
     font-family: var(--body-font-family);
+    font-size: var(--font-size-small);
+    font-weight: var(--body-font-weight);
+    background-color: #0982FE;
+    border-radius: 0.5rem;
+    border: none;
+    letter-spacing: 0.1rem;
+
 }
