@@ -1,43 +1,70 @@
 import React from 'react'
-import './ACMcontact.css'
-import location_logo from './../../../Athithya/src/Assets/Photos/location_logo.png'
-import phnum_logo from './../../../Athithya/src/Assets/Photos/phnum_logo.png'
-import gmail_logo from './../../../Athithya/src/Assets/Photos/gmail_logo.png'
+import './ACMcontact.css';
 
 function ACMcontact() {
   return (
-    <div className='Total'>
-    <div className='Title'>
-      <h1>Contact Us</h1>
-    </div>
-    <div className='CollegeAddress'>
-      <h2>Get in</h2><h2 className='Touch'>touch</h2>
-      <h3>KALASALINGAM ACADEMY OF RESEARCH AND EDUCATION</h3>
-      <img src={location_logo} alt='Location'className='location_logo_image'/>
-      <p className='kare_address'> Krishnankoil, Srivilliputhur, Tamil Nadu 626126</p>
-      <img src={phnum_logo} alt='Phone NUmber'className='phnum_logo_image'/>
-      <p className='kare_phnum'> 04563 289 042</p>
-      <img src={gmail_logo} alt='Gmail'className='gmail_logo_image'/>
-      <p className='kare_gmail'> acmkare@gmail.com</p>
-      
-    </div>
+    <div>
+      <div className="contact-container">
+        <div className="contact-heading-container">
+          Contact Us
+        </div>
+        <div className="contact-page-content-container">
+          <div className="contact-page-address-container">
+            <div className="contact-address-heading d-inline">
+              Get in <div className='d-inline gradient-font-color-style'>touch</div>
+            </div>
+            <div className="contact-acmkare">
+              KALASALINGAM ACADEMY <div>OF RESEARCH AND</div> <div>EDUCATION</div>
+            </div>
+            <div className="contact-acmkare-location gradient-font-color-style">
+              <div className="contact-acmkare-location-icon">
+                <i className="fa-solid fa-location-dot "></i>
+              </div>
+              <div className="contact-acmkare-address">
+                Krishnankoil, Srivilliputhur, Tamil Nadu
+                <div> 626126</div>
+              </div>
 
-    <div className='Form'>
-      <form className='form_inputs'>
-        <input type='text' placeholder='Name' required ></input>
-        <input type='gmail'placeholder='E-mail' required></input>
-        <input type='tel'placeholder='Contact Number' required></input>
-        
-      </form>
-      <form className='Quey_input'>
-        <textarea placeholder='Let us know about your idea/query '></textarea>
-      </form>
-      <button className='Submitbutton'>Submit</button>
+            </div>
+            <div className="contact-acmkare-phone">
+              <div className="contact-acmkare-phone-icon">
+                  <i class="fa-solid fa-phone"></i>
+              </div>
+              <div className="contact-acmkare-phone-number gradient-font-color-style">
+                04563 289 042
+              </div>
+            </div>
+            <div className="contact-acmkare-mail">
+              <div className="contact-acmkare-mail-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div className="contact-acmkare-mail-id gradient-font-color-style">
+                acmkare@gmail.com
+              </div>
+            </div>
+          </div>
+          <div className="contact-page-form-container">
+            <div className="contact-page-form">
+              <form action="">
+                <input type="text" placeholder='Name' />
+                <hr />
+                <input type="email" placeholder='E-mail' />
+                <hr />
+                <input type="number" placeholder='Contact Phone' />
+                <hr />
+                <textarea name="" id="" className='contact-page-text-area' placeholder="Let's talk about your idea/query"></textarea>
+                <br />
+                <br />
+                <button className='contact-page-button'>SUBMIT</button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
 
     </div>
-    </div>
-    
   )
 }
 
-export default ACMcontact;
+export default ACMcontact
