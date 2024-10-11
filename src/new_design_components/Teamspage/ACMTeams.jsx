@@ -45,20 +45,20 @@ function ACMTeams() {
     [
       {
         id: 1,
-        name: "Setu Sai Ram Y",
+        name: "SETU SAI RAM Y",
         position: "Finance Team Member",
         image: Setu_sai_ram
 
       },
       {
         id: 2,
-        name: "Yashwanth Y",
+        name: "YASHWANTH Y",
         position: "Finance Team Member",
         image: Yashwanth
       },
       {
         id: 3,
-        name: "Amarnath K",
+        name: "AMARNATH K",
         position: "Finance Team Member",
         image: Amarnath
       }
@@ -67,14 +67,14 @@ function ACMTeams() {
     [
       {
         id: 4,
-        name: "K Sowmya",
+        name: "K SOWMYA",
         position: "Finance Team Member",
         image: Sowmya
 
       },
       {
         id: 5,
-        name: "P Sathvika",
+        name: "P SATHVIKA",
         position: "Finance Team Member",
         image: Sathvika
       }
@@ -84,20 +84,20 @@ function ACMTeams() {
     [
       {
         id: 1,
-        name: "Geetheshwar G",
+        name: "GEETHESHWAR G",
         position: "Graphics Team Member",
         image: Geetheshwar
 
       },
       {
         id: 2,
-        name: "P Harsha Pavan",
+        name: "P HARSHA PAVAN",
         position: "Graphics Team Member",
         image: P_Harsha_Pavan
       },
       {
         id: 3,
-        name: "N lakshmikar Reddy",
+        name: "N LAKSHMIKAR REDDY",
         position: "Graphics Team Member",
         image: Lakshmikar
       }
@@ -128,14 +128,14 @@ function ACMTeams() {
     [
       {
         id: 1,
-        name: "B Maha Sri",
+        name: "B MAHA SRI",
         position: "Web Dev Team Member",
         image: Maha
 
       },
       {
         id: 2,
-        name: "Kanna pranavi Srinivas",
+        name: "KANNA PRANAVI SRINIVAS",
         position: "Web Dev Team Member",
         image: Pranavi
       }
@@ -145,21 +145,21 @@ function ACMTeams() {
     [
       {
         id: 1,
-        name: "M Sowmya",
-        position: "social Media Team Member",
+        name: "M SOWMYA",
+        position: "Social Media Team Member",
         image: M_Sowmya
 
       },
       {
         id: 2,
-        name: "C Bavesh",
-        position: "social Media Team Member",
+        name: "C BAVESH",
+        position: "Social Media Team Member",
         image: Bavesh
       },
       {
         id: 3,
-        name: "M Maruthi Kumar",
-        position: "social Media Team Member",
+        name: "M MARUTHI KUMAR",
+        position: "Social Media Team Member",
         image: Maruthi
       }
     ]
@@ -167,15 +167,15 @@ function ACMTeams() {
     [
       {
         id: 1,
-        name: "Sujitha Edara",
-        position: "social Media Team Member",
+        name: "SUJITHA EDARA",
+        position: "Social Media Team Member",
         image: Sujitha
 
       },
       {
         id: 2,
         name: "Y VIJAYA KUMARI",
-        position: "social Media Team Member",
+        position: "Social Media Team Member",
         image: Vijaya_Kumari
       }
     ]
@@ -205,7 +205,7 @@ function ACMTeams() {
     [
       {
         id: 1,
-        name: "Tejasree",
+        name: "TEJASREE",
         position: "Event Coordinator Team Member",
         image: Teja_sree
 
@@ -234,7 +234,7 @@ function ACMTeams() {
       },
       {
         id: 2,
-        name: "V Indhumathi",
+        name: "V INDHUMATHI",
         position: "Event Coordinator Team Member",
         image: Indumathi
       }
@@ -251,7 +251,7 @@ function ACMTeams() {
       },
       {
         id: 2,
-        name: "Chatura P",
+        name: "CHATURA P",
         position: "Innovation Team Member",
         image: Chatura
       },
@@ -263,12 +263,12 @@ function ACMTeams() {
       },
       {
         id: 4,
-        name: "Ch.Girija sai siri",
+        name: "GIRIJA SAI SIRI",
         position: "Innovation Team Member",
         image: Girija
       }
     ]
-    const innovation_team_row2 =
+  const innovation_team_row2 =
     [
       {
         id: 1,
@@ -279,24 +279,24 @@ function ACMTeams() {
       },
       {
         id: 2,
-        name: "Karnikasri S",
+        name: "KARNIKASRI S",
         position: "Innovation Team Member",
         image: Karnikasri
       },
       {
         id: 3,
-        name: "Y.Sai Sreeja",
+        name: "Y SAI SREEJA",
         position: "Innovation Team Member",
         image: Sreeja
       },
       {
         id: 4,
-        name: "Seelam Harshitha",
+        name: "SEELAM HARSHITHA",
         position: "Innovation Team Member",
         image: Harshitha
       }
     ]
-    const volunteer_team_row1 =
+  const volunteer_team_row1 =
     [
       {
         id: 1,
@@ -307,13 +307,13 @@ function ACMTeams() {
       },
       {
         id: 2,
-        name: "M.Tanuja",
+        name: "M TANUJA",
         position: "Event Coordinator Team Member",
         image: Tanuja
       },
       {
         id: 3,
-        name: "M.Vanaja",
+        name: "M VANAJA",
         position: "Event Coordinator Team Member",
         image: Vanaja
       }
@@ -335,6 +335,15 @@ function ACMTeams() {
               return (
                 <div className='box2 ' key={value.id}>
                   <img src={value.image} alt="" className='office-barrier-img' />
+                  <div className="overlay">
+                    <div className="info">
+                      <p>{value.name}</p>
+                      <p>{value.position}</p>
+                      <a href={value.linkedin} target="_blank" rel="noopener noreferrer">
+                        <i className="fab fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               )
             })}
@@ -344,6 +353,15 @@ function ACMTeams() {
               return (
                 <div className='box2 ' key={value.id}>
                   <img src={value.image} alt="" className='office-barrier-img' />
+                  <div className="overlay">
+                    <div className="info">
+                      <p>{value.name}</p>
+                      <p>{value.position}</p>
+                      <a href={value.linkedin} target="_blank" rel="noopener noreferrer">
+                        <i className="fab fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               )
             })}
@@ -360,6 +378,15 @@ function ACMTeams() {
               return (
                 <div className='box2 ' key={value.id}>
                   <img src={value.image} alt="" className='office-barrier-img' />
+                  <div className="overlay">
+                    <div className="info">
+                      <p>{value.name}</p>
+                      <p>{value.position}</p>
+                      <a href={value.linkedin} target="_blank" rel="noopener noreferrer">
+                        <i className="fab fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               )
             })}
@@ -375,6 +402,15 @@ function ACMTeams() {
               return (
                 <div className='box2 ' key={value.id}>
                   <img src={value.image} alt="" className='office-barrier-img' />
+                  <div className="overlay">
+                    <div className="info">
+                      <p>{value.name}</p>
+                      <p>{value.position}</p>
+                      <a href={value.linkedin} target="_blank" rel="noopener noreferrer">
+                        <i className="fab fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               )
             })}
@@ -385,6 +421,15 @@ function ACMTeams() {
               return (
                 <div className='box2 ' key={value.id}>
                   <img src={value.image} alt="" className='office-barrier-img' />
+                  <div className="overlay">
+                    <div className="info">
+                      <p>{value.name}</p>
+                      <p>{value.position}</p>
+                      <a href={value.linkedin} target="_blank" rel="noopener noreferrer">
+                        <i className="fab fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               )
             })}
@@ -400,6 +445,15 @@ function ACMTeams() {
               return (
                 <div className='box2 ' key={value.id}>
                   <img src={value.image} alt="" className='office-barrier-img' />
+                  <div className="overlay">
+                    <div className="info">
+                      <p>{value.name}</p>
+                      <p>{value.position}</p>
+                      <a href={value.linkedin} target="_blank" rel="noopener noreferrer">
+                        <i className="fab fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               )
             })}
@@ -410,6 +464,16 @@ function ACMTeams() {
               return (
                 <div className='box2 ' key={value.id}>
                   <img src={value.image} alt="" className='office-barrier-img' />
+                  <div className="overlay">
+                    <div className="info">
+                      <p>{value.name}</p>
+                      <p>{value.position}</p>
+                      <a href={value.linkedin} target="_blank" rel="noopener noreferrer">
+                        <i className="fab fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
+
                 </div>
               )
             })}
@@ -424,6 +488,15 @@ function ACMTeams() {
               return (
                 <div className='box2 ' key={value.id}>
                   <img src={value.image} alt="" className='office-barrier-img' />
+                  <div className="overlay">
+                    <div className="info">
+                      <p>{value.name}</p>
+                      <p>{value.position}</p>
+                      <a href={value.linkedin} target="_blank" rel="noopener noreferrer">
+                        <i className="fab fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               )
             })}
@@ -440,6 +513,15 @@ function ACMTeams() {
               return (
                 <div className='box2 ' key={value.id}>
                   <img src={value.image} alt="" className='office-barrier-img' />
+                  <div className="overlay">
+                    <div className="info">
+                      <p>{value.name}</p>
+                      <p>{value.position}</p>
+                      <a href={value.linkedin} target="_blank" rel="noopener noreferrer">
+                        <i className="fab fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               )
             })}
@@ -450,6 +532,15 @@ function ACMTeams() {
               return (
                 <div className='box2 ' key={value.id}>
                   <img src={value.image} alt="" className='office-barrier-img' />
+                  <div className="overlay">
+                    <div className="info">
+                      <p>{value.name}</p>
+                      <p>{value.position}</p>
+                      <a href={value.linkedin} target="_blank" rel="noopener noreferrer">
+                        <i className="fab fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               )
             })}
@@ -465,6 +556,15 @@ function ACMTeams() {
               return (
                 <div className='box2 ' key={value.id}>
                   <img src={value.image} alt="" className='office-barrier-img' />
+                  <div className="overlay">
+                    <div className="info">
+                      <p>{value.name}</p>
+                      <p>{value.position}</p>
+                      <a href={value.linkedin} target="_blank" rel="noopener noreferrer">
+                        <i className="fab fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               )
             })}
@@ -475,6 +575,15 @@ function ACMTeams() {
               return (
                 <div className='box2 ' key={value.id}>
                   <img src={value.image} alt="" className='office-barrier-img' />
+                  <div className="overlay">
+                    <div className="info">
+                      <p>{value.name}</p>
+                      <p>{value.position}</p>
+                      <a href={value.linkedin} target="_blank" rel="noopener noreferrer">
+                        <i className="fab fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               )
             })}
@@ -490,6 +599,15 @@ function ACMTeams() {
               return (
                 <div className='box2 ' key={value.id}>
                   <img src={value.image} alt="" className='office-barrier-img' />
+                  <div className="overlay">
+                    <div className="info">
+                      <p>{value.name}</p>
+                      <p>{value.position}</p>
+                      <a href={value.linkedin} target="_blank" rel="noopener noreferrer">
+                        <i className="fab fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               )
             })}

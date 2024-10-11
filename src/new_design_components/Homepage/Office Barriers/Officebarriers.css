@@ -20,16 +20,73 @@
 
 
 .box2 {
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     height: 20.0625rem;
     width: 18.812rem;
     /* border: 1px solid green; */
     /* object-fit: contain; */
+    overflow: hidden;
 }
 
 .box2 img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
+    /* transition: transform 0.3s ease; */
+    transition: transform 0.3s ease;
 }
+
+.box2:hover img {
+    /* border: 1px solid red; */
+    transform: scale(1.05); /* Optional: Slight zoom effect on image */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2:hover .overlay {
+    opacity: 1;
+}
+
+.info {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 0 1rem;
+}
+
+.info p {
+    margin: 0.5rem 0;
+}
+
+.info a {
+    color: var(--white);
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    display: inline-block;
+    transition: all 0.5s ease-out;
+}
+
+.info a:hover {
+    color: var(--white);
+    transform: scale(1.2);
+}
+
+
+
+
 
 .office-barriers-list2-pics {
     display: grid;
@@ -109,3 +166,47 @@
     background-color: var(--body-bg-color) ;
     border: none;
 }
+/* 
+.overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2:hover .overlay2 {
+    opacity: 1;
+}
+
+.info2 {
+    text-align: center;
+    color: var(--white);
+    font-size: var(--font-size-small);
+    font-family: var(--body-font-family);
+    font-weight: var(--body-font-weight);
+}
+
+.info2 p {
+    margin: 0.5rem 0;
+}
+
+.info2 a {
+    color: var(--white);
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    display: block;
+    transition: all 0.5s ease-out;
+    
+}
+
+.info2 a:hover {
+    scale: 1.5; */
+    /* transition: all 0.5s ease-out; */
+/* } */

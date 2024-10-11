@@ -26,6 +26,7 @@
 
 .box {
     position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     height: 20.0625rem;
     width: 18.812rem;
     overflow: hidden;
@@ -35,6 +36,7 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+    transition: transform 0.3s ease;
 }
 
 .overlay {
@@ -62,6 +64,11 @@
     font-family: var(--body-font-family);
     font-weight: var(--body-font-weight);
 }
+.box:hover img {
+    /* border: 1px solid red; */
+    transform: scale(1.05); /* Optional: Slight zoom effect on image */
+}
+
 
 .info p {
     margin: 0.5rem 0;
@@ -71,12 +78,13 @@
     color: var(--white);
     font-size: 1.5rem;
     margin-top: 1rem;
-    display: block;
+    display: inline-block;
     transition: all 0.5s ease-out;
     
 }
 
 .info a:hover {
-    scale: 1.5;
+    /* scale: 1.5; */
+    transform: scale(1.2);
     /* transition: all 0.5s ease-out; */
 }

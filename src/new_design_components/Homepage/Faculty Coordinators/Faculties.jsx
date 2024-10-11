@@ -1,39 +1,39 @@
 import React from 'react';
 import './../Faculty Coordinators/Faculties.css';
-import image1 from './../../../assets/Images/Shrouya_Roy/Img1.jpeg';
-import image2 from './../../../assets/Images/Shrouya_Roy/Img2.jpeg';
-import image3 from './../../../assets/Images/Shrouya_Roy/Img3.jpeg';
-import image4 from './../../../assets/Images/Shrouya_Roy/Img4.jpeg';
+import Dean_Deepalakshmi from './../../../../Athithya/src/Assets/Faculty Coordinators/Deepalakshmi Mam.png';
+import HOD_Suresh_Kumar from './../../../../Athithya/src/Assets/Faculty Coordinators/Suresh Kumar Sir.png';
+import Nagaraj_Sir from './../../../../Athithya/src/Assets/Faculty Coordinators/Nagaraj Sir.png';
+import Amutham_Mam from './../../../../Athithya/src/Assets/Faculty Coordinators/Amutha Mam.png';
 import Officebarriers from '../Office Barriers/Officebarriers';
 
 function Faculties() {
     const faculty_coordinators = [
         {
             id: 1,
-            name: "Shrouya Roy",
-            position: "Faculty Coordinator",
-            image: image1,
+            name: "Dr P Deepa Laskshmi ",
+            position: "Dean of SOC",
+            image: Dean_Deepalakshmi,
             linkedin: "https://www.linkedin.com/in/shrouya-roy/"
         },
         {
             id: 2,
-            name: "Person 2",
-            position: "Faculty Coordinator",
-            image: image2,
+            name: "Dr N Suresh Kumar",
+            position: "Head Of CSE Department",
+            image: HOD_Suresh_Kumar,
             linkedin: "https://www.linkedin.com/in/person-2/"
         },
         {
             id: 3,
-            name: "Person 3",
-            position: "Faculty Coordinator",
-            image: image3,
+            name: "Dr P Nagaraj",
+            position: "Faculty Sponser",
+            image: Nagaraj_Sir,
             linkedin: "https://www.linkedin.com/in/person-3/"
         },
         {
             id: 4,
-            name: "Person 4",
-            position: "Faculty Coordinator",
-            image: image4,
+            name: "Mrs S Amutha",
+            position: "Faculty Co-ordinator",
+            image: Amutham_Mam,
             linkedin: "https://www.linkedin.com/in/person-4/"
         }
     ];

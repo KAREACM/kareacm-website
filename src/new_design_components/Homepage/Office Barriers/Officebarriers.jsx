@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import './../Office Barriers/Officebarriers.css';
 import Chair_person from './../../../../Athithya/src/Assets/Office Barriers/BHANU PRATHAP SHOURYA V.jpg';
 import Vice_Chair_person from './../../../../Athithya/src/Assets/Office Barriers/B LOKESH KUMAR.jpg';
@@ -8,61 +8,64 @@ import Web_Master from './../../../../Athithya/src/Assets/Office Barriers/YASHWA
 import Membership_chair from './../../../../Athithya/src/Assets/Office Barriers/T JEYRUS JOSHUA.jpg';
 import Event_Coordinator from './../../../../Athithya/src/Assets/Office Barriers/bhavan sai.jpg';
 
-// import ACMTeams from '../../Teamspage/ACMteams';
 import { NavLink } from 'react-router-dom';
 
 function Officebarriers() {
-    const office_barriers_list1 =
-        [
-            {
-                id: 1,
-                name: "V BHANU PRATHAP SHOURYA",
-                position: "Chair Person",
-                image: Chair_person
+    const office_barriers_list1 = [
+        {
+            id: 1,
+            name: "V BHANU PRATHAP SHOURYA",
+            position: "Chair Person",
+            image: Chair_person,
+            linkedin: "https://www.linkedin.com/in/v-bhanu-prathap-shourya/"
+        },
+        {
+            id: 2,
+            name: "B LOKESH KUMAR",
+            position: "Vice Chair Person",
+            image: Vice_Chair_person,
+            linkedin: "https://www.linkedin.com/in/b-lokesh-kumar/"
+        },
+        {
+            id: 3,
+            name: "JASWANTH S",
+            position: "Secretary",
+            image: Secretary,
+            linkedin: "https://www.linkedin.com/in/jaswanth-s/"
+        }
+    ];
 
-            },
-            {
-                id: 2,
-                name: "B LOKESH KUMAR",
-                position: "Vice Chair Person",
-                image: Vice_Chair_person
-            },
-            {
-                id: 3,
-                name: "JASWANTH S",
-                position: "Secretary",
-                image: Secretary
-            }
-        ]
-    const office_barriers_list2 =
-        [
-            {
-                id: 1,
-                name: "LIGORIS CABRINI DEVANANDRAJ",
-                position: "Treasurer",
-                image: Treasurer
+    const office_barriers_list2 = [
+        {
+            id: 4,
+            name: "LIGORIS CABRINI DEVANANDRAJ",
+            position: "Treasurer",
+            image: Treasurer,
+            linkedin: "https://www.linkedin.com/in/ligoris-cabrini-devanandraj/"
+        },
+        {
+            id: 5,
+            name: "YASHWANTH A",
+            position: "Web Master",
+            image: Web_Master,
+            linkedin: "https://www.linkedin.com/in/yashwanth-a/"
+        },
+        {
+            id: 6,
+            name: "T JEYRUS JOSHUA",
+            position: "Membership Chair",
+            image: Membership_chair,
+            linkedin: "https://www.linkedin.com/in/t-jeyrus-joshua/"
+        },
+        {
+            id: 7,
+            name: "BHAVAN SAI",
+            position: "Event Coordinator",
+            image: Event_Coordinator,
+            linkedin: "https://www.linkedin.com/in/bhavan-sai/"
+        }
+    ];
 
-            },
-            {
-                id: 2,
-                name: "YASHWANTH A",
-                position: "Web Master",
-                image: Web_Master
-            },
-            {
-                id: 3,
-                name: "T JEYRUS JOSHUA",
-                position: "Membership Chair",
-                image: Membership_chair
-            },
-            {
-                id: 4,
-                name: "Bhavan Sai",
-                position: "Event Coordinator",
-                image: Event_Coordinator
-
-            }
-        ]
     return (
         <div>
             <div className="office-barriers-container">
@@ -70,40 +73,47 @@ function Officebarriers() {
                     Office Bearers
                 </div>
                 <div className="office-barriers-list1-pics">
-                    {office_barriers_list1.map((value, index) => {
-                        return (
-                            <div className='box2 ' key={value.id}>
-                                <img src={value.image} alt="" className='office-barrier-img' />
+                    {office_barriers_list1.map((value) => (
+                        <div className='box2' key={value.id}>
+                            <img src={value.image} alt={`${value.name}`} className='office-barrier-img' />
+                            <div className="overlay">
+                                <div className="info">
+                                    <p>{value.name}</p>
+                                    <p>{value.position}</p>
+                                    <a href={value.linkedin} target="_blank" rel="noopener noreferrer">
+                                        <i className="fab fa-linkedin"></i>
+                                    </a>
+                                </div>
                             </div>
-                        )
-                    })}
-
-
-
+                        </div>
+                    ))}
                 </div>
                 <div className="office-barriers-list2-pics">
-                    {office_barriers_list2.map((value, index) => {
-                        return (
-                            <div className='box2 ' key={value.id}>
-                                <img src={value.image} alt="" className='office-barrier-img' />
+                    {office_barriers_list2.map((value) => (
+                        <div className='box2' key={value.id}>
+                            <img src={value.image} alt={`${value.name}`} className='office-barrier-img' />
+                            <div className="overlay">
+                                <div className="info">
+                                    <p>{value.name}</p>
+                                    <p>{value.position}</p>
+                                    <a href={value.linkedin} target="_blank" rel="noopener noreferrer">
+                                        <i className="fab fa-linkedin"></i>
+                                    </a>
+                                </div>
                             </div>
-                        )
-                    })}
-
-
-
+                        </div>
+                    ))}
                 </div>
             </div>
             <div className="view-team-button">
-
                 <button>
-                    <a >
+                    <NavLink to="/team">
                         <span>View Team</span>
-                    </a>
+                    </NavLink>
                 </button>
             </div>
         </div>
-    )
+    );
 }
 
 export default Officebarriers;
