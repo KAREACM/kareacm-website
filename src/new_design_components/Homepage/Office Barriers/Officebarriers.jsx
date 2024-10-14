@@ -17,14 +17,14 @@ function Officebarriers() {
             name: "V BHANU PRATHAP SHOURYA",
             position: "Chair Person",
             image: Chair_person,
-            linkedin: "https://www.linkedin.com/in/v-bhanu-prathap-shourya/"
+            linkedin: "https://www.linkedin.com/in/vshourya?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
         },
         {
             id: 2,
             name: "B LOKESH KUMAR",
             position: "Vice Chair Person",
             image: Vice_Chair_person,
-            linkedin: "https://www.linkedin.com/in/b-lokesh-kumar/"
+            linkedin: "https://www.linkedin.com/in/lokesh-kumar-bhatlapenumarthy-b8a66b268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
         },
         {
             id: 3,
@@ -41,28 +41,28 @@ function Officebarriers() {
             name: "LIGORIS CABRINI DEVANANDRAJ",
             position: "Treasurer",
             image: Treasurer,
-            linkedin: "https://www.linkedin.com/in/ligoris-cabrini-devanandraj/"
+            linkedin: "https://www.linkedin.com/in/ligorisan-3333ba261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
         },
         {
             id: 5,
             name: "YASHWANTH A",
             position: "Web Master",
             image: Web_Master,
-            linkedin: "https://www.linkedin.com/in/yashwanth-a/"
+            linkedin: "https://www.linkedin.com/in/yashwantharavind/"
         },
         {
             id: 6,
             name: "T JEYRUS JOSHUA",
             position: "Membership Chair",
             image: Membership_chair,
-            linkedin: "https://www.linkedin.com/in/t-jeyrus-joshua/"
+            linkedin: "https://www.linkedin.com/in/thiruthuvam-jeyrus-joshua-66150531b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
         },
         {
             id: 7,
             name: "BHAVAN SAI",
             position: "Event Coordinator",
             image: Event_Coordinator,
-            linkedin: "https://www.linkedin.com/in/bhavan-sai/"
+            linkedin: "https://www.linkedin.com/in/pynamudi-bhavan-sai-9386a0268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
         }
     ];
 
@@ -107,7 +107,7 @@ function Officebarriers() {
             </div>
             <div className="view-team-button">
                 <button>
-                    <NavLink to="/team">
+                    <NavLink to="/teams">
                         <span>View Team</span>
                     </NavLink>
                 </button>

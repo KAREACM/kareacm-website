@@ -13,28 +13,28 @@ function Faculties() {
             name: "Dr P Deepa Laskshmi ",
             position: "Dean of SOC",
             image: Dean_Deepalakshmi,
-            linkedin: "https://www.linkedin.com/in/shrouya-roy/"
+            linkedin: "https://www.linkedin.com/in/dr-p-deepalakshmi-ramkumar-32408817?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
         },
         {
             id: 2,
             name: "Dr N Suresh Kumar",
             position: "Head Of CSE Department",
             image: HOD_Suresh_Kumar,
-            linkedin: "https://www.linkedin.com/in/person-2/"
+            linkedin: "https://www.linkedin.com/in/dr-sureshkumar-nagarajan-2568901b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
         },
         {
             id: 3,
             name: "Dr P Nagaraj",
             position: "Faculty Sponser",
             image: Nagaraj_Sir,
-            linkedin: "https://www.linkedin.com/in/person-3/"
+            linkedin: "https://www.linkedin.com/in/dr-nagaraj-p-20a072183?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
         },
         {
             id: 4,
             name: "Mrs S Amutha",
             position: "Faculty Co-ordinator",
             image: Amutham_Mam,
-            linkedin: "https://www.linkedin.com/in/person-4/"
+            linkedin: "https://www.linkedin.com/in/amutha-seviappan-a272b3293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
         }
     ];
 
