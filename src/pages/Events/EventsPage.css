@@ -22,16 +22,7 @@
 }
 
 
-.section-title {
-  font-family: var(--body-font-family);
-  font-weight: var(--body-font-weight);
-  font-size: 1.8rem;
-  background: linear-gradient(to right, #75BCE5 0%, #5A3499 100%);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-align: center;
-  margin-bottom: 30px;
-}
+
 
 .event-gallery {
   display: flex;
@@ -54,7 +45,7 @@
   align-items: center;
   transition: transform 0.3s ease; 
 }
-
+ 
 
 .event:hover {
   transform: scale(1.05); 
