@@ -9,71 +9,71 @@
  */
 
 // Executive Team List
-export const ExecList = [
-  {
-    id: 0,
-    name: 'BHANU PRATHAP SHOURYA',
-    position: 'Chairperson',
-    image: prathap_image,
-    linkedin: "#",
-    github: "#",
-    instagram: "#",
-  },
-  {
-    id: 1,
-    name: 'B LOKESH KUMAR',
-    position: 'Vice-Chairperson',
-    image: lokesh_image,
-    linkedin: "#",
-    github: "#",
-    instagram: "#",
-  },
-  {
-    id: 2,
-    name: 'JASWANTH S',
-    position: 'Secretary',
-    image: jaswanth_image,
-    linkedin: "#",
-    github: "#",
-    instagram: "#",
-  },
-  {
-    id: 3,
-    name: 'LIGORIS DEVANANDRAJ',
-    position: 'Treasurer',
-    image: ligoris_image,
-    linkedin: "#",
-    github: "#",
-    instagram: "#",
-  },
-  {
-    id: 4,
-    name: 'T JEYROUS JOSHUA',
-    position: 'Membership-chair',
-    image: joshua_image,
-    linkedin: "#",
-    github: "#",
-    instagram: "#",
-  },
-  {
-    id: 5,
-    name: 'YASHWANTH A',
-    position: 'Webmaster',
-    image: yashwanth_image,
-    linkedin: "#",
-    github: "#",
-    instagram: "#",
-  },
-  {
-    id: 6,
-    name: 'BHAVAN SAI',
-    position: 'Event-coordinator',
-    image: Bhavan_image,
-    linkedin: "#",
-    github: "#",
-    instagram: "#",
-  },
-];
+// export const ExecList = [
+//   {
+//     id: 0,
+//     name: 'BHANU PRATHAP SHOURYA',
+//     position: 'Chairperson',
+//     image: prathap_image,
+//     linkedin: "#",
+//     github: "#",
+//     instagram: "#",
+//   },
+//   {
+//     id: 1,
+//     name: 'B LOKESH KUMAR',
+//     position: 'Vice-Chairperson',
+//     image: lokesh_image,
+//     linkedin: "#",
+//     github: "#",
+//     instagram: "#",
+//   },
+//   {
+//     id: 2,
+//     name: 'JASWANTH S',
+//     position: 'Secretary',
+//     image: jaswanth_image,
+//     linkedin: "#",
+//     github: "#",
+//     instagram: "#",
+//   },
+//   {
+//     id: 3,
+//     name: 'LIGORIS DEVANANDRAJ',
+//     position: 'Treasurer',
+//     image: ligoris_image,
+//     linkedin: "#",
+//     github: "#",
+//     instagram: "#",
+//   },
+//   {
+//     id: 4,
+//     name: 'T JEYROUS JOSHUA',
+//     position: 'Membership-chair',
+//     image: joshua_image,
+//     linkedin: "#",
+//     github: "#",
+//     instagram: "#",
+//   },
+//   {
+//     id: 5,
+//     name: 'YASHWANTH A',
+//     position: 'Webmaster',
+//     image: yashwanth_image,
+//     linkedin: "#",
+//     github: "#",
+//     instagram: "#",
+//   },
+//   {
+//     id: 6,
+//     name: 'BHAVAN SAI',
+//     position: 'Event-coordinator',
+//     image: Bhavan_image,
+//     linkedin: "#",
+//     github: "#",
+//     instagram: "#",
+//   },
+// ];
 
 // code sprint
 import cs from "./../../src/assets/Images/code_sprint/img.jpeg";
@@ -171,19 +171,7 @@ export const prashanth =[
   {
     id:4,
     image:es5,
-  },
-  {
-    id:5,
-    image:es6,
-  },
-  {
-    id:6,
-    image:es7,
-  },
-  {
-    id:7,
-    image:es8,
-  },
+  }
 ]
 // esp blast
 import esp1 from "./../../src/assets/Images/esp_blast/img1.jpeg";
@@ -612,353 +600,353 @@ export const idea_sparks_2=[
 
 
 
-// Gallery List
-export const GalleryList = [
-  {
-    img: EventImage1,
-    title: 'Opening Ceremony 2023',
-  },
-  {
-    img: EventImage2,
-    title: 'Keynote Speech by Industry Expert',
-  },
-  // Add more gallery images here
-];
+// // Gallery List
+// export const GalleryList = [
+//   {
+//     img: EventImage1,
+//     title: 'Opening Ceremony 2023',
+//   },
+//   {
+//     img: EventImage2,
+//     title: 'Keynote Speech by Industry Expert',
+//   },
+//   // Add more gallery images here
+// ];
 
-// Projects List
-export const ProjectsList = [
-  {
-    id: 'Project-1',
-    photo: AIProjectImage,
-    title: 'AI for Accessibility',
-    description: 'This project focuses on using artificial intelligence to assist individuals with disabilities by offering real-time accessibility solutions.',
-  },
-  {
-    id: 'Project-2',
-    photo: IoTProjectImage,
-    title: 'IoT Smart Home',
-    description: 'An IoT-based smart home system that allows users to control their home appliances remotely via mobile devices.',
-  },
-  // Add more projects here
-];
+// // Projects List
+// export const ProjectsList = [
+//   {
+//     id: 'Project-1',
+//     photo: AIProjectImage,
+//     title: 'AI for Accessibility',
+//     description: 'This project focuses on using artificial intelligence to assist individuals with disabilities by offering real-time accessibility solutions.',
+//   },
+//   {
+//     id: 'Project-2',
+//     photo: IoTProjectImage,
+//     title: 'IoT Smart Home',
+//     description: 'An IoT-based smart home system that allows users to control their home appliances remotely via mobile devices.',
+//   },
+//   // Add more projects here
+// ];
 
-// Faculty List
-export const FacultyList = {
-  id: 1,
-  facultymembers: 'faculty',
-  heads: [
-    {
-      id: 0,
-      photo: photos,
-      name: 'DR P DEEPA LAKSHMI',
-      post: 'DEAN/SOC',
-    },
-    {
-      id: 1,
-      photo: photos,
-      name: 'DR N SURESH KUMAR',
-      post: 'HOD/CSE',
-    },
-    {
-      id: 2,
-      photo: photos,
-      name: 'DR P NAGARAJ',
-      post: 'FACULTY SPONSOR',
-    },
-    {
-      id: 3,
-      photo: photos,
-      name: 'MRS S AMUTHA',
-      post: 'FACULTY CO-ORDINATOR',
-    },
-  ],
-};
+// // Faculty List
+// export const FacultyList = {
+//   id: 1,
+//   facultymembers: 'faculty',
+//   heads: [
+//     {
+//       id: 0,
+//       photo: photos,
+//       name: 'DR P DEEPA LAKSHMI',
+//       post: 'DEAN/SOC',
+//     },
+//     {
+//       id: 1,
+//       photo: photos,
+//       name: 'DR N SURESH KUMAR',
+//       post: 'HOD/CSE',
+//     },
+//     {
+//       id: 2,
+//       photo: photos,
+//       name: 'DR P NAGARAJ',
+//       post: 'FACULTY SPONSOR',
+//     },
+//     {
+//       id: 3,
+//       photo: photos,
+//       name: 'MRS S AMUTHA',
+//       post: 'FACULTY CO-ORDINATOR',
+//     },
+//   ],
+// };
 
-// Finance Team List
-export const FinanceTeam = {
-  id: 2,
-  teamName: 'Finance',
-  heads: [
-    {
-      id: 0,
-      photo: FinanceHead1Image,
-      name: 'SETHU SAI RAM',
-      post: 'Finance team member',
-    },
-    {
-      id: 1,
-      photo: FinanceHead2Image,
-      name: 'K AMARNATH',
-      post: 'Finance team member',
-    },
-    {
-      id: 2,
-      photo: FinanceHead3Image,
-      name: 'Y YASHWANTH',
-      post: 'Finance team member',
-    },
-    {
-      id: 3,
-      photo: FinanceHead4Image,
-      name: 'P SATHVIKA',
-      post: 'Finance team member',
-    },
-    {
-      id: 4,
-      photo: FinanceHead5Image,
-      name: 'K SOWMYA',
-      post: 'Finance team member',
-    },
-  ],
-};
+// // Finance Team List
+// export const FinanceTeam = {
+//   id: 2,
+//   teamName: 'Finance',
+//   heads: [
+//     {
+//       id: 0,
+//       photo: FinanceHead1Image,
+//       name: 'SETHU SAI RAM',
+//       post: 'Finance team member',
+//     },
+//     {
+//       id: 1,
+//       photo: FinanceHead2Image,
+//       name: 'K AMARNATH',
+//       post: 'Finance team member',
+//     },
+//     {
+//       id: 2,
+//       photo: FinanceHead3Image,
+//       name: 'Y YASHWANTH',
+//       post: 'Finance team member',
+//     },
+//     {
+//       id: 3,
+//       photo: FinanceHead4Image,
+//       name: 'P SATHVIKA',
+//       post: 'Finance team member',
+//     },
+//     {
+//       id: 4,
+//       photo: FinanceHead5Image,
+//       name: 'K SOWMYA',
+//       post: 'Finance team member',
+//     },
+//   ],
+// };
 
-// Social Media Team List
-export const SocialMediaTeam = {
-  id: 3,
-  teamName: 'Social Media Team',
-  heads: [
-    {
-      id: 0,
-      photo: photos,
-      name: 'M SOWMYA',
-      post: 'Social media team member',
-    },
-    {
-      id: 1,
-      photo: photos,
-      name: 'C BAVESH',
-      post: 'Social media team member',
-    },
-    {
-      id: 2,
-      photo: photos,
-      name: 'M MARUTHI KUMAR',
-      post: 'Social media team member',
-    },
-    {
-      id: 3,
-      photo: photos,
-      name: 'SUJITHA EDARA',
-      post: 'Social media team member',
-    },
-    {
-      id: 4,
-      photo: photos,
-      name: 'Y VIJAYA KUMARI',
-      post: 'Social media team member',
-    },
-  ],
-};
+// // Social Media Team List
+// export const SocialMediaTeam = {
+//   id: 3,
+//   teamName: 'Social Media Team',
+//   heads: [
+//     {
+//       id: 0,
+//       photo: photos,
+//       name: 'M SOWMYA',
+//       post: 'Social media team member',
+//     },
+//     {
+//       id: 1,
+//       photo: photos,
+//       name: 'C BAVESH',
+//       post: 'Social media team member',
+//     },
+//     {
+//       id: 2,
+//       photo: photos,
+//       name: 'M MARUTHI KUMAR',
+//       post: 'Social media team member',
+//     },
+//     {
+//       id: 3,
+//       photo: photos,
+//       name: 'SUJITHA EDARA',
+//       post: 'Social media team member',
+//     },
+//     {
+//       id: 4,
+//       photo: photos,
+//       name: 'Y VIJAYA KUMARI',
+//       post: 'Social media team member',
+//     },
+//   ],
+// };
 
-// Event Coordinators Team List
-export const EventCoordinatorsTeam = {
-  id: 4,
-  teamName: 'Event Coordinators Team',
-  heads: [
-    {
-      id: 0,
-      photo: photos,
-      name: 'K JAIDEEP',
-      post: 'Event coordinators team member',
-    },
-    {
-      id: 1,
-      photo: photos,
-      name: 'I SONIESH',
-      post: 'Event coordinators team member',
-    },
-    {
-      id: 2,
-      photo: photos,
-      name: 'J PAVITHRA',
-      post: 'Event coordinators team member',
-    },
-    {
-      id: 3,
-      photo: photos,
-      name: 'K TEJASREE',
-      post: 'Event coordinators team member',
-    },
-    {
-      id: 4,
-      photo: photos,
-      name: 'V INDHUMATHI',
-      post: 'Event coordinators team member',
-    },
-  ],
-};
+// // Event Coordinators Team List
+// export const EventCoordinatorsTeam = {
+//   id: 4,
+//   teamName: 'Event Coordinators Team',
+//   heads: [
+//     {
+//       id: 0,
+//       photo: photos,
+//       name: 'K JAIDEEP',
+//       post: 'Event coordinators team member',
+//     },
+//     {
+//       id: 1,
+//       photo: photos,
+//       name: 'I SONIESH',
+//       post: 'Event coordinators team member',
+//     },
+//     {
+//       id: 2,
+//       photo: photos,
+//       name: 'J PAVITHRA',
+//       post: 'Event coordinators team member',
+//     },
+//     {
+//       id: 3,
+//       photo: photos,
+//       name: 'K TEJASREE',
+//       post: 'Event coordinators team member',
+//     },
+//     {
+//       id: 4,
+//       photo: photos,
+//       name: 'V INDHUMATHI',
+//       post: 'Event coordinators team member',
+//     },
+//   ],
+// };
 
-// Web Developers Team List
-export const WebDevelopersTeam = {
-  id: 5,
-  teamName: 'Web Developers Team',
-  heads: [
-    {
-      id: 0,
-      photo: photos,
-      name: 'C KARTHIK VARMA',
-      post: 'Web developer team member',
-    },
-    {
-      id: 1,
-      photo: photos,
-      name: 'V S HARSHAD',
-      post: 'Web developer team member',
-    },
-    {
-      id: 2,
-      photo: photos,
-      name: 'ATHITHYA RAMA',
-      post: 'Web developer team member',
-    },
-    {
-      id: 3,
-      photo: photos,
-      name: 'B MAHA SRI',
-      post: 'Web developer team member',
-    },
-    {
-      id: 4,
-      photo: photos,
-      name: 'PRANAVI SRINIVAS',
-      post: 'Web developer team member',
-    },
-  ],
-};
+// // Web Developers Team List
+// export const WebDevelopersTeam = {
+//   id: 5,
+//   teamName: 'Web Developers Team',
+//   heads: [
+//     {
+//       id: 0,
+//       photo: photos,
+//       name: 'C KARTHIK VARMA',
+//       post: 'Web developer team member',
+//     },
+//     {
+//       id: 1,
+//       photo: photos,
+//       name: 'V S HARSHAD',
+//       post: 'Web developer team member',
+//     },
+//     {
+//       id: 2,
+//       photo: photos,
+//       name: 'ATHITHYA RAMA',
+//       post: 'Web developer team member',
+//     },
+//     {
+//       id: 3,
+//       photo: photos,
+//       name: 'B MAHA SRI',
+//       post: 'Web developer team member',
+//     },
+//     {
+//       id: 4,
+//       photo: photos,
+//       name: 'PRANAVI SRINIVAS',
+//       post: 'Web developer team member',
+//     },
+//   ],
+// };
 
-// Volunteers Team List
-export const VolunteersTeam = {
-  id: 6,
-  teamName: 'Volunteers Team',
-  heads: [
-    {
-      id: 0,
-      photo: photos,
-      name: 'J SAATHWIK REDDY',
-      post: 'Volunteer team member',
-    },
-    {
-      id: 1,
-      photo: photos,
-      name: 'M TANUJA',
-      post: 'Volunteer team member',
-    },
-    {
-      id: 2,
-      photo: photos,
-      name: 'M VANAJA',
-      post: 'Volunteer team member',
-    },
-  ],
-};
-   // INNOVATION TEAM 
-   export const innovationteam = {
+// // Volunteers Team List
+// export const VolunteersTeam = {
+//   id: 6,
+//   teamName: 'Volunteers Team',
+//   heads: [
+//     {
+//       id: 0,
+//       photo: photos,
+//       name: 'J SAATHWIK REDDY',
+//       post: 'Volunteer team member',
+//     },
+//     {
+//       id: 1,
+//       photo: photos,
+//       name: 'M TANUJA',
+//       post: 'Volunteer team member',
+//     },
+//     {
+//       id: 2,
+//       photo: photos,
+//       name: 'M VANAJA',
+//       post: 'Volunteer team member',
+//     },
+//   ],
+// };
+//    // INNOVATION TEAM 
+//    export const innovationteam = {
   
-    id: 7,
-    teamName: 'INNOVATION TEAM',
-    heads: [
-      {
-        id: 0,
-        photo: photos,
-        name: 'ISSAC PREETHAM',
-        post: 'INNOVATION TEAM MEMBER',
-      },
-      {
-      id: 1,
-      photo: photos,
-      name: 'CHATURA P',
-      post: 'INNOVATION TEAM MEMBER',
-      },
-      {
-        id: 2,
-        photo: photos,
-        name: 'BHARGHAV R',
-        post: 'INNOVATION TEAM MEMBER',
-      },
-      {
-        id: 3,
-        photo: photos,
-        name: 'GIRIJA SAI SIRI',
-        post: 'INNOVATION TEAM MEMBER TEAM MEMBER',
-      },
-      {
-        id: 4,
-        photo: photos,
-        name: 'Y MEENAKSHI',
-        post: 'INNOVATION TEAM MEMBER',
-      },
-      {
-        id: 5,
-        photo: photos,
-        name: 'KARNIKASRI',
-        post: 'INNOVATION TEAM MEMBER',
-      },
-      {
-        id: 6,
-        photo: photos,
-        name: 'Y SAI SREEJA',
-        post: 'INNOVATION TEAM MEMBER',
-      },
-      {
-        id: 7,
-        photo: photos,
-        name: 'S HARSHITHA',
-        post: 'INNOVATION TEAM MEMBER',
-      },
+//     id: 7,
+//     teamName: 'INNOVATION TEAM',
+//     heads: [
+//       {
+//         id: 0,
+//         photo: photos,
+//         name: 'ISSAC PREETHAM',
+//         post: 'INNOVATION TEAM MEMBER',
+//       },
+//       {
+//       id: 1,
+//       photo: photos,
+//       name: 'CHATURA P',
+//       post: 'INNOVATION TEAM MEMBER',
+//       },
+//       {
+//         id: 2,
+//         photo: photos,
+//         name: 'BHARGHAV R',
+//         post: 'INNOVATION TEAM MEMBER',
+//       },
+//       {
+//         id: 3,
+//         photo: photos,
+//         name: 'GIRIJA SAI SIRI',
+//         post: 'INNOVATION TEAM MEMBER TEAM MEMBER',
+//       },
+//       {
+//         id: 4,
+//         photo: photos,
+//         name: 'Y MEENAKSHI',
+//         post: 'INNOVATION TEAM MEMBER',
+//       },
+//       {
+//         id: 5,
+//         photo: photos,
+//         name: 'KARNIKASRI',
+//         post: 'INNOVATION TEAM MEMBER',
+//       },
+//       {
+//         id: 6,
+//         photo: photos,
+//         name: 'Y SAI SREEJA',
+//         post: 'INNOVATION TEAM MEMBER',
+//       },
+//       {
+//         id: 7,
+//         photo: photos,
+//         name: 'S HARSHITHA',
+//         post: 'INNOVATION TEAM MEMBER',
+//       },
      
-    ]
+//     ]
 
-  };
-  // GRAPHICS TEAM
+//   };
+//   // GRAPHICS TEAM
 
-     export const graphics = {
-    id: 8,
-     teamName: 'GRAPHICS TEAM',
-      heads: [
-        {
-         id: 0,
-         photo: photos,
-         name: 'GEETHESHWAR G',
-         post: 'GRAPHICS TEAM MEMBER',
-        },
-        { id: 1,
-          photo: photos,
-          name: 'P HARSHA PAVAN',
-          post: 'GRAPHICS TEAM MEMBER',
-        },
-        { 
-          id: 2,
-          photo: photos,
-          name: 'N LAKSHMIKAR REDDY',
-          post: 'GRAPHICS TEAM MEMBER',
-        },
+//      export const graphics = {
+//     id: 8,
+//      teamName: 'GRAPHICS TEAM',
+//       heads: [
+//         {
+//          id: 0,
+//          photo: photos,
+//          name: 'GEETHESHWAR G',
+//          post: 'GRAPHICS TEAM MEMBER',
+//         },
+//         { id: 1,
+//           photo: photos,
+//           name: 'P HARSHA PAVAN',
+//           post: 'GRAPHICS TEAM MEMBER',
+//         },
+//         { 
+//           id: 2,
+//           photo: photos,
+//           name: 'N LAKSHMIKAR REDDY',
+//           post: 'GRAPHICS TEAM MEMBER',
+//         },
 
-      ]
+//       ]
 
-    };
-    //lens and edit team
+//     };
+//     //lens and edit team
 
-       export const lensandedit = {
-      id: 9,
-       teamName: 'LENS AND EDIT TEAM',
-        heads: [
-          {
-           id: 0,
-           photo: photos,
-           name: 'G DEVA VINAYAGAM',
-           post: 'LENS AND EDIT TEAM MEMBER',
-          },
-          {
-            id: 1,
-            photo: photos,
-            name: 'D CHETHAN',
-            post: 'LENS AND EDIT TEAM MEMBER',
-          },
+//        export const lensandedit = {
+//       id: 9,
+//        teamName: 'LENS AND EDIT TEAM',
+//         heads: [
+//           {
+//            id: 0,
+//            photo: photos,
+//            name: 'G DEVA VINAYAGAM',
+//            post: 'LENS AND EDIT TEAM MEMBER',
+//           },
+//           {
+//             id: 1,
+//             photo: photos,
+//             name: 'D CHETHAN',
+//             post: 'LENS AND EDIT TEAM MEMBER',
+//           },
 
 
-        ]
+//         ]
 
-      };
+//       };
 
 // Virtual Code Corner
 import VC1 from "../assets/Images/Virtual_Code_Corner/Img1.jpeg";
