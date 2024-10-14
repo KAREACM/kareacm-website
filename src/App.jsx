@@ -8,7 +8,7 @@ import About from './new_design_components/Homepage/About-Section/About.jsx';
 import { Route, Routes } from 'react-router-dom';
 import AboutACM from './new_design_components/Aboutpage/AboutACM.jsx';
 import ACMTeams from './new_design_components/Teamspage/ACMTeams.jsx';
-import ACMevents from './new_design_components/Eventspage/ACMevents.jsx';
+import ACMevents from './pages/Events/ACMevents.jsx';
 import ACMblogs from './new_design_components/Blogspage/ACMblogs.jsx';
 import ACMcontact from './new_design_components/Contactpage/ACMcontact.jsx';
 import ACMFooter from './new_design_components/Footer/ACMFooter.jsx';
@@ -24,7 +24,7 @@ function App() {
             <Route path='/' element={<Hero />} />
             <Route path='/about' element={<AboutACM />} />
             <Route path='/teams' element={<ACMTeams/>} />
-            {/* <Route path='/events' element={<ACMevents/>}/> */}
+            <Route path='/events' element={<ACMevents/>}/>
             <Route path='/blogs' element={<ACMblogs/>}/>
             <Route path='/contact' element={<ACMcontact/>}/>
             <Route path='/gallery' element={<ACMGallery/>}/>
