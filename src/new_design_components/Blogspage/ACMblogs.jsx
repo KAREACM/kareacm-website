@@ -3,7 +3,12 @@ import './../Blogspage/ACMblogs.css'
 
 function ACMblogs() {
   return (
-    <div>ACMblogs</div>
+    <div>
+      <div className="blogspage">
+        To Be Updated Soon...
+
+      </div>
+    </div>
   )
 }
 

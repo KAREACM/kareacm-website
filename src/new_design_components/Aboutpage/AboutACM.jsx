@@ -21,7 +21,7 @@ function AboutACM() {
                         </div>
                         <div className="basic-heading-underline-style"></div>
                     </div>
-                    <br />
+                    {/* <br /> */}
                     <div className="basic-content-style">The Association for Computing Machinery (ACM) stands at the forefront of
                         the computing world as world's largest educational and scientific
                         computing society</div>
@@ -66,7 +66,7 @@ function AboutACM() {
                         </div>
                         <div className="basic-right-heading-underline-style"></div>
                     </div>
-                    <br />
+                    {/* <br /> */}
                     <div className="basic-right-content-style">Built on academic excellence and innovation, Kalasalingam Academy of Research and Education
                         (KARE)offers a range of undergraduate, postgraduate, and doctoral programs.  Our campus is a hub of learning, ideas,
                         collaborations,
@@ -97,7 +97,7 @@ function AboutACM() {
                         </div>
                         <div className="basic-heading-underline-style"></div>
                     </div>
-                    <br />
+                    {/* <br /> */}
                     <div className="basic-content-style">Our aim is to create a dynamic and collaborative space where technology
                         enthusiasts can come together to explore, learn, and innovate. Through  workshops, projects, and knowledge-sharing sessions,
                         we strive to  enhance our members technical skills
@@ -142,7 +142,7 @@ function AboutACM() {
                         </div>
                         <div className="basic-right-heading-underline-style"></div>
                     </div>
-                    <br />
+                    {/* <br />   */}
                     <div className="basic-right-content-style">Bridging academia and industry, we unite theory and application,
                         nurturing holistic professionals. Through teamwork, leadership, and  ethics, we develop individuals who grasp
                         work's broader impact, blending  technical prowess with a wider perspective for a more comprehensive  approach.

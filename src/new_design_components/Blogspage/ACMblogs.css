@@ -1,0 +1,14 @@
+.blogspage{
+    background: radial-gradient(circle, #75BCE5 0%, #3a0097 80%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: var(--body-font-family);
+    font-weight: var(--body-font-weight);
+    font-size: 6rem;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    height: 86vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
