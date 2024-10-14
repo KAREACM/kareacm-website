@@ -119,3 +119,8 @@
     letter-spacing: 0.1rem;
 
 }
+
+.contact-page-button:hover{
+    cursor: pointer;
+    background-color: #2c92f8;
+}

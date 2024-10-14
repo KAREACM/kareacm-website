@@ -61,10 +61,10 @@ function AboutACM() {
                 <div className="basic-right-container-style pad-0">
                     <div className="wrapper">
                         <div className='basic-heading-style '>
-                            <br />
+                            {/* <br /> */}
                             About KARE
                         </div>
-                        <div className="basic-heading-underline-style"></div>
+                        <div className="basic-right-heading-underline-style"></div>
                     </div>
                     <br />
                     <div className="basic-right-content-style">Built on academic excellence and innovation, Kalasalingam Academy of Research and Education
@@ -75,6 +75,7 @@ function AboutACM() {
 
                 </div>
                 {/* text - achieve  */}
+                {/* <br /> */}
 
             </div>
             <div className="container4">
@@ -139,12 +140,14 @@ function AboutACM() {
                             {/* <br /> */}
                             Our Mission
                         </div>
-                        <div className="basic-heading-underline-style"></div>
+                        <div className="basic-right-heading-underline-style"></div>
                     </div>
                     <br />
                     <div className="basic-right-content-style">Bridging academia and industry, we unite theory and application,
                         nurturing holistic professionals. Through teamwork, leadership, and  ethics, we develop individuals who grasp
-                        work's broader impact, blending  technical prowess with a wider perspective for a more comprehensive  approach. </div>
+                        work's broader impact, blending  technical prowess with a wider perspective for a more comprehensive  approach.
+                    </div>
+                    {/* <br /> */}
                 </div>
 
             </div>
