@@ -16,8 +16,9 @@
     border-top-right-radius: 15% 30%;
     border: 2px solid var(--white);
     border-left: none;
-    width: 48%;
+    min-width: 48%;
     /* padding-top: 1.5rem; */
+    /* padding: 3% 0; */
     display: flex;
     flex-direction: column;
     flex: 1 1 45%; 
@@ -31,8 +32,8 @@
     border-top-left-radius: 15% 30%;
     border: 2px solid var(--white);
     border-right: none;
-    width: 48%;
-    /* padding-top: 1.5rem; */
+    min-width: 48%;
+    /* padding: 3% 0; */
     flex: 1 1 45%; /* Flex-grow, flex-shrink, flex-basis */
     /* margin: 1rem; */
     display: flex;

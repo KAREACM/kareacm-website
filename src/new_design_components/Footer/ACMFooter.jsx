@@ -1,6 +1,7 @@
 import React from 'react'
 import './../Footer/ACMFooter.css'
 import kare_acm_logo_footer from './../../../Athithya/src/Assets/Photos/kare-acm-sc logo.png'
+import { NavLink } from 'react-router-dom';
 
 function ACMFooter() {
   return (
@@ -23,19 +24,29 @@ function ACMFooter() {
             </div>
 
             <div className="footer-home-link basic-font-styles">
-              HOME
+              <NavLink to="/">
+                HOME
+              </NavLink>
             </div>
             <div className="footer-acm-xrds-link basic-font-styles">
-              ACM XRDS
+              <a href="https://xrds.acm.org/" target="_blank">
+                ACM XRDS
+              </a>
             </div>
             <div className="footer-acm-india-link basic-font-styles">
-              ACM INDIA
+              <a href="https://india.acm.org/" target="_blank">
+                ACM INDIA
+              </a>
             </div>
             <div className="footer-acm-digital-library-link basic-font-styles">
-              ACM DIGITAL LIBRARY
+              <a href="https://dl.acm.org/" target="_blank">
+                ACM DIGITAL LIBRARY
+              </a>
             </div>
             <div className="footer-madurai-acm-link basic-font-styles">
-              MADURAI ACM
+              <a href="https://madurai.acm.org/#" target="_blank">
+                MADURAI ACM
+              </a>
             </div>
             <hr className='hr-line3' />
             <div className="footer-kare-acm-sc basic-font-styles">
