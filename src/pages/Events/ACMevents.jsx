@@ -3,7 +3,7 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import './EventsPage.css';
 
-// Import all the event data at once
+
 import {
   codex,
   aiml,
@@ -23,7 +23,7 @@ import {
   idea_sparks_2
 } from '../../constants/data';
 
-// Helper function to render a carousel for each event
+
 function renderEventCarousel(eventTitle, eventData) {
   return (
     <div className="event">
@@ -42,13 +42,14 @@ function renderEventCarousel(eventTitle, eventData) {
 function ACMevents() {
   return (
     <div className="events-container">
-      <h1 className="page-title">Previous events</h1>
+      <h1 className="page-title">Previous Events</h1>
       
       <div className="events-section">
-        <h1 className="section-title">Previous Events</h1>
+      
+        
         <div className="event-gallery">
 
-          {/* Render each event using the renderEventCarousel helper function */}
+          
           {renderEventCarousel('Code Sprint', codex)}
           {renderEventCarousel('AI/ML Conversations', aiml)}
           {renderEventCarousel('Cook the Code', cookthecode)}
@@ -65,7 +66,7 @@ function ACMevents() {
           {renderEventCarousel('Hour of Code', hour_of_codes)}
           {renderEventCarousel('Idea Sparks - Round 1', idea_spark_1)}
           {renderEventCarousel('Idea Sparks - Round 2', idea_sparks_2)}
-
+        
         </div>
       </div>
     </div>
