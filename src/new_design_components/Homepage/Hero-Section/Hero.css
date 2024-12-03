@@ -157,3 +157,91 @@
     align-items: center;
 }
 
+/* ====== Responsive Styles for Mobile View ====== */
+@media screen and (max-width: 768px) {
+    /* Adjust the hero container */
+    .hero-container {
+        flex-direction: column; /* Stack elements vertically */
+        height: auto; /* Allow content to adjust height */
+        padding: 1rem;
+    }
+
+    /* Adjust KARE-ACM logo size */
+    .kare_acm_sc_logo {
+        width: 60%; /* Reduce size for smaller screens */
+        height: auto;
+        margin-bottom: 1rem; /* Add spacing below the logo */
+    }
+
+    /* Adjust blur effect size */
+    .blur-effect {
+        width: 300px;
+        height: 200px;
+        filter: blur(50px); /* Reduce blur intensity for smaller size */
+    }
+
+    /* Mini icons around the logo */
+    .mini-circles {
+        height: 1.5rem; /* Smaller icons */
+        width: 1.5rem;
+        font-size: 0.75rem; /* Reduce font size for icons */
+        animation: float 5s ease-in-out infinite;
+    }
+
+    /* Reposition mini-icons for smaller screens */
+    .icon1 { top: 40%; left: 20%; }
+    .icon2 { top: 20%; left: 35%; }
+    .icon3 { top: 15%; left: 40%; }
+    .icon4 { top: 25%; left: 38%; }
+    .icon5 { top: 20%; left: 55%; }
+    .icon6 { top: 28%; left: 70%; }
+    .icon7 { top: 35%; left: 60%; }
+    .icon8 { top: 45%; left: 65%; }
+    .icon9 { top: 55%; left: 66%; }
+    .icon10 { top: 62%; left: 60%; }
+    .icon11 { top: 72%; left: 58%; }
+    .icon12 { top: 84%; left: 50%; }
+    .icon13 { top: 75%; left: 35%; }
+    .icon14 { top: 60%; left: 33%; }
+    .icon15 { top: 55%; left: 25%; }
+}
+
+/* ====== Extra Small Screens (max-width: 480px) ====== */
+@media screen and (max-width: 480px) {
+    .hero-container {
+        padding: 0.5rem;
+    }
+
+    .kare_acm_sc_logo {
+        width: 70%; /* Further reduce logo size */
+    }
+
+    .blur-effect {
+        width: 250px;
+        height: 150px;
+        filter: blur(40px);
+    }
+
+    .mini-circles {
+        height: 1.25rem;
+        width: 1.25rem;
+        font-size: 0.6rem; /* Smaller icons and font size */
+    }
+
+    /* Adjust positions of icons for ultra-small screens */
+    .icon1 { top: 38%; left: 18%; }
+    .icon2 { top: 18%; left: 30%; }
+    .icon3 { top: 12%; left: 35%; }
+    .icon4 { top: 22%; left: 33%; }
+    .icon5 { top: 18%; left: 50%; }
+    .icon6 { top: 26%; left: 65%; }
+    .icon7 { top: 32%; left: 55%; }
+    .icon8 { top: 42%; left: 60%; }
+    .icon9 { top: 50%; left: 62%; }
+    .icon10 { top: 60%; left: 55%; }
+    .icon11 { top: 70%; left: 53%; }
+    .icon12 { top: 80%; left: 45%; }
+    .icon13 { top: 72%; left: 30%; }
+    .icon14 { top: 58%; left: 28%; }
+    .icon15 { top: 50%; left: 20%; }
+}

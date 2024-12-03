@@ -87,3 +87,83 @@
     /* border: 1px solid red; */
     margin: 2.1rem 0;
 }
+
+
+/* Base Styles (remain the same as your original code) */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Responsive Design for Mobile */
+@media only screen and (max-width: 768px) {
+    /* Heading Adjustments */
+    .teams-acm-heading {
+        font-size: 1.2rem; /* Smaller font size for smaller screens */
+        letter-spacing: 0.1rem;
+        text-align: center;
+        padding: 0.5rem;
+    }
+
+    .teams-heading {
+        padding: 2%;
+        border-bottom: none; /* Optional: Remove border for clean appearance */
+    }
+
+    .basic-teams-heading-style {
+        font-size: 1.2rem; /* Smaller heading font */
+        margin: 0.5rem 0;
+    }
+
+    /* Adjust Grid Layouts */
+    .finance-team-row1,
+    .graphics-team-row1,
+    .web-dev-team-row1,
+    .social-media-team-row1,
+    .lens-team-row1,
+    .event-coordinators-team-row1,
+    .innovation-team-row1,
+    .finance-team-row2,
+    .web-dev-team-row2,
+    .social-media-team-row2,
+    .event-coordinators-team-row2,
+    .innovation-team-row2 {
+        grid-template-columns: 1fr; /* Single column layout */
+        gap: 1rem; /* Adjust spacing */
+        margin: 1rem 0;
+    }
+
+    /* Adjust Card/Box Style */
+    .box2 {
+        width: 90%; /* Ensure boxes fit within screen */
+        margin: 0 auto; /* Center align */
+    }
+
+    .office-barrier-img {
+        width: 100%; /* Ensure images are responsive */
+        height: auto;
+        border-radius: 8px; /* Add slight rounding for better aesthetics */
+    }
+
+    .overlay {
+        padding: 0.5rem;
+    }
+
+    .info {
+        font-size: 0.9rem; /* Reduce font size for text inside cards */
+    }
+
+    .info p {
+        margin: 0.3rem 0;
+    }
+
+    .info a i {
+        font-size: 1.2rem; /* Adjust LinkedIn icon size */
+    }
+
+    /* Adjust Container Spacing */
+    .basic-teams-container-style {
+        padding-bottom: 2%;
+    }
+}

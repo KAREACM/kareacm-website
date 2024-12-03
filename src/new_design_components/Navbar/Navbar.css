@@ -93,3 +93,63 @@ body{
 .home, .about, .teams, .events, .blogs, .gallery, .contact{
     color: #ffff;
 }
+
+/* Mobile View Styles */
+@media screen and (max-width: 768px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 1rem;
+        height: auto;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 1.8rem;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    /* Navbar initially hidden */
+    .navbar {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 13vmin;
+        left: 0;
+        width: 100%;
+        background-color: var(--body-bg-color);
+        z-index: 10;
+        padding: 1rem 0;
+        text-align: center;
+    }
+
+    /* Show navbar when .show class is added */
+    .navbar.show {
+        display: flex;
+    }
+
+    .navbar a {
+        padding: 0.8rem 0;
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    /* Optional: Highlight active link */
+    .navbar a.active {
+        font-weight: bold;
+        border-bottom: 2px solid #00F0FF;
+    }
+
+    .home,
+    .about,
+    .teams,
+    .events,
+    .blogs,
+    .gallery,
+    .contact {
+        color: #fff;
+    }
+}

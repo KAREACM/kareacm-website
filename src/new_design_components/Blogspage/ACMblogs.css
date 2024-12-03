@@ -12,3 +12,16 @@
     justify-content: center;
     align-items: center;
 }
+
+
+@media (max-width: 768px) {
+    .blogspage {
+      font-size: 2.5rem; /* Reduce font size for smaller screens */
+      line-height: 1.2; /* Adjust line height for better spacing */
+      text-align: center; /* Center-align text */
+      padding: 10px; /* Add padding to avoid text touching screen edges */
+      height: auto; /* Adjust height for content scaling */
+      min-height: 50vh; /* Ensure a reasonable minimum height */
+    }
+  }
+  
