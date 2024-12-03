@@ -82,7 +82,6 @@
     background: linear-gradient(to bottom, #28465A 0%, #150830 100%);
     width: 80%;
     height: auto;
-    /* border: 1px solid red; */
     padding: 5% 6% 9% 6%;
 }
 
@@ -124,3 +123,82 @@
     cursor: pointer;
     background-color: #2c92f8;
 }
+
+@media (max-width: 768px) {
+    .contact-heading-container {
+      font-size: 2rem; 
+      margin: 1rem 0; 
+    }
+  
+
+    .contact-page-content-container {
+      flex-direction: column;
+      align-items: center;
+      height: auto; 
+      padding: 1rem; 
+    }
+  
+    
+    .contact-page-address-container {
+      padding: 0;
+      margin-bottom: 2rem; 
+      text-align: center; 
+    }
+  
+    .contact-address-heading {
+      font-size: 2.5rem; 
+      line-height: 1.2; 
+    }
+  
+    .contact-acmkare {
+      font-size: 1.2rem; 
+      word-spacing: 0.2rem;
+      margin-top: 1rem; 
+    }
+  
+    .contact-acmkare-location, 
+    .contact-acmkare-phone, 
+    .contact-acmkare-mail {
+      margin: 0.5rem 0;
+      gap: 1rem; 
+      justify-content: center; 
+      text-align: center;
+    }
+  
+
+    .contact-acmkare-location-icon, 
+    .contact-acmkare-phone-icon, 
+    .contact-acmkare-mail-icon {
+      scale: 1;
+    }
+  
+    
+    .contact-page-form-container {
+      width: 100%; 
+    }
+  
+    .contact-page-form {
+      width: 90%; 
+      padding: 2rem 1rem;
+      margin: 0 auto; 
+      border-radius: 8px; 
+    }
+  
+    
+    .contact-page-form input,
+    .contact-page-text-area {
+      padding: 0.8rem; 
+      font-size: 1rem; 
+    }
+  
+    .contact-page-text-area {
+      min-height: 10vmin;
+    }
+  
+
+    .contact-page-button {
+      padding: 1rem; 
+      font-size: 1rem;
+    }
+  }
+  
