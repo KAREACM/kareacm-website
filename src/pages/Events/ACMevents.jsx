@@ -51,11 +51,11 @@ function ACMevents() {
 
           
           {renderEventCarousel('Code Sprint', codex)}
-          {renderEventCarousel('AI/ML Conversations', aiml)}
+          {renderEventCarousel('ESP on Convergence of AIML', aiml)}
           {renderEventCarousel('Cook the Code', cookthecode)}
-          {renderEventCarousel('Prashanth Event', prashanth)}
+          {renderEventCarousel('ESP on ICPC', prashanth)}
           {renderEventCarousel('ESP Blast', espblast)}
-          {renderEventCarousel('Shourya Roy Speech', shouryaRoy)}
+          {renderEventCarousel('Industry Expert talk on GenAI', shouryaRoy)}
           {renderEventCarousel('Summer Boost Program', summerBoost)}
           {renderEventCarousel('ESP in Analytics', esp_in_analytics)}
           {renderEventCarousel('ESP on IoE', esp_on_ioe)}

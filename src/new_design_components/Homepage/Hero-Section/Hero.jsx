@@ -1,7 +1,6 @@
 import React from 'react'
 import kare_acm_sc_logo from './../../../../Athithya/src/Assets/Photos/kare-acm-sc logo.png';
 
-
 import './../Hero-Section/Hero.css'
 import About from '../About-Section/About';
 
@@ -15,8 +14,9 @@ function Hero() {
                  
                 <img src={kare_acm_sc_logo} className='kare_acm_sc_logo' alt="kare-acm-sc-logo"  />
 
+
                 {/* MINI ICONS AROUND KARE-ACM LOGO , TOTAL 15 ICONS*/}
-                <div className="mini-circles icon1 flx-justify-align">
+                {/* <div className="mini-circles icon1 flx-justify-align">
                     <i className="fa-solid fa-code "></i>
                 </div>
                 <div className="mini-circles icon2 flx-justify-align">
@@ -60,7 +60,7 @@ function Hero() {
                 </div>
                 <div className="mini-circles icon15 flx-justify-align">
                     <i className="fa-solid fa-link"></i>
-                </div>
+                </div> */}
             </div>
 
             <div>
