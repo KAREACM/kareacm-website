@@ -146,3 +146,77 @@
     background-color: var(--body-bg-color) ;
     border: none;
 }
+
+/* =========== Media Query for Mobile Devices =========== */
+@media screen and (max-width: 768px) {
+    
+    .about-container {
+        padding: 20px;
+    }
+    
+    /* Title adjustments */
+    .title {
+        font-size: var(--font-size-small);
+    }
+    
+    /* Content sections */
+    .content1,
+    .content2 {
+        font-size: var(--font-size-small);
+        width: 90%; /* Reduce width for smaller screens */
+    }
+    
+    /* Grid content */
+    .content3 {
+        width: 100%; /* Full width on smaller screens */
+        grid-template-columns: 1fr 1fr; /* 2 items per row */
+        grid-template-rows: auto; /* Adjust rows dynamically */
+        row-gap: 15px; /* Add spacing between rows */
+    }
+    
+    .members,
+    .events2,
+    .societies,
+    .mentors {
+        font-size: var(--font-size-small); /* Smaller font size */
+    }
+    
+    /* Member button */
+    .member-button a {
+        padding: 10px 20px; /* Adjust button padding */
+        font-size: 16px; /* Adjust button font size */
+    }
+    
+    /* Faculties margin */
+    .faculties {
+        margin: 4rem 0;
+    }
+    }
+    
+    /* =========== Media Query for Very Small Devices =========== */
+    @media screen and (max-width: 480px) {
+    .title {
+        font-size: var(--font-size-x-small);
+    }
+    
+    .content1,
+    .content2 {
+        font-size: var(--font-size-x-small);
+    }
+    
+    .content3 {
+        grid-template-columns: 1fr; /* 1 item per row */
+    }
+    
+    .members,
+    .events2,
+    .societies,
+    .mentors {
+        font-size: var(--font-size-x-small);
+    }
+    
+    .member-button a {
+        font-size: 14px;
+    }
+    }
+    
