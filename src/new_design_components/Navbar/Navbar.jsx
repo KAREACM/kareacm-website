@@ -23,29 +23,30 @@ function Navbar() {
                     <div className="hamburger" onClick={toggleMenu}>
                         ☰ {/* Hamburger icon */}
                     </div>
-                </div>
-                <div className={`navbar ${menuOpen ? 'show' : ''}`}>
-                    <NavLink to="/" onClick={() => setMenuOpen(false)}>
-                        <div className="home">Home</div>
-                    </NavLink>
-                    <NavLink to="/about" onClick={() => setMenuOpen(false)}>
-                        <div className="about">About</div>
-                    </NavLink>
-                    <NavLink to="/teams" onClick={() => setMenuOpen(false)}>
-                        <div className="teams">Teams</div>
-                    </NavLink>
-                    <NavLink to="/events" onClick={() => setMenuOpen(false)}>
-                        <div className="events">Events</div>
-                    </NavLink>
-                    <NavLink to="/blogs" onClick={() => setMenuOpen(false)}>
-                        <div className="blogs">Blogs</div>
-                    </NavLink>
-                    <NavLink to="/gallery" onClick={() => setMenuOpen(false)}>
-                        <div className="gallery">Gallery</div>
-                    </NavLink>
-                    <NavLink to="/contact" onClick={() => setMenuOpen(false)}>
-                        <div className="contact">Contact</div>
-                    </NavLink>
+
+                    <div className={`navbar ${menuOpen ? 'show' : ''}`}>
+                        <NavLink to="/" onClick={() => setMenuOpen(false)}>
+                            <div className="home">Home</div>
+                        </NavLink>
+                        <NavLink to="/about" onClick={() => setMenuOpen(false)}>
+                            <div className="about">About</div>
+                        </NavLink>
+                        <NavLink to="/teams" onClick={() => setMenuOpen(false)}>
+                            <div className="teams">Teams</div>
+                        </NavLink>
+                        <NavLink to="/events" onClick={() => setMenuOpen(false)}>
+                            <div className="events">Events</div>
+                        </NavLink>
+                        <NavLink to="/blogs" onClick={() => setMenuOpen(false)}>
+                            <div className="blogs">Blogs</div>
+                        </NavLink>
+                        <NavLink to="/gallery" onClick={() => setMenuOpen(false)}>
+                            <div className="gallery">Gallery</div>
+                        </NavLink>
+                        <NavLink to="/contact" onClick={() => setMenuOpen(false)}>
+                            <div className="contact">Contact</div>
+                        </NavLink>
+                    </div>
                 </div>
             </nav>
         </div>
