@@ -25,3 +25,25 @@
     /* border: 1px solid green; */
     /* object-fit: contain; */
 }
+
+
+@media (max-width: 768px) {
+    .basic-gallery-heading-style {
+      font-size: 1.8rem; /* Reduce font size for smaller screens */
+      margin: 1rem 0; /* Add spacing around the heading */
+    }
+  
+    .student-acheivements-pics-conatiner {
+      grid-template-columns: 1fr; /* Single column grid on mobile */
+      gap: 1.5rem; /* Reduce gap between items */
+      padding: 1rem; /* Add padding to avoid edges */
+    }
+  
+    .winners-pics {
+      height: auto; /* Allow dynamic height */
+      width: 90%; /* Scale images to fit the screen */
+      max-width: 20rem; /* Prevent images from becoming too large */
+      margin: 0 auto; /* Center-align images */
+    }
+  }
+  

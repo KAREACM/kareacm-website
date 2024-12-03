@@ -166,3 +166,79 @@
     background-color: var(--body-bg-color) ;
     border: none;
 }
+
+/* Mobile Responsive Design */
+
+@media screen and (max-width: 768px) {
+    /* Office Barriers Container */
+    .office-barriers-container {
+        padding-bottom: 1rem;
+    }
+
+    /* First List of Office Barriers */
+    .office-barriers-list1-pics {
+        grid-template-columns: repeat(1, 1fr); /* One item per row */
+        gap: 2rem; /* Reduced gap for smaller screens */
+        margin: 1.5rem 0;
+    }
+
+    /* Second List of Office Barriers */
+    .office-barriers-list2-pics {
+        grid-template-columns: repeat(1, 1fr); /* One item per row */
+        gap: 2rem; /* Reduced gap for smaller screens */
+        margin: 1.5rem 0;
+    }
+
+    /* Office Barrier Cards */
+    .box2 {
+        height: auto; /* Allow height to adjust to content */
+        width: 90%; /* Adjust width to fit smaller screens */
+        margin: 0 auto; /* Center align on mobile */
+    }
+
+    .box2 img {
+        object-fit: cover; /* Ensure images maintain proportions */
+    }
+
+    .info {
+        font-size: 0.9rem; /* Smaller text size for mobile */
+    }
+
+    .info a {
+        font-size: 1.2rem; /* Adjust LinkedIn icon size */
+    }
+
+    /* View Team Button */
+    .view-team-button a {
+        padding: 12px 24px; /* Reduce padding for smaller buttons */
+        font-size: 1rem; /* Smaller font size for mobile */
+    }
+}
+
+/* For very small devices like phones in portrait mode (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    /* Further adjust gaps and margins for smaller screens */
+    .office-barriers-list1-pics,
+    .office-barriers-list2-pics {
+        gap: 1.5rem; /* Even smaller gap */
+    }
+
+    /* Cards */
+    .box2 {
+        width: 95%; /* Utilize more screen space */
+    }
+
+    .info {
+        font-size: 0.8rem; /* Reduce text size further */
+    }
+
+    .info a {
+        font-size: 1rem; /* Adjust LinkedIn icon size */
+    }
+
+    /* View Team Button */
+    .view-team-button a {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+}

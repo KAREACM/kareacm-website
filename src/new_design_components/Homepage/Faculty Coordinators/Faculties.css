@@ -88,3 +88,73 @@
     transform: scale(1.2);
     /* transition: all 0.5s ease-out; */
 }
+
+
+/* ====== Responsive Styles for Mobile View ====== */
+@media screen and (max-width: 768px) {
+    /* Adjust heading font size */
+    .faculty-coordinators-heading, .heading-style {
+        font-size: var(--font-size-medium);
+        text-align: center;
+    }
+
+    /* Adjust faculties container */
+    .faculties-container {
+        padding: 1rem;
+    }
+
+    /* Change grid layout to a single column for smaller screens */
+    .faculty-coordinator-pics {
+        grid-template-columns: 1fr; /* Single column layout */
+        gap: 1.5rem;
+    }
+
+    /* Adjust box size for smaller screens */
+    .box {
+        height: auto; /* Allow height to adjust to content */
+        width: 100%; /* Full width of the container */
+    }
+
+    .box img {
+        height: auto;
+        width: 100%; /* Full width for images */
+        object-fit: cover;
+    }
+
+    /* Overlay adjustments for smaller screens */
+    .overlay {
+        padding: 1rem; /* Add padding for better spacing */
+    }
+
+    /* Info text adjustments */
+    .info {
+        font-size: var(--font-size-xsmall); /* Slightly smaller font size */
+    }
+
+    .info p {
+        margin: 0.5rem 0; /* Adjust margins for spacing */
+    }
+
+    .info a {
+        font-size: 1.25rem; /* Slightly smaller icon size */
+    }
+}
+
+/* ====== Ultra Small Screens (max-width: 480px) ====== */
+@media screen and (max-width: 480px) {
+    .faculty-coordinators-heading, .heading-style {
+        font-size: var(--font-size-small); /* Smaller font for extra small devices */
+    }
+
+    .faculty-coordinator-pics {
+        gap: 1rem; /* Reduce gap for compact layouts */
+    }
+
+    .info a {
+        font-size: 1rem; /* Adjust icon size for smaller screens */
+    }
+
+    .box {
+        padding: 0.5rem;
+    }
+}

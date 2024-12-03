@@ -229,5 +229,162 @@
 }
 
 
+@media (max-width: 768px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    .basic-container-style,
+    .basic-right-container-style {
+        min-width: 100%;
+        border-radius: 10%;
+        flex: 1 1 100%;
+        margin: 1rem 0;
+    }
+
+    .height {
+        height: 50vmin;
+    }
+
+    .basic-content-style,
+    .basic-right-content-style {
+        font-size: 1.5rem;
+        padding: 0 1rem;
+        width: 90%;
+    }
+
+    .basic-heading-style {
+        font-size: 2rem;
+        color: var(--white);
+    }
+
+    .basic-heading-underline-style,
+    .basic-right-heading-underline-style {
+        width: 30%;
+        height: 0.8rem;
+    }
+
+    .wrapper {
+        left: 0%;
+        margin-bottom: 1rem;
+    }
+
+    .globe_right,
+    .globe_left {
+        height: 45vmin;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .globe1,
+    .globe2,
+    .globe3,
+    .globe4 {
+        object-fit: contain;
+        object-position: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .globe_blur_right,
+    .globe_blur_right_2,
+    .globe_blur_left {
+        height: 10vmin;
+        width: 30vmin;
+        filter: blur(60px);
+        opacity: 0.8;
+    }
+
+    .globe_blur_right {
+        top: 30%;
+        right: 10%;
+    }
+
+    .globe_blur_right_2 {
+        top: 30%;
+        right: 5%;
+    }
+
+    .globe_blur_left {
+        top: 30%;
+        left: 10%;
+    }
+
+    .container3,
+    .container4,
+    .container5 {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .headings {
+        font-size: 1.8rem;
+        padding: 5%;
+    }
+
+    .about-container2,
+    .about-container3,
+    .about-container4,
+    .about-container5 {
+        margin: 3vmin 0;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .basic-heading-style {
+        font-size: 1.8rem;
+    }
+
+    .basic-content-style,
+    .basic-right-content-style {
+        font-size: 1.2rem;
+    }
+
+    .globe1,
+    .globe2,
+    .globe3,
+    .globe4 {
+        height: 35vmin;
+    }
+
+    .globe_blur_right,
+    .globe_blur_right_2,
+    .globe_blur_left {
+        height: 8vmin;
+        width: 25vmin;
+    }
+
+    .basic-heading-underline-style,
+    .basic-right-heading-underline-style {
+        width: 25%;
+        height: 0.6rem;
+    }
+
+    .wrapper {
+        margin-bottom: 0.5rem;
+    }
+
+    .container3,
+    .container4,
+    .container5 {
+        padding: 0;
+    }
+
+    .headings {
+        font-size: 1.5rem;
+        padding: 4%;
+    }
+
+    .globe_right,
+    .globe_left {
+        height: 40vmin;
+        width: 100%;
+    }
+}
+
+
 
 
