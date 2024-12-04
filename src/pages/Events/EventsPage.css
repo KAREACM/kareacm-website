@@ -21,17 +21,32 @@
   margin-bottom: 2rem;
 }
 
+.section-title {
+  font-size: 2.8rem;
+}
 
 
 
 .event-gallery {
-  display: flex;
-  flex-wrap: wrap; 
-  justify-content: center; 
+  display: grid;
+  grid-auto-flow: column; 
+  grid-template-rows: auto; 
+  grid-auto-columns: 300px; 
+  overflow-x: auto; 
   gap: 20px; 
   margin: 2.1rem 0;
+  padding: 10px; 
+  scroll-snap-type: x mandatory; 
 }
 
+.event-gallery > * {
+  scroll-snap-align: start; 
+}
+
+
+.events-section {
+  width: 100%;
+}
 
 .event {
   background-color: #f3f2f7;
