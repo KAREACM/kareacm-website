@@ -77,8 +77,8 @@ function ACMevents() {
           {hackathons.map((event) => renderEventCarousel(event.title, event.data))}
         </div>
       </div>
-
-      {/* ESP Events Section */}
+      
+       {/* ESP Events Section */}
       <div className="events-section">
         <h2 className="page-title section-title">ESP Events</h2>
         <div className="event-gallery">
