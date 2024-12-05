@@ -30,6 +30,7 @@
     height: 20.0625rem;
     width: 18.812rem;
     overflow: hidden;
+    border-radius: 20px;
 }
 
 .box img {
