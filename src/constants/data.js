@@ -84,7 +84,7 @@ export const codex =[
   }
 ]
 
-///conver/ation on ai m/
+///conversation on ai ml
 
 import cmi1 from "./../../src/assets/Images/conversation_on_ml_sw_hw/img1.jpeg";
 import cmi2 from "./../../src/assets/Images/conversation_on_ml_sw_hw/img2.jpeg";
@@ -994,3 +994,62 @@ export const sqlKnight = [
   },
 ]
 
+// Ideathon
+import i1 from "../assets/Images/ideathon/idea1.jpeg";
+import i2 from "../assets/Images/ideathon/idea2.jpeg";
+import i3 from "../assets/Images/ideathon/idea3.jpeg";
+import i4 from "../assets/Images/ideathon/idea4.jpeg";
+import i5 from "../assets/Images/ideathon/idea5.jpeg";
+import i6 from "../assets/Images/ideathon/idea6.jpeg";
+import i7 from "../assets/Images/ideathon/idea7.jpeg";
+export const ideathon = [
+  {
+    id:0,
+    image:i1
+  },
+  {
+    id:1,
+    image:i2
+  },
+  {
+    id:2,
+    image:i3
+  },
+  {
+    id:3,
+    image:i4
+  },
+  {
+    id:4,
+    image:i5
+  },
+  {
+    id:5,
+    image:i6
+  },
+  {
+    id:6,
+    image:i7
+  }
+]
+
+//Malathi talk on ideas of innovation
+import m1 from "../assets/Images/malathi talk on ideas of innovation/malathi.jpeg";
+import m2 from "../assets/Images/malathi talk on ideas of innovation/malathi1.jpeg";
+import m3 from "../assets/Images/malathi talk on ideas of innovation/malathi2.jpeg";
+import m4 from "../assets/Images/malathi talk on ideas of innovation/malathi3.jpeg";
+
+export const malathi = [
+  {id:0,
+  image:m1
+  },
+  {id:1,
+  image:m2
+  },
+  {id:2,
+  image:m3
+  },
+  {id:3,
+  image:m4
+  }
+] 
