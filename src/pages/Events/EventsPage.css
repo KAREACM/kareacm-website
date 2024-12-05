@@ -32,11 +32,16 @@
   grid-auto-flow: column; 
   grid-template-rows: auto; 
   grid-auto-columns: 22%; 
+  /* justify-content: center; */
   overflow-x: auto; 
   gap: 20px; 
-  margin: 2.1rem 0;
+  margin: 2.1rem auto;
   padding: 10px; 
   scroll-snap-type: x mandatory; 
+}
+
+.justify-center{
+  justify-content: center;
 }
 
 .event-gallery > * {
@@ -58,6 +63,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* justify-content: center; */
   transition: transform 0.3s ease; 
 }
 
