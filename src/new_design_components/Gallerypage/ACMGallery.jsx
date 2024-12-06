@@ -10,51 +10,57 @@ import Hack_Odyssey_2k24_winners from './../../../Athithya/src/Assets/Student Ac
 import Idea_spark_series_winners from './../../../Athithya/src/Assets/Student Acheivements/Idea spark series winners.jpeg';
 import Tech_quest_winners from './../../../Athithya/src/Assets/Student Acheivements/Tech quest winners.jpeg';
 import Virtual_code_corner_winners from './../../../Athithya/src/Assets/Student Acheivements/Virtual Code corner winners.jpeg';
+import Winter_School_Selection from './../../assets/Images/Winter school selection/Winter-school-selection-poster.jpeg'
 
 function ACMGallery() {
     const student_acheivements = [
         {
             id: 1,
+            event: "Winter School Selection",
+            winners_pics: Winter_School_Selection
+        },
+        {
+            id: 2,
             event: "Disfrutar 2k24",
             winners_pics: Disfrutar_2k24_winners
         },
         {
-            id: 2,
+            id: 3,
             event: "Hack Odyssey 2k24",
             winners_pics: Hack_Odyssey_2k24_winners
         },
         {
-            id: 3,
+            id: 4,
             event: "Idea spark series",
             winners_pics: Idea_spark_series_winners
         },
         {
-            id: 4,
+            id: 5,
             event: "CodeX series",
             winners_pics: CodeX_series_winners
         },
         {
-            id: 5,
+            id: 6,
             event: "CodeX series5",
             winners_pics: CodeX_series5_winners
         },
         {
-            id: 6,
+            id: 7,
             event: "CodeX series2",
             winners_pics: CodeX_series2_winners
         },
         {
-            id: 7,
+            id: 8,
             event: "ACM summer boost",
             winners_pics: ACM_summer_boost_winners
         },
         {
-            id: 8,
+            id: 9,
             event: "Tech quest",
             winners_pics: Tech_quest_winners
         },
         {
-            id: 9,
+            id: 10,
             event: "Virtual code corner",
             winners_pics: Virtual_code_corner_winners
         },

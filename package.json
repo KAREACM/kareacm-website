@@ -14,6 +14,7 @@
     "@emotion/styled": "^11.13.0",
     "@mui/icons-material": "^6.1.2",
     "@mui/material": "^6.1.2",
+    "bootstrap": "^5.3.3",
     "framer-motion": "^11.13.1",
     "kare-acm": "file:",
     "react": "^18.3.1",
