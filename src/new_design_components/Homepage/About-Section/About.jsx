@@ -8,6 +8,7 @@ function About() {
 
       <div className="about-container">
         {/* Following are the Contents below the Hero-Section */}
+        
 
         <div className="title">
           ACM Student  Chapter KARE

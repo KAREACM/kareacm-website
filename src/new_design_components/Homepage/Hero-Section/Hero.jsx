@@ -1,74 +1,73 @@
-import React from 'react'
+import React from 'react';
+import { Row, Col } from 'react-bootstrap';
 import kare_acm_sc_logo from './../../../../Athithya/src/Assets/Photos/kare-acm-sc logo.png';
 
-import './../Hero-Section/Hero.css'
-import About from '../About-Section/About';
+import './../Hero-Section/Hero.css';
+const About = React.lazy(() => import('../About-Section/About'));
 
 function Hero() {
-    return (
-        <div>
-            <div className="hero-container">
-                <div className="blur-effect">
-                    {/* Div for creating blur-effect around KARE_ACM logo  */}
-                </div>
-                 
-                <img src={kare_acm_sc_logo} className='kare_acm_sc_logo' alt="kare-acm-sc-logo"  />
+  return (
+    <div>
+      <div className="hero-container">
+        <div className="blur-effect" />
+        <img
+          src={kare_acm_sc_logo}
+          className="kare_acm_sc_logo"
+          alt="ACM Student Chapter Logo at KARE"
+        />
+        <Row>
+          <Col md={7} className="home-header">
+            <h1 className="hero-heading">
+              Hi There!{' '}
+              <span className="wave" role="img" aria-labelledby="wave">
+                👋🏻
+              </span>
+            </h1>
+            <h1 className="heading-name">
+              <span className="white-text">This is</span>{' '}
+              <strong className="main-name gradient-text">
+                THE ACM - KARE Website
+              </strong>
+            </h1>
+            <h2 className="heading-name">
+              <span className="white-text">Become the part of</span>{' '}
+              <strong className="main-name gradient-text">ACT</strong>
+            </h2>
 
-
-                {/* MINI ICONS AROUND KARE-ACM LOGO , TOTAL 15 ICONS*/}
-                {/* <div className="mini-circles icon1 flx-justify-align">
-                    <i className="fa-solid fa-code "></i>
-                </div>
-                <div className="mini-circles icon2 flx-justify-align">
-                    <i className="fa-solid fa-microchip"></i>
-                </div>
-                <div className="mini-circles icon3 flx-justify-align">
-                    <i className="fa-solid fa-unlock"></i>
-                </div>
-                <div className="mini-circles icon4 flx-justify-align">
-                    <i className="fa-solid fa-hashtag"></i>
-                </div>
-                <div className="mini-circles icon5 flx-justify-align">
-                    <i className="fa-solid fa-link"></i>
-                </div>
-                <div className="mini-circles icon6 flx-justify-align">
-                    <i className="fa-solid fa-hashtag"></i>
-                </div>
-                <div className="mini-circles icon7 flx-justify-align">
-                    <i className="fa-solid fa-microchip"></i>
-                </div>
-                <div className="mini-circles icon8 flx-justify-align">
-                    <i className="fa-solid fa-code"></i>
-                </div>
-                <div className="mini-circles icon9 flx-justify-align">
-                    <i className="fa-solid fa-unlock"></i>
-                </div>
-                <div className="mini-circles icon10 flx-justify-align">
-                    <i className="fa-solid fa-link"></i>
-                </div>
-                <div className="mini-circles icon11 flx-justify-align">
-                    <i className="fa-solid fa-microchip"></i>
-                </div>
-                <div className="mini-circles icon12 flx-justify-align">
-                    <i className="fa-solid fa-unlock"></i>
-                </div>
-                <div className="mini-circles icon13 flx-justify-align">
-                    <i className="fa-solid fa-code"></i>
-                </div>
-                <div className="mini-circles icon14 flx-justify-align">
-                    <i className="fa-solid fa-microchip"></i>
-                </div>
-                <div className="mini-circles icon15 flx-justify-align">
-                    <i className="fa-solid fa-link"></i>
-                </div> */}
+            <div className="text-reveal-container">
+              <span className="reveal-text text-one">Dynamic Community</span>
+              <span className="reveal-text text-two">Student Chapter</span>
+              <span className="reveal-text text-three">Tech Enthusiasts</span>
             </div>
 
-            <div>
-                <About/>
+            <div className="member-buttons-container">
+              <div className="member-button">
+                <a
+                  href="https://www.acm.org/membership"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span>Student Membership</span>
+                </a>
+              </div>
+              <div className="member-button">
+                <a
+                  href="https://www.acm.org/membership"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span>Professional Membership</span>
+                </a>
+              </div>
             </div>
-
-        </div>
-    )
+          </Col>
+        </Row>
+      </div>
+      <React.Suspense fallback={<div>Loading...</div>}>
+        <About />
+      </React.Suspense>
+    </div>
+  );
 }
 
 export default Hero;
