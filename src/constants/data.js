@@ -1190,7 +1190,6 @@ import outreach3 from './../assets/Images/out reach program/1725463080102.jpeg';
 import outreach4 from './../assets/Images/out reach program/1725463080896.jpeg';
 
 
-
 export const outreach_program = [
   {
     id: 0,
@@ -1209,5 +1208,71 @@ export const outreach_program = [
     image: outreach4
   }
 ]
+
+import buildit1 from './../assets/Images/buildit/img1.jpg';
+import buildit2 from './../assets/Images/buildit/img2.jpg';
+import buildit3 from './../assets/Images/buildit/img3.jpg';
+import buildit4 from './../assets/Images/buildit/img4.jpg';
+import buildit5 from './../assets/Images/buildit/img5.jpg';
+
+export const buildit =[
+  {
+    id:0,
+    image: buildit1
+  },
+  {
+    id:1,
+    image: buildit2
+  },
+  {
+    id:2,
+    image: buildit3
+  },
+  {
+    id:3,
+    image: buildit4
+  },
+  {
+    id:4,
+    image: buildit5
+  }
+]
+
+import hackare21 from './../assets/Images/hackare2/img1.png';
+import hackare22 from './../assets/Images/hackare2/img2.png';
+import hackare23 from './../assets/Images/hackare2/img3.png';
+import hackare24 from './../assets/Images/hackare2/img4.png';
+import hackare25 from './../assets/Images/hackare2/img5.png';
+import hackare26 from './../assets/Images/hackare2/img6.png';
+
+export const hackare2 =[
+  {
+    id:0,
+    image: hackare21
+  },
+  {
+    id:1,
+    image: hackare22
+  },
+  {
+    id:2,
+    image: hackare23
+  },
+  {
+    id:3,
+    image: hackare24
+  },
+  {
+    id:4,
+    image: hackare25
+  },
+  {
+    id:5,
+    image: hackare26
+  },
+]
+
+
+
 
 
