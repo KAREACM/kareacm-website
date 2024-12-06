@@ -37,12 +37,15 @@ import {
   codex_series2,
   codex_series1,
   outreach_program,
+  hackare2,
+  buildit,
 } from '../../constants/data';
 
 // Categorized event data
 const hackathons = [
   { title: 'Hackare', data: hackare },
   { title: 'Hack Odyssey', data: hack_odyssey },
+  { title: 'Hackare 2.0', data: hackare2}
 ];
 
 const espEvents = [
@@ -71,7 +74,8 @@ const otherEvents = [
   { title: 'Hour of Code', data: hour_of_codes },
   { title: 'SQL Knight', data: sqlKnight},
   { title: 'Tech Quest', data: techQuest},
-  { title: 'Virtual Code Corner', data: virtualCodeCorner}
+  { title: 'Virtual Code Corner', data: virtualCodeCorner},
+  { title: 'Build It Season-1', data: buildit}
 ];
 
 const industryExpert = [

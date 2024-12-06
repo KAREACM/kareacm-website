@@ -26,19 +26,20 @@ function Hero() {
             <h1 className="heading-name">
               <span className="white-text">This is</span>{' '}
               <strong className="main-name gradient-text">
-                THE ACM - KARE Website
+                KARE ACM Student Chapter
               </strong>
             </h1>
-            <h2 className="heading-name">
-              <span className="white-text">Become the part of</span>{' '}
-              <strong className="main-name gradient-text">ACT</strong>
-            </h2>
-
+            
             <div className="text-reveal-container">
               <span className="reveal-text text-one">Dynamic Community</span>
               <span className="reveal-text text-two">Student Chapter</span>
               <span className="reveal-text text-three">Tech Enthusiasts</span>
             </div>
+            <h2 className="heading-name">
+              <span className="white-text">Become a part of</span>{' '}
+              <strong className="main-name gradient-text">ACM</strong>
+            </h2>
+
 
             <div className="member-buttons-container">
               <div className="member-button">
@@ -47,7 +48,7 @@ function Hero() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span>Student Membership</span>
+                  <span>Student  Membership</span>
                 </a>
               </div>
               <div className="member-button">
@@ -56,7 +57,7 @@ function Hero() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span>Professional Membership</span>
+                  <span>Professional  Membership</span>
                 </a>
               </div>
             </div>

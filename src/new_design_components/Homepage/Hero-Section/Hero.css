@@ -81,6 +81,7 @@
 
 .member-button {
   margin-bottom: 5%;
+  font-family: var(--body-font-family);
 }
 .member-button a {
   position: relative;
@@ -226,6 +227,7 @@
   animation: text-reveal-hide 9s infinite;
   background: linear-gradient(to right, #00f0ff 0%, #2dd5e1 40%, #347499 80%);
   -webkit-background-clip: text;
+  font-family: var(--body-font-family);
   color: transparent;
 }
 
@@ -264,6 +266,7 @@
   font-weight: bold;
   color: white;
   line-height: 1.4;
+  font-family: var(--body-font-family);
 }
 
 
