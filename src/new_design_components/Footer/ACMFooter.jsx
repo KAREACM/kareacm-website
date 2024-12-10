@@ -1,6 +1,6 @@
 import React from 'react'
 import './../Footer/ACMFooter.css'
-import kare_acm_logo_footer from './../../../Athithya/src/Assets/Photos/kare-acm-sc logo.png'
+import kare_acm_logo_footer from './../../../Athithya/src/Assets/Photos/ACM LOGO.svg'
 import { NavLink } from 'react-router-dom';
 
 function ACMFooter() {
