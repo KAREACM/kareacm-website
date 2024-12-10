@@ -10,7 +10,7 @@ function About() {
         {/* Following are the Contents below the Hero-Section */}
         
 
-        <div className="title">
+        {/* <div className="title">
           ACM Student  Chapter KARE
         </div>
         <br />
@@ -28,10 +28,10 @@ function About() {
         <button>
           <a href="https://www.acm.org/membership" target="_blank" rel="noopener noreferrer"><span>Become a member</span></a>
         </button>
-      </div>
+      </div> */}
         <div className="content3">
           <div className="members">
-            <div>50+</div>
+            <div>2175+</div>
             <div>Members</div>
           </div>
           {/* Below classname is events2 beacause events is already taken by the navbar component */}
@@ -39,13 +39,13 @@ function About() {
             <div>75+</div>
             <div>Events</div>
           </div>
-          <div className="societies">
-            <div>3+</div>
-            <div>Societies</div>
-          </div>
           <div className="mentors">
             <div>10+</div>
             <div>Mentors</div>
+          </div>
+          <div className="societies">
+            <div>🏆</div>
+            <div>Outstanding Recruitment Award</div>
           </div>
         </div>
       </div>
@@ -54,7 +54,7 @@ function About() {
       <div className="faculties">
         <Faculties />
       </div>
-    </div>
+    </div>  
   )
 }
 
