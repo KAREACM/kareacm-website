@@ -112,6 +112,7 @@ function Officebarriers() {
                     </NavLink>
                 </button>
             </div>
+            <br />
         </div>
     );
 }

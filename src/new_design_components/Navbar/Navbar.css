@@ -83,7 +83,7 @@ body{
     display: grid;
     grid-template-columns: 15% 15% 15% 15% 15% 15% 15%;
     font-family: var(--body-font-family);
-    font-weight: var(--body-font-weight);
+    font-weight:400 ;
     font-size: var(--font-size-small);
     letter-spacing: 0.2px;
     line-height: 1rem;

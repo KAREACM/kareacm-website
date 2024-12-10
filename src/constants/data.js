@@ -1184,7 +1184,7 @@ export const codex_series6 = [
   }
 ]
 
-import outreact1 from './../assets/Images/out reach program/1725376845468.jpeg';
+import outreach1 from './../assets/Images/out reach program/1725376845468.jpeg';
 import outreach2 from './../assets/Images/out reach program/1725463079395.jpeg';
 import outreach3 from './../assets/Images/out reach program/1725463080102.jpeg';
 import outreach4 from './../assets/Images/out reach program/1725463080896.jpeg';
@@ -1193,15 +1193,15 @@ import outreach4 from './../assets/Images/out reach program/1725463080896.jpeg';
 export const outreach_program = [
   {
     id: 0,
-    image: outreact1
+    image: outreach3
   },
   {
     id: 1,
-    image: outreach2
+    image: outreach1
   },
   {
     id: 2,
-    image: outreach3
+    image: outreach2
   },
   {
     id: 3,
@@ -1283,3 +1283,33 @@ export const hour_code_2k24 = [
 ]
 
 
+// Computing week - Hour of code celebration
+
+import img1 from "../assets/Images/computing_week/img1.jpeg";
+import img2 from "../assets/Images/computing_week/img2.jpeg";
+import img3 from "../assets/Images/computing_week/img3.jpeg";
+import img4 from "../assets/Images/computing_week/img4.jpeg";
+import img5 from "../assets/Images/computing_week/img5.jpeg";
+
+export const computing_week = [
+  {
+    id: 0,
+    image: img1
+  },
+  {
+    id: 1,
+    image: img2
+  },
+  {
+    id: 2,
+    image: img3
+  },
+  {
+    id: 3,
+    image: img4
+  },
+  {
+    id: 4,
+    image: img5 
+  }
+]

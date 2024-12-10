@@ -147,9 +147,12 @@ git push origin --delete <feature-branch-name>
 ### We'd like to thank the following people who have contributed to this project:
 
 - **[Yashwanth A](https://github.com/yash27007)**
-- **[Mahasri Jeyalakshmi ](https://github.com/Mahasri-B)**
-- **[Aathithiya Raman ](https://github.com/athithyaramaa1)**
-- **[Pranavi Srinivas ](https://github.com/kannapranavi15)**
+- **[Mahasri B](https://github.com/Mahasri-B)**
 - **[Harshad ](https://github.com/imvsharshad)**
 - **[Karthick Verma ](https://github.com/Varma0099)**
 - **[Sethu Sairam ](https://github.com/setusairam)**
+- **[Pranavi Srinivas ](https://github.com/kannapranavi15)**
+- **[Aathithiya Raman ](https://github.com/athithyaramaa1)**
+- **[Sahana Shree](https://github.com/Sahanashre-V)**
+- **[Shiva Varma](https://github.com/varmashiva)**
+- **[Gargeya Mithra](https://github.com/GARGEYAMITHRA)**

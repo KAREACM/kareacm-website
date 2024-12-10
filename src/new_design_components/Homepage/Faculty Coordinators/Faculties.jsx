@@ -48,7 +48,7 @@ function Faculties() {
             id: 5,
             name: "Mrs S Shanmugapriya",
             designation: "Assistant Professor - KARE",
-            position: "Membership Chair",
+            position: "Faculty Co-ordinator",
             image: Shanmugapriya,
             email: "sowmya87sankar@gmail.com",
             linkedIn: "https://www.linkedin.com/in/shanmugapriya-sankaran-a2952a30b/",
@@ -57,7 +57,7 @@ function Faculties() {
             id: 6,
             name: "Mrs S Reshni",
             designation: "Assistant Professor - KARE",
-            position: "Organizing Secretary",
+            position: "Faculty Co-ordinator",
             image: Reshni,
             email: "s.reshni@klu.ac.in",
             linkedIn: "https://www.linkedin.com/in/reshni-suresh-5b94061b/",
@@ -66,7 +66,7 @@ function Faculties() {
             id: 7,
             name: "Mrs N Kirthiga",
             designation: "Assistant Professor - KARE",
-            position: "Organizing Secretary",
+            position: "Faculty Co-ordinator",
             image: Krithika,
             email: "n.kirthiga@klu.ac.in",
             linkedIn: "https://www.linkedin.com/in/kirthiga-n-a328a9142/",
@@ -75,7 +75,7 @@ function Faculties() {
             id: 8,
             name: "Mrs B Lavanya",
             designation: "Assistant Professor - KARE",
-            position: "Organizing Secretary",
+            position: "Faculty Co-ordinator",
             image: Lavanya,
             email: "b.lavanya@klu.ac.in",
             linkedIn: "https://www.linkedin.com/in/b-lavanya-cse-a22aa1309/",
@@ -83,29 +83,22 @@ function Faculties() {
           {
             id: 9,
             name: "Dr M K Nagarajan",
-            position: "Faculty Sponser",
+            position: "Faculty Co-ordinator",
             image: Nagarajan,
             linkedin: ""
         },
         {
             id: 10,
             name: "Dr A Parivazhagan",
-            position: "Faculty Sponser",
+            position: "Faculty Co-ordinator",
             image: Parivazhagan,
             linkedin: ""
         },
         {
             id: 11,
             name: "Dr T Marimuthu",
-            position: "Faculty Sponser",
+            position: "Faculty Co-ordinator",
             image: Marimuthu,
-            linkedin: ""
-        },
-        {
-            id: 12,
-            name: "Mrs Anitha",
-            position: "Faculty Sponser",
-            image: Anitha,
             linkedin: ""
         },
 
@@ -119,7 +112,7 @@ function Faculties() {
                 </div>
 
                 <div className="faculty-coordinator-pics">
-                    {faculty_coordinators.map((value, index) => {
+                    {faculty_coordinators.map((value) => {
                         return (
                             <div className='box' key={value.id}>
                                 <img src={value.image} alt={value.name} className='faculty-img' />

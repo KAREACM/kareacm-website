@@ -40,7 +40,9 @@ import {
   hackare2,
   buildit,
   hour_code_2k24,
+  computing_week,
 } from "../../constants/data";
+import { title } from "framer-motion/client";
 
 // Categorized event data
 const hackathons = [
@@ -67,6 +69,7 @@ const ideaSparks = [
 const ideathons = [{ title: "Ideathon", data: ideathon }];
 
 const otherEvents = [
+  { title: "Build It Season-1", data: buildit },
   { title: "Code Sprint", data: codex },
   { title: "Cook the Code", data: cookthecode },
   { title: "Summer Boost Program", data: summerBoost },
@@ -74,9 +77,7 @@ const otherEvents = [
   { title: "SQL Knight", data: sqlKnight },
   { title: "Tech Quest", data: techQuest },
   { title: "Virtual Code Corner", data: virtualCodeCorner },
-  { title: "Build It Season-1", data: buildit },
 ];
-
 const industryExpert = [
   { title: "Fun with Algorithms", data: fun_with_algorithms },
   { title: "Data Science and Gen AI", data: shouryaRoy },
@@ -106,6 +107,10 @@ const out_reach_program = [
     title: "Out Reach Program at Linga Global School",
     data: outreach_program,
   },
+  {
+    title: "Computing week celebration at Govt. Higher Secondary School, Krishnan Koil",
+    data: computing_week,
+  }
 ];
 
 // Render individual event carousels
