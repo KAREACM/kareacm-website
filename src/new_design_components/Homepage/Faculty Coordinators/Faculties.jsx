@@ -33,7 +33,7 @@ function Faculties() {
         {
             id: 3,
             name: "Dr P Nagaraj",
-            position: "Faculty Sponser",
+            position: "Faculty Sponsor",
             image: Nagaraj_Sir,
             linkedin: "https://www.linkedin.com/in/dr-nagaraj-p-20a072183?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
         },
