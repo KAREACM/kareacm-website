@@ -1,7 +1,7 @@
-import React from 'react';
-import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import './EventsPage.css';
+import React from "react";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import "./EventsPage.css";
 
 // Import event data
 import {
@@ -39,74 +39,74 @@ import {
   outreach_program,
   hackare2,
   buildit,
-  hour_code_2k24
-} from '../../constants/data';
+  hour_code_2k24,
+} from "../../constants/data";
 
 // Categorized event data
 const hackathons = [
-  { title: 'Hackare', data: hackare },
-  { title: 'Hack Odyssey', data: hack_odyssey },
-  { title: 'Hackare 2.0', data: hackare2}
+  { title: "Hackare", data: hackare },
+  { title: "Hack Odyssey", data: hack_odyssey },
+  { title: "Hackare 2.0", data: hackare2 },
 ];
 
 const espEvents = [
-  { title: 'Convergence of Machine Learning', data: aiml },
-  { title: 'ESP Blast', data: espblast },
-  { title: 'ESP ion Analytics Industry', data: esp_in_analytics },
-  { title: 'ESP on IoE', data: esp_on_ioe },
-  { title: 'ESP on Security', data: esp_on_security },
-  { title: 'ESP on ICPC', data: prashanth },
-  { title: 'ESP on Technology Trends', data: venkateshwaran}
+  { title: "ESP on A Convergence of Hardware, Software and Machine Learning", data: aiml },
+  { title: "ESP on BLAST algorithm", data: espblast },
+  { title: "ESP on Analytics in Industry", data: esp_in_analytics },
+  { title: "ESP on IoE", data: esp_on_ioe },
+  { title: "ESP on Security", data: esp_on_security },
+  { title: "ESP on How to win a hackathon and ICPC", data: prashanth },
+  { title: "ESP on Technology Trends: A Perspective", data: venkateshwaran },
 ];
 
 const ideaSparks = [
-  { title: 'Idea Sparks - Round 1', data: idea_spark_1 },
-  { title: 'Idea Sparks - Round 2', data: idea_sparks_2 }
-]
+  { title: "Idea Sparks - Round 1", data: idea_spark_1 },
+  { title: "Idea Sparks - Round 2", data: idea_sparks_2 },
+];
 
-const ideathons = [
-  { title: 'Ideathon', data: ideathon}
-]
+const ideathons = [{ title: "Ideathon", data: ideathon }];
 
 const otherEvents = [
-  { title: 'Code Sprint', data: codex },
-  { title: 'Cook the Code', data: cookthecode },
-  { title: 'Summer Boost Program', data: summerBoost },
-  { title: 'Hour of Code', data: hour_of_codes },
-  { title: 'SQL Knight', data: sqlKnight},
-  { title: 'Tech Quest', data: techQuest},
-  { title: 'Virtual Code Corner', data: virtualCodeCorner},
-  { title: 'Build It Season-1', data: buildit}
+  { title: "Code Sprint", data: codex },
+  { title: "Cook the Code", data: cookthecode },
+  { title: "Summer Boost Program", data: summerBoost },
+  { title: "Hour of Code", data: hour_of_codes },
+  { title: "SQL Knight", data: sqlKnight },
+  { title: "Tech Quest", data: techQuest },
+  { title: "Virtual Code Corner", data: virtualCodeCorner },
+  { title: "Build It Season-1", data: buildit },
 ];
 
 const industryExpert = [
-  { title: 'Fun with Algorithms', data: fun_with_algorithms },
-  { title: 'Data Science and Gen AI', data: shouryaRoy },
-  { title: 'Agentic Workflow & Gen AI', data: genAiWebinar},
-  { title: 'Human Computer Interaction', data: humanComputerInteractionWebinar},
-  { title: 'Ideas to innovation', data: malathi}
-]
+  { title: "Fun with Algorithms", data: fun_with_algorithms },
+  { title: "Data Science and Gen AI", data: shouryaRoy },
+  { title: "Agentic Workflow & Gen AI", data: genAiWebinar },
+  {
+    title: "Human Computer Interaction",
+    data: humanComputerInteractionWebinar,
+  },
+  { title: "Ideas to innovation", data: malathi },
+];
 
 const codex_series = [
-  { title: 'CodeX Series 1', data: codex_series1 },
-  { title: 'CodeX Series 2', data: codex_series2 },
-  { title: 'CodeX Series 3', data: codex_series3},
-  { title: 'CodeX Series 4', data: codex_series4},
-  { title: 'CodeX Series 5', data: codex_series5},
-  { title: 'CodeX Series 6', data: codex_series6}
-]
+  { title: "CodeX Series 1", data: codex_series1 },
+  { title: "CodeX Series 2", data: codex_series2 },
+  { title: "CodeX Series 3", data: codex_series3 },
+  { title: "CodeX Series 4", data: codex_series4 },
+  { title: "CodeX Series 5", data: codex_series5 },
+  { title: "CodeX Series 6", data: codex_series6 },
+];
 
-const hourCode = [
-  { title: 'Hour of Code', data: hour_code_2k24}
-]
+const hourCode = [{ title: "Hour of Code", data: hour_code_2k24 }];
 
-const webinars = [
-  { title: 'Vertex AI', data: vertexAi}
-]
+const webinars = [{ title: "Vertex AI", data: vertexAi }];
 
 const out_reach_program = [
-  { title: 'Out Reach Program for Linga Global School', data: outreach_program}
-]
+  {
+    title: "Out Reach Program at Linga Global School",
+    data: outreach_program,
+  },
+];
 
 // Render individual event carousels
 function renderEventCarousel(eventTitle, eventData) {
@@ -128,12 +128,23 @@ function ACMevents() {
   return (
     <div className="events-container">
       <h1 className="page-title">Events</h1>
-      
-       {/* ESP Events Section */}
+      {/* Upcoming Events Section */}
+      <div className="events-section">
+        <h2 className="page-title section-title">Upcoming Events</h2>
+        <div className="event-gallery justify-center ">
+          {hourCode.map((event) =>
+            renderEventCarousel(event.title, event.data)
+          )}
+        </div>
+      </div>
+
+      {/* ESP Events Section */}
       <div className="events-section">
         <h2 className="page-title section-title">ESP Events</h2>
         <div className="event-gallery">
-          {espEvents.map((event) => renderEventCarousel(event.title, event.data))}
+          {espEvents.map((event) =>
+            renderEventCarousel(event.title, event.data)
+          )}
         </div>
       </div>
 
@@ -141,15 +152,19 @@ function ACMevents() {
       <div className="events-section">
         <h2 className="page-title section-title">Industry Experts</h2>
         <div className="event-gallery">
-          {industryExpert.map((event) => renderEventCarousel(event.title, event.data))}
+          {industryExpert.map((event) =>
+            renderEventCarousel(event.title, event.data)
+          )}
         </div>
       </div>
 
-        {/* Hackathons Section */}
-        <div className="events-section">
+      {/* Hackathons Section */}
+      <div className="events-section">
         <h2 className="page-title section-title">Hackathons</h2>
         <div className="event-gallery justify-center">
-          {hackathons.map((event) => renderEventCarousel(event.title, event.data))}
+          {hackathons.map((event) =>
+            renderEventCarousel(event.title, event.data)
+          )}
         </div>
       </div>
 
@@ -157,7 +172,9 @@ function ACMevents() {
       <div className="events-section">
         <h2 className="page-title section-title">Idea Spark</h2>
         <div className="event-gallery justify-center">
-          {ideaSparks.map((event) => renderEventCarousel(event.title, event.data))}
+          {ideaSparks.map((event) =>
+            renderEventCarousel(event.title, event.data)
+          )}
         </div>
       </div>
 
@@ -165,53 +182,53 @@ function ACMevents() {
       <div className="events-section">
         <h2 className="page-title section-title">Ideathon</h2>
         <div className="event-gallery justify-center">
-          {ideathons.map((event) => renderEventCarousel(event.title, event.data))}
+          {ideathons.map((event) =>
+            renderEventCarousel(event.title, event.data)
+          )}
         </div>
       </div>
 
-         {/* Webinar Section */}
-     <div className="events-section">
-     <h2 className="page-title section-title">Webinar</h2>
-     <div className="event-gallery justify-center">
-       {webinars.map((event) => renderEventCarousel(event.title, event.data))}
-     </div>
-   </div>
+      {/* Webinar Section */}
+      <div className="events-section">
+        <h2 className="page-title section-title">Webinar</h2>
+        <div className="event-gallery justify-center">
+          {webinars.map((event) =>
+            renderEventCarousel(event.title, event.data)
+          )}
+        </div>
+      </div>
 
-        {/* CodeX Series Section */}
+      {/* CodeX Series Section */}
 
-   <div className="events-section">
-     <h2 className="page-title section-title">CodeX Series</h2>
-     <div className="event-gallery ">
-       {codex_series.map((event) => renderEventCarousel(event.title, event.data))}
-     </div>
-   </div>
+      <div className="events-section">
+        <h2 className="page-title section-title">CodeX Series</h2>
+        <div className="event-gallery ">
+          {codex_series.map((event) =>
+            renderEventCarousel(event.title, event.data)
+          )}
+        </div>
+      </div>
 
-        {/* Out Reach Program Section */}
-   <div className="events-section">
-     <h2 className="page-title section-title">Out Reach Program</h2>
-     <div className="event-gallery justify-center ">
-       {out_reach_program.map((event) => renderEventCarousel(event.title, event.data))}
-     </div>
-   </div>
+      {/* Out Reach Program Section */}
+      <div className="events-section">
+        <h2 className="page-title section-title">Out Reach Program</h2>
+        <div className="event-gallery justify-center ">
+          {out_reach_program.map((event) =>
+            renderEventCarousel(event.title, event.data)
+          )}
+        </div>
+      </div>
 
-    {/* Upcoming Events Section */}
-    <div className="events-section">
-     <h2 className="page-title section-title">Upcoming Events</h2>
-     <div className="event-gallery justify-center ">
-       {hourCode.map((event) => renderEventCarousel(event.title, event.data))}
-     </div>
-   </div>
-
-       {/* otherEvents Section */}
-       <div className="events-section">
-       <h2 className="page-title section-title">Other Events</h2>
-       <div className="event-gallery">
-         {otherEvents.map((event) => renderEventCarousel(event.title, event.data))}
-       </div>
-     </div>
-
-
-   </div>
+      {/* otherEvents Section */}
+      <div className="events-section">
+        <h2 className="page-title section-title">Other Events</h2>
+        <div className="event-gallery">
+          {otherEvents.map((event) =>
+            renderEventCarousel(event.title, event.data)
+          )}
+        </div>
+      </div>
+    </div>
   );
 }
 
