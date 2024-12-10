@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './../Navbar/Navbar.css';
-import kare_acm_logo_navbar from './../../../Athithya/src/Assets/Photos/kare-acm-sc logo.png';
+import kare_acm_logo_navbar from './../../../Athithya/src/Assets/Photos/ACM LOGO.svg';
 import { NavLink } from 'react-router-dom';
 
 function Navbar() {

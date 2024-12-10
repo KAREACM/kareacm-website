@@ -4,6 +4,14 @@ import Dean_Deepalakshmi from './../../../../Athithya/src/Assets/Faculty Coordin
 import HOD_Suresh_Kumar from './../../../../Athithya/src/Assets/Faculty Coordinators/Suresh Kumar Sir.png';
 import Nagaraj_Sir from './../../../../Athithya/src/Assets/Faculty Coordinators/Nagaraj Sir.png';
 import Amutham_Mam from './../../../../Athithya/src/Assets/Faculty Coordinators/Amutha Mam.png';
+import Shanmugapriya from './../../../../Athithya/src/Assets/Faculty Coordinators/Shanmugapriya.jpg';
+import Anitha from './../../../../Athithya/src/Assets/Faculty Coordinators/Anitha.jpg';
+import Parivazhagan from './../../../../Athithya/src/Assets/Faculty Coordinators/Dr A Parivazhagan.jpeg';
+import Reshni from './../../../../Athithya/src/Assets/Faculty Coordinators/Reshni.jpg';
+import Nagarajan from './../../../../Athithya/src/Assets/Faculty Coordinators/M K Nagarajan.jpeg';
+import Lavanya from './../../../../Athithya/src/Assets/Faculty Coordinators/Lavanya.jpg';
+import Krithika from './../../../../Athithya/src/Assets/Faculty Coordinators/Krithika.jpg';
+import Marimuthu from './../../../../Athithya/src/Assets/Faculty Coordinators/Dr T Marimuthu.jpeg';
 import Officebarriers from '../Office Barriers/Officebarriers';
 
 function Faculties() {
@@ -35,7 +43,72 @@ function Faculties() {
             position: "Faculty Co-ordinator",
             image: Amutham_Mam,
             linkedin: "https://www.linkedin.com/in/amutha-seviappan-a272b3293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-        }
+        },
+        {
+            id: 5,
+            name: "Mrs S Shanmugapriya",
+            designation: "Assistant Professor - KARE",
+            position: "Membership Chair",
+            image: Shanmugapriya,
+            email: "sowmya87sankar@gmail.com",
+            linkedIn: "https://www.linkedin.com/in/shanmugapriya-sankaran-a2952a30b/",
+          },
+          {
+            id: 6,
+            name: "Mrs S Reshni",
+            designation: "Assistant Professor - KARE",
+            position: "Organizing Secretary",
+            image: Reshni,
+            email: "s.reshni@klu.ac.in",
+            linkedIn: "https://www.linkedin.com/in/reshni-suresh-5b94061b/",
+          },
+          {
+            id: 7,
+            name: "Mrs N Kirthiga",
+            designation: "Assistant Professor - KARE",
+            position: "Organizing Secretary",
+            image: Krithika,
+            email: "n.kirthiga@klu.ac.in",
+            linkedIn: "https://www.linkedin.com/in/kirthiga-n-a328a9142/",
+          },
+          {
+            id: 8,
+            name: "Mrs B Lavanya",
+            designation: "Assistant Professor - KARE",
+            position: "Organizing Secretary",
+            image: Lavanya,
+            email: "b.lavanya@klu.ac.in",
+            linkedIn: "https://www.linkedin.com/in/b-lavanya-cse-a22aa1309/",
+          },
+          {
+            id: 9,
+            name: "Dr M K Nagarajan",
+            position: "Faculty Sponser",
+            image: Nagarajan,
+            linkedin: ""
+        },
+        {
+            id: 10,
+            name: "Dr A Parivazhagan",
+            position: "Faculty Sponser",
+            image: Parivazhagan,
+            linkedin: ""
+        },
+        {
+            id: 11,
+            name: "Dr T Marimuthu",
+            position: "Faculty Sponser",
+            image: Marimuthu,
+            linkedin: ""
+        },
+        {
+            id: 12,
+            name: "Mrs Anitha",
+            position: "Faculty Sponser",
+            image: Anitha,
+            linkedin: ""
+        },
+
     ];
 
     return (

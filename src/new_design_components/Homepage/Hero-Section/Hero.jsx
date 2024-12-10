@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import kare_acm_sc_logo from './../../../../Athithya/src/Assets/Photos/kare-acm-sc logo.png';
+import kare_acm_sc_logo from './../../../../Athithya/src/Assets/Photos/ACM LOGO.svg';
 
 import './../Hero-Section/Hero.css';
 const About = React.lazy(() => import('../About-Section/About'));
@@ -17,14 +17,14 @@ function Hero() {
         />
         <Row>
           <Col md={7} className="home-header">
-            <h1 className="hero-heading">
+            {/* <h1 className="hero-heading">
               Hi There!{' '}
               <span className="wave" role="img" aria-labelledby="wave">
                 👋🏻
               </span>
-            </h1>
+            </h1> */}
             <h1 className="heading-name">
-              <span className="white-text">This is</span>{' '}
+              {/* <span className="white-text">This is</span>{' '} */}
               <strong className="main-name gradient-text">
                 KARE ACM Student Chapter
               </strong>
@@ -32,7 +32,7 @@ function Hero() {
             
             <div className="text-reveal-container">
               <span className="reveal-text text-one">Dynamic Community</span>
-              <span className="reveal-text text-two">Student Chapter</span>
+              <span className="reveal-text text-two">Empowering Minds, Building Futures</span>
               <span className="reveal-text text-three">Tech Enthusiasts</span>
             </div>
             <h2 className="heading-name">
