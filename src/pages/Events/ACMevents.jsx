@@ -39,6 +39,7 @@ import {
   outreach_program,
   hackare2,
   buildit,
+  hour_code_2k24
 } from '../../constants/data';
 
 // Categorized event data
@@ -95,6 +96,9 @@ const codex_series = [
   { title: 'CodeX Series 6', data: codex_series6}
 ]
 
+const hourCode = [
+  { title: 'Hour of Code', data: hour_code_2k24}
+]
 
 const webinars = [
   { title: 'Vertex AI', data: vertexAi}
@@ -187,6 +191,14 @@ function ACMevents() {
      <h2 className="page-title section-title">Out Reach Program</h2>
      <div className="event-gallery justify-center ">
        {out_reach_program.map((event) => renderEventCarousel(event.title, event.data))}
+     </div>
+   </div>
+
+    {/* Upcoming Events Section */}
+    <div className="events-section">
+     <h2 className="page-title section-title">Upcoming Events</h2>
+     <div className="event-gallery justify-center ">
+       {hourCode.map((event) => renderEventCarousel(event.title, event.data))}
      </div>
    </div>
 
