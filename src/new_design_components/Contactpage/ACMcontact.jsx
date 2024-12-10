@@ -62,7 +62,7 @@ const handleSubmit = (e) => {
                 <i className="fa-solid fa-envelope"></i>
               </div>
               <div className="contact-acmkare-mail-id gradient-font-color-style">
-                acmkare@gmail.com
+              kareacm@klu.ac.in
               </div>
             </div>
           </div>
