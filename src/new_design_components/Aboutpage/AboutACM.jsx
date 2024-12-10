@@ -13,7 +13,7 @@ function AboutACM() {
         <>
             {/* content of about acm , globe img */}
             <div className='about-container2'>
-                <div className="basic-container-style">
+                <div className="basic-container-style pad-top">
                     <div className="wrapper">
                         <div className='basic-heading-style'>
                             {/* <br /> */}
@@ -26,7 +26,7 @@ function AboutACM() {
                         the computing world as world's largest educational and scientific
                         computing society</div>
                     <br />
-                    <div className='basic-content-style'>With a rich history and an expansive network, ACM  is dedicated to advancing computing as a discipline and profession.  Through its commitment to research, education, and collaboration, ACM  serves as a vital hub for
+                    <div className='basic-content-style'>Through its commitment to research, education, and collaboration, ACM  serves as a vital hub for
                         connecting computing professionals, fostering  innovation, and promoting ethical practices.</div>
                 </div>
                 <div className='globe_right'>

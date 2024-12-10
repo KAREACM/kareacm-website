@@ -16,7 +16,7 @@
 
 .faculty-coordinator-pics {
     display: grid;
-    grid-template-columns: repeat(2, 18.812rem);
+    grid-template-columns: repeat(3, 18.812rem);
     justify-content: center;
     gap: 2.225rem 3.125rem;
     height: auto;

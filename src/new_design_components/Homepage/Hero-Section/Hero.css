@@ -138,7 +138,7 @@
 }
 
 .member-button a span {
-  position: relative;
+  /* position: relative; */
   z-index: 3;
   background: linear-gradient(to right, #00f0ff 0%, #347499 60%);
   background-clip: text;
@@ -209,16 +209,19 @@
 .text-reveal-container {
   margin-top: 20px;
   margin-bottom: 30px;
-  margin-left: -240px;
+  /* margin-left: -240px; */
   font-size: 2rem;
   font-weight: bold;
   color: white;
-  position: relative;
+  /* position: relative; */
   height: 50px;
+  width: 40rem;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
+  /* border: 1px solid red; */
+  /* text-align: center; */
 }
 
 .reveal-text {
@@ -229,21 +232,22 @@
   -webkit-background-clip: text;
   font-family: var(--body-font-family);
   color: transparent;
+  text-align: center;
 }
 
 .text-one {
   animation-delay: 0s;
-  margin-left: -100px;
+  /* margin-left: -100px; */
 }
 
 .text-two {
   animation-delay: 3s;
-  margin-left: -170px;
+  /* margin-left: -170px; */
 }
 
 .text-three {
   animation-delay: 6s;
-  margin-left: -170px;
+  /* margin-left: -170px; */
 }
 
 
