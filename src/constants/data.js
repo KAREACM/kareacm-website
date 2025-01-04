@@ -1,4 +1,3 @@
-
 /**
  * FileName - data.js
  * FileType - .js (JavaScript file)
@@ -80,9 +79,9 @@ import cs from "./../../src/assets/Images/code_sprint/img.jpeg";
 export const codex = [
   {
     id: 0,
-    image: cs
-  }
-]
+    image: cs,
+  },
+];
 
 ///conversation on ai ml
 
@@ -97,7 +96,7 @@ export const aiml = [
     id: 1,
     image: cmi2,
   },
-]
+];
 
 //cook the cod/
 import ctc2 from "./../../src/assets/Images/cook_the_code/img2.jpg";
@@ -142,7 +141,7 @@ export const cookthecode = [
     id: 7,
     image: ctc8,
   },
-]
+];
 
 // es by prashanth
 import es1 from "./../../src/assets/Images/es_by_prashanth/img1.jpeg";
@@ -171,8 +170,8 @@ export const prashanth = [
   {
     id: 4,
     image: es5,
-  }
-]
+  },
+];
 // esp blast
 import esp1 from "./../../src/assets/Images/esp_blast/img1.jpeg";
 import esp2 from "./../../src/assets/Images/esp_blast/img2.jpg";
@@ -205,8 +204,8 @@ export const espblast = [
   {
     id: 5,
     image: esp6,
-  }
-]
+  },
+];
 
 // Shrouya Roy speech
 import Sh1 from "../assets/Images/Shrouya_Roy/Img1.jpeg";
@@ -230,8 +229,8 @@ export const shouryaRoy = [
   {
     id: 3,
     image: Sh4,
-  }
-]
+  },
+];
 
 // Summer Boost Program
 import SB1 from "../assets/Images/Summer_Boost_Program/Img1.jpeg";
@@ -245,8 +244,25 @@ export const summerBoost = [
   {
     id: 1,
     image: SB2,
-  }
-]
+  },
+];
+
+// Hack-AI-Thon
+import HA1 from "../assets/Images/Hack-AI-Thon/Img1.jpg";
+import HA2 from "../assets/Images/Hack-AI-Thon/Img2.jpg";
+
+export const hackAiThon = [
+  {
+    id: 0,
+    image: HA1,
+  },
+  {
+    id: 1,
+    image: HA2,
+  },
+];
+
+
 
 // Tech Quest
 import TQ1 from "../assets/Images/Tech_Quest/Img1.jpeg";
@@ -259,8 +275,8 @@ export const techQuest = [
   {
     id: 1,
     image: TQ2,
-  }
-]
+  },
+];
 
 // Venkateshwaran
 import V1 from "../assets/Images/Venkateshwaran/Img1.jpeg";
@@ -283,8 +299,8 @@ export const venkateshwaran = [
   {
     id: 3,
     image: V4,
-  }
-]
+  },
+];
 
 // Vertex Ai
 import VA1 from "../assets/Images/Vertex_Ai/Img1.jpg";
@@ -302,8 +318,8 @@ export const vertexAi = [
   {
     id: 2,
     image: VA3,
-  }
-]
+  },
+];
 
 // esp in analytics
 
@@ -318,7 +334,7 @@ export const esp_in_analytics = [
     id: 1,
     image: espa2,
   },
-]
+];
 
 //esp on ioe
 
@@ -327,7 +343,6 @@ import ioe2 from "./../../src/assets/Images/esp_on_ioe/img2.jpg";
 import ioe3 from "./../../src/assets/Images/esp_on_ioe/img3.jpg";
 import ioe4 from "./../../src/assets/Images/esp_on_ioe/img4.jpg";
 import ioe5 from "./../../src/assets/Images/esp_on_ioe/img5.jpg";
-
 
 export const esp_on_ioe = [
   {
@@ -350,7 +365,7 @@ export const esp_on_ioe = [
     id: 4,
     image: ioe5,
   },
-]
+];
 
 //esp on security
 import esps1 from "./../../src/assets/Images/esp_on_security_trust/img1.jpeg";
@@ -405,8 +420,7 @@ export const esp_on_security = [
     id: 9,
     image: esps10,
   },
-
-]
+];
 
 // fun with algorithms
 import fwa1 from "./../../src/assets/Images/fun_with_algorithms/img1.jpeg";
@@ -421,8 +435,7 @@ export const fun_with_algorithms = [
     id: 1,
     image: fwa2,
   },
-
-]
+];
 
 //hackare
 import hac1 from "./../../src/assets/Images/HACKARE/img1.jpeg";
@@ -457,7 +470,7 @@ export const hackare = [
     id: 5,
     image: hac6,
   },
-]
+];
 
 //hackodyssesy
 import hod1 from "./../../src/assets/Images/hack_odyssey/img1.jpeg";
@@ -497,7 +510,7 @@ export const hack_odyssey = [
     id: 6,
     image: hod7,
   },
-]
+];
 
 //hour of code
 
@@ -513,19 +526,19 @@ export const hour_of_codes = [
     id: 1,
     image: hofc2,
   },
-]
+];
 
 //idea sparks
 
 //round1
 
-import is1 from "./../../src/assets/Images/idea sparks/round_1/img1.jpeg"
-import is2 from "./../../src/assets/Images/idea sparks/round_1/img2.jpeg"
+import is1 from "./../../src/assets/Images/idea sparks/round_1/img1.jpeg";
+import is2 from "./../../src/assets/Images/idea sparks/round_1/img2.jpeg";
 // import is3 from "./../../src/assets/Images/idea sparks/round_1/img3.DNG"
-import is4 from "./../../src/assets/Images/idea sparks/round_1/img4.png"
-import is5 from "./../../src/assets/Images/idea sparks/round_1/img5.png"
-import is6 from "./../../src/assets/Images/idea sparks/round_1/img6.png"
-import is7 from "./../../src/assets/Images/idea sparks/round_1/img7.png"
+import is4 from "./../../src/assets/Images/idea sparks/round_1/img4.png";
+import is5 from "./../../src/assets/Images/idea sparks/round_1/img5.png";
+import is6 from "./../../src/assets/Images/idea sparks/round_1/img6.png";
+import is7 from "./../../src/assets/Images/idea sparks/round_1/img7.png";
 
 export const idea_spark_1 = [
   {
@@ -553,13 +566,13 @@ export const idea_spark_1 = [
     id: 5,
     image: is7,
   },
-]
+];
 
 //round2
-import iss1 from "./../../src/assets/Images/idea sparks/round_2/img1.jpg"
-import iss2 from "./../../src/assets/Images/idea sparks/round_2/img2.jpg"
-import iss3 from "./../../src/assets/Images/idea sparks/round_2/img3.jpg"
-import iss4 from "./../../src/assets/Images/idea sparks/round_2/img.4.jpeg"
+import iss1 from "./../../src/assets/Images/idea sparks/round_2/img1.jpg";
+import iss2 from "./../../src/assets/Images/idea sparks/round_2/img2.jpg";
+import iss3 from "./../../src/assets/Images/idea sparks/round_2/img3.jpg";
+import iss4 from "./../../src/assets/Images/idea sparks/round_2/img.4.jpeg";
 
 export const idea_sparks_2 = [
   {
@@ -578,27 +591,7 @@ export const idea_sparks_2 = [
     id: 3,
     image: iss4,
   },
-]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+];
 
 // // Gallery List
 // export const GalleryList = [
@@ -839,7 +832,7 @@ export const idea_sparks_2 = [
 //     },
 //   ],
 // };
-//    // INNOVATION TEAM 
+//    // INNOVATION TEAM
 //    export const innovationteam = {
 
 //     id: 7,
@@ -914,7 +907,7 @@ export const idea_sparks_2 = [
 //           name: 'P HARSHA PAVAN',
 //           post: 'GRAPHICS TEAM MEMBER',
 //         },
-//         { 
+//         {
 //           id: 2,
 //           photo: photos,
 //           name: 'N LAKSHMIKAR REDDY',
@@ -943,7 +936,6 @@ export const idea_sparks_2 = [
 //             post: 'LENS AND EDIT TEAM MEMBER',
 //           },
 
-
 //         ]
 
 //       };
@@ -960,7 +952,7 @@ export const virtualCodeCorner = [
     id: 1,
     image: VC2,
   },
-]
+];
 
 // Gen Ai Webinar
 import GW1 from "../assets/Images/Gen_Ai_Webinar/Img1.jpeg";
@@ -973,8 +965,8 @@ export const genAiWebinar = [
   {
     id: 1,
     image: GW2,
-  }
-]
+  },
+];
 
 //Human Computer Interaction Webinar
 import HC1 from "../assets/Images/Human_Computer_Interaction_Webinar/Img1.jpeg";
@@ -983,7 +975,7 @@ export const humanComputerInteractionWebinar = [
     id: 0,
     image: HC1,
   },
-]
+];
 
 // Sql Knight
 import SK1 from "../assets/Images/Sql_Knight/Img1.jpeg";
@@ -992,7 +984,7 @@ export const sqlKnight = [
     id: 0,
     image: SK1,
   },
-]
+];
 
 // Ideathon
 import i1 from "../assets/Images/ideathon/idea1.jpeg";
@@ -1005,33 +997,33 @@ import i7 from "../assets/Images/ideathon/idea7.jpeg";
 export const ideathon = [
   {
     id: 0,
-    image: i1
+    image: i1,
   },
   {
     id: 1,
-    image: i2
+    image: i2,
   },
   {
     id: 2,
-    image: i3
+    image: i3,
   },
   {
     id: 3,
-    image: i4
+    image: i4,
   },
   {
     id: 4,
-    image: i5
+    image: i5,
   },
   {
     id: 5,
-    image: i6
+    image: i6,
   },
   {
     id: 6,
-    image: i7
-  }
-]
+    image: i7,
+  },
+];
 
 //Malathi talk on ideas of innovation
 import m1 from "../assets/Images/malathi talk on ideas of innovation/malathi.jpeg";
@@ -1042,246 +1034,226 @@ import m4 from "../assets/Images/malathi talk on ideas of innovation/malathi3.jp
 export const malathi = [
   {
     id: 0,
-    image: m1
+    image: m1,
   },
   {
     id: 1,
-    image: m2
+    image: m2,
   },
   {
     id: 2,
-    image: m3
+    image: m3,
   },
   {
     id: 3,
-    image: m4
-  }
-]
+    image: m4,
+  },
+];
 
-
-import cx1 from './../assets/Images/code x/series1/cx1.jpeg';
-import cx2 from './../assets/Images/code x/series1/cx2.jpeg';
-import cx3 from './../assets/Images/code x/series1/cx3.jpeg';
-import cx4 from './../assets/Images/code x/series1/cx4.jpeg';
-
+import cx1 from "./../assets/Images/code x/series1/cx1.jpeg";
+import cx2 from "./../assets/Images/code x/series1/cx2.jpeg";
+import cx3 from "./../assets/Images/code x/series1/cx3.jpeg";
+import cx4 from "./../assets/Images/code x/series1/cx4.jpeg";
 
 export const codex_series1 = [
   {
     id: 0,
-    image: cx1
+    image: cx1,
   },
   {
     id: 1,
-    image: cx2
+    image: cx2,
   },
   {
     id: 2,
-    image: cx3
+    image: cx3,
   },
   {
     id: 3,
-    image: cx4
-  }
-]
+    image: cx4,
+  },
+];
 
-
-
-import cx_S2_1 from './../assets/Images/code x/series2/cxx1.jpeg';
-import cx_S2_2 from './../assets/Images/code x/series2/cxx2.jpeg';
-import cx_S2_3 from './../assets/Images/code x/series2/cxx3.jpeg';
-import cx_S2_4 from './../assets/Images/code x/series2/cxx4.jpeg';
-
+import cx_S2_1 from "./../assets/Images/code x/series2/cxx1.jpeg";
+import cx_S2_2 from "./../assets/Images/code x/series2/cxx2.jpeg";
+import cx_S2_3 from "./../assets/Images/code x/series2/cxx3.jpeg";
+import cx_S2_4 from "./../assets/Images/code x/series2/cxx4.jpeg";
 
 export const codex_series2 = [
   {
     id: 0,
-    image: cx_S2_1
+    image: cx_S2_1,
   },
   {
     id: 1,
-    image: cx_S2_2
+    image: cx_S2_2,
   },
   {
     id: 2,
-    image: cx_S2_3
+    image: cx_S2_3,
   },
   {
     id: 3,
-    image: cx_S2_4
-  }
-]
+    image: cx_S2_4,
+  },
+];
 
-
-
-import cx_S3_1 from './../assets/Images/code x/series3/cxxx1.jpeg';
-import cx_S3_2 from './../assets/Images/code x/series3/cxxx2.jpeg';
-
-
+import cx_S3_1 from "./../assets/Images/code x/series3/cxxx1.jpeg";
+import cx_S3_2 from "./../assets/Images/code x/series3/cxxx2.jpeg";
 
 export const codex_series3 = [
   {
     id: 0,
-    image: cx_S3_1
+    image: cx_S3_1,
   },
   {
     id: 1,
-    image: cx_S3_2
-  }
-]
+    image: cx_S3_2,
+  },
+];
 
-
-import cx_S4_1 from './../assets/Images/code x/series4/cxxxx1.jpeg';
-import cx_S4_2 from './../assets/Images/code x/series4/cxxxx2.jpg';
-import cx_S4_3 from './../assets/Images/code x/series4/cxxxx3.jpg';
-import cx_S4_4 from './../assets/Images/code x/series4/cxxxx4.jpg';
-
+import cx_S4_1 from "./../assets/Images/code x/series4/cxxxx1.jpeg";
+import cx_S4_2 from "./../assets/Images/code x/series4/cxxxx2.jpg";
+import cx_S4_3 from "./../assets/Images/code x/series4/cxxxx3.jpg";
+import cx_S4_4 from "./../assets/Images/code x/series4/cxxxx4.jpg";
 
 export const codex_series4 = [
   {
     id: 0,
-    image: cx_S4_1
+    image: cx_S4_1,
   },
   {
     id: 1,
-    image: cx_S4_2
+    image: cx_S4_2,
   },
   {
     id: 2,
-    image: cx_S4_3
+    image: cx_S4_3,
   },
   {
     id: 3,
-    image: cx_S4_4
-  }
-]
+    image: cx_S4_4,
+  },
+];
 
-
-import cx_S5_1 from './../assets/Images/code x/series5/cxxxxx1.jpeg';
-
-
+import cx_S5_1 from "./../assets/Images/code x/series5/cxxxxx1.jpeg";
 
 export const codex_series5 = [
   {
     id: 0,
-    image: cx_S5_1
-  }
-]
+    image: cx_S5_1,
+  },
+];
 
-
-import cx_S6_1 from './../assets/Images/code x/series6/cxxxxxx1.jpeg';
-import cx_S6_2 from './../assets/Images/code x/series6/cxxxxxx2.jpeg';
-
-
+import cx_S6_1 from "./../assets/Images/code x/series6/cxxxxxx1.jpeg";
+import cx_S6_2 from "./../assets/Images/code x/series6/cxxxxxx2.jpeg";
 
 export const codex_series6 = [
   {
     id: 0,
-    image: cx_S6_1
+    image: cx_S6_1,
   },
   {
     id: 1,
-    image: cx_S6_2
-  }
-]
+    image: cx_S6_2,
+  },
+];
 
-import outreach1 from './../assets/Images/out reach program/1725376845468.jpeg';
-import outreach2 from './../assets/Images/out reach program/1725463079395.jpeg';
-import outreach3 from './../assets/Images/out reach program/1725463080102.jpeg';
-import outreach4 from './../assets/Images/out reach program/1725463080896.jpeg';
-
+import outreach1 from "./../assets/Images/out reach program/1725376845468.jpeg";
+import outreach2 from "./../assets/Images/out reach program/1725463079395.jpeg";
+import outreach3 from "./../assets/Images/out reach program/1725463080102.jpeg";
+import outreach4 from "./../assets/Images/out reach program/1725463080896.jpeg";
 
 export const outreach_program = [
   {
     id: 0,
-    image: outreach3
+    image: outreach3,
   },
   {
     id: 1,
-    image: outreach1
+    image: outreach1,
   },
   {
     id: 2,
-    image: outreach2
+    image: outreach2,
   },
   {
     id: 3,
-    image: outreach4
-  }
-]
+    image: outreach4,
+  },
+];
 
-import buildit1 from './../assets/Images/buildit/img1.jpg';
-import buildit2 from './../assets/Images/buildit/img2.jpg';
-import buildit3 from './../assets/Images/buildit/img3.jpg';
-import buildit4 from './../assets/Images/buildit/img4.jpg';
-import buildit5 from './../assets/Images/buildit/img5.jpg';
+import buildit1 from "./../assets/Images/buildit/img1.jpg";
+import buildit2 from "./../assets/Images/buildit/img2.jpg";
+import buildit3 from "./../assets/Images/buildit/img3.jpg";
+import buildit4 from "./../assets/Images/buildit/img4.jpg";
+import buildit5 from "./../assets/Images/buildit/img5.jpg";
 
-export const buildit =[
+export const buildit = [
   {
-    id:0,
-    image: buildit1
+    id: 0,
+    image: buildit1,
   },
   {
-    id:1,
-    image: buildit2
+    id: 1,
+    image: buildit2,
   },
   {
-    id:2,
-    image: buildit3
+    id: 2,
+    image: buildit3,
   },
   {
-    id:3,
-    image: buildit4
+    id: 3,
+    image: buildit4,
   },
   {
-    id:4,
-    image: buildit5
-  }
-]
+    id: 4,
+    image: buildit5,
+  },
+];
 
-import hackare21 from './../assets/Images/hackare2/img1.png';
-import hackare22 from './../assets/Images/hackare2/img2.png';
-import hackare23 from './../assets/Images/hackare2/img3.png';
-import hackare24 from './../assets/Images/hackare2/img4.png';
-import hackare25 from './../assets/Images/hackare2/img5.png';
-import hackare26 from './../assets/Images/hackare2/img6.png';
+import hackare21 from "./../assets/Images/hackare2/img1.png";
+import hackare22 from "./../assets/Images/hackare2/img2.png";
+import hackare23 from "./../assets/Images/hackare2/img3.png";
+import hackare24 from "./../assets/Images/hackare2/img4.png";
+import hackare25 from "./../assets/Images/hackare2/img5.png";
+import hackare26 from "./../assets/Images/hackare2/img6.png";
 
-export const hackare2 =[
+export const hackare2 = [
   {
-    id:0,
-    image: hackare21
+    id: 0,
+    image: hackare21,
   },
   {
-    id:1,
-    image: hackare22
+    id: 1,
+    image: hackare22,
   },
   {
-    id:2,
-    image: hackare23
+    id: 2,
+    image: hackare23,
   },
   {
-    id:3,
-    image: hackare24
+    id: 3,
+    image: hackare24,
   },
   {
-    id:4,
-    image: hackare25
+    id: 4,
+    image: hackare25,
   },
   {
-    id:5,
-    image: hackare26
+    id: 5,
+    image: hackare26,
   },
-]
-
+];
 
 //Hour of code 2024
 import hcode from "./../assets/Images/Hour_of_code_2024/hour-of-code.jpg";
 export const hour_code_2k24 = [
   {
     id: 0,
-    image: hcode
-  }
-]
-
+    image: hcode,
+  },
+];
 
 // Computing week - Hour of code celebration
 
@@ -1294,22 +1266,22 @@ import img5 from "../assets/Images/computing_week/img5.jpeg";
 export const computing_week = [
   {
     id: 0,
-    image: img1
+    image: img1,
   },
   {
     id: 1,
-    image: img2
+    image: img2,
   },
   {
     id: 2,
-    image: img3
+    image: img3,
   },
   {
     id: 3,
-    image: img4
+    image: img4,
   },
   {
     id: 4,
-    image: img5 
-  }
-]
+    image: img5,
+  },
+];
