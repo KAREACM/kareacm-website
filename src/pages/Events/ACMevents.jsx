@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./EventsPage.css";
@@ -41,14 +41,15 @@ import {
   buildit,
   hour_code_2k24,
   computing_week,
+  hackAiThon
 } from "../../constants/data";
-import { title } from "framer-motion/client";
 
 // Categorized event data
 const hackathons = [
   { title: "Hackare", data: hackare },
   { title: "Hack Odyssey", data: hack_odyssey },
   { title: "Hackare 2.0", data: hackare2 },
+  { title: "HackAiThon", data: hackAiThon }
 ];
 
 const espEvents = [
