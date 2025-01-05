@@ -130,6 +130,31 @@ function renderEventCarousel(eventTitle, eventData) {
   );
 }
 
+function renderEventCarouselWithButton(eventTitle, eventData) {
+  return (
+    <div className="event" key={eventTitle}>
+      <h2 className="event-title">{eventTitle}</h2>
+      <Carousel showThumbs={false}>
+        {eventData.map((event, index) => (
+          <div key={index}>
+            <img src={event.image} alt={`${eventTitle} ${index + 1}`} />
+          </div>
+        ))}
+      </Carousel>
+      {eventTitle === "Hour of Code" && ( // Add the button for "Hour of Code"
+        <div >
+          <a href="/hour-of-code">
+            <button >
+              Learn More
+            </button>
+          </a>
+        </div>
+      )}
+    </div>
+  );
+}
+
+
 function ACMevents() {
   return (
     <div className="events-container">
@@ -139,7 +164,7 @@ function ACMevents() {
         <h2 className="page-title section-title">Upcoming Events</h2>
         <div className="event-gallery justify-center ">
           {hourCode.map((event) =>
-            renderEventCarousel(event.title, event.data)
+            renderEventCarouselWithButton(event.title, event.data)
           )}
         </div>
       </div>
