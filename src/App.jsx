@@ -13,6 +13,7 @@ import ACMblogs from './new_design_components/Blogspage/ACMblogs.jsx';
 import ACMcontact from './new_design_components/Contactpage/ACMcontact.jsx';
 import ACMFooter from './new_design_components/Footer/ACMFooter.jsx';
 import ACMGallery from './new_design_components/Gallerypage/ACMGallery.jsx';
+import HourOfCode from './new_design_components/upcoming events/HourOfCode.jsx';
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
             <Route path='/blogs' element={<ACMblogs/>}/>
             <Route path='/contact' element={<ACMcontact/>}/>
             <Route path='/gallery' element={<ACMGallery/>}/>
+            <Route path='/hour-of-code' element={<HourOfCode/>}/> 
 
         </Routes>
         <ACMFooter/>
