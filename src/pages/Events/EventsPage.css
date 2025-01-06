@@ -10,6 +10,34 @@
 }
 
 
+.learn-more-btn {
+  width: auto;
+  padding: 7px 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: white;
+  background: linear-gradient(to right, #75BCE5 0%, #5A3499 100%);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  margin-top: 40px;
+  margin-left: 11vh;
+}
+
+
+.learn-more-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(90, 52, 153, 0.5);
+  background: linear-gradient(to right, #5A3499 0%, #75BCE5 100%);
+}
+
+.learn-more-btn:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(117, 188, 229, 0.5);
+}
+
 .page-title {
   font-family:"Poppins", sans-serif;
   font-weight: 700;
