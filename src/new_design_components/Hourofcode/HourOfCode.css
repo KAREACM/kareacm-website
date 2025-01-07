@@ -165,18 +165,80 @@
   }
   
   /* Responsive adjustments */
-  @media (min-width: 640px) {
-    .container {
-      padding: 4rem 2rem;
-    }
+@media (max-width: 600px) {
+
+  .header {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
+
+  .main-title {
+    font-size: 3.0rem; 
+    margin-top: 0; 
+    width: auto;
+  }
+
+  .subtitle {
+    font-size: 1.0rem; 
+    margin-top: 0;  
+    margin-left: 0; 
+    width: auto;
+  }
+
+  .guidelines, .day-task {
+    padding: 1.5rem; 
+    margin-bottom: 2rem; 
+  }
+
+  .guidelines-title, .day-title {
+    font-size: 1.5rem; 
+  }
+
+  .task-item, .guideline-item {
+    padding: 0.5rem; 
+  }
+
+  .task-link {
+    font-size: 1rem; 
+  }
+}
+@media (max-width: 768px) {
+  .content-wrapper {
+    padding: 1.5rem;
+  }
+
+  .main-title {
+    font-size: 2.5rem; 
+    width: auto;
+  }
+
+  .subtitle {
+    font-size: 2rem;
+    width: auto;
+  }
+
+  .guidelines, .day-task {
+    padding: 2rem; 
+  }
+
+  .guidelines-title, .day-title {
+    font-size: 1.8rem; 
+  }
+
+  .task-item, .guideline-item {
+    padding: 0.75rem; 
+  }
+
+  .task-link {
+    font-size: 1.1rem;
+  }
+}
+
+
+
+
+ 
   
-  @media (min-width: 1024px) {
-    .container {
-      padding: 5rem 2rem;
-    }
-    
-    .main-title {
-      font-size: 4rem;
-    }
-  }
