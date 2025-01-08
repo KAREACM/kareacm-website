@@ -1,4 +1,3 @@
-import React from 'react';
 import './../Teamspage/ACMTeams.css';
 import Setu_sai_ram from './../../../Athithya/src/Assets/Core Team Members/Finance Team/Setu Sai Ram Y.jpg';
 import Yashwanth from './../../../Athithya/src/Assets/Core Team Members/Finance Team/yaswanth.jpg';
@@ -6,8 +5,6 @@ import Amarnath from './../../../Athithya/src/Assets/Core Team Members/Finance T
 import Sowmya from './../../../Athithya/src/Assets/Core Team Members/Finance Team/K Sowmya.jpg';
 import Sathvika from './../../../Athithya/src/Assets/Core Team Members/Finance Team/P.sathvika.jpg';
 import Geetheshwar from './../../../Athithya/src/Assets/Core Team Members/Graphics Team/geetheshwar.jpg';
-import P_Harsha_Pavan from './../../../Athithya/src/Assets/Core Team Members/Graphics Team/Harsha pavan.png';
-import Lakshmikar from './../../../Athithya/src/Assets/Core Team Members/Graphics Team/lakshmikar reddy.jpg';
 import Karthik from './../../../Athithya/src/Assets/Core Team Members/Web Dev Team/CH K V KRISHNA SRI VARMA .jpg';
 import Harshad from './../../../Athithya/src/Assets/Core Team Members/Web Dev Team/V S Harshad.jpeg';
 import Athithya from './../../../Athithya/src/Assets/Core Team Members/Web Dev Team/Athithya.png';
@@ -30,13 +27,13 @@ import Issac from './../../../Athithya/src/Assets/Core Team Members/Innovation T
 import Chatura from './../../../Athithya/src/Assets/Core Team Members/Innovation Team/Chatura.png';
 import Bharghav from './../../../Athithya/src/Assets/Core Team Members/Innovation Team/bharghav.jpg';
 import Girija from './../../../Athithya/src/Assets/Core Team Members/Innovation Team/Ch.Girija sai siri(99220041157) (1).jpg';
-import Meenakshi from './../../../Athithya/src/Assets/Core Team Members/Innovation Team/Meenakshi.png';
 import Karnikasri from './../../../Athithya/src/Assets/Core Team Members/Innovation Team/Karnika Sri.png';
 import Sreeja from './../../../Athithya/src/Assets/Core Team Members/Innovation Team/Sai sreeja.jpg';
 import Harshitha from './../../../Athithya/src/Assets/Core Team Members/Innovation Team/Harshitha.png';
 import Saathvik from './../../../Athithya/src/Assets/Core Team Members/Volunteers/Saathvik.png';
 import Tanuja from './../../../Athithya/src/Assets/Core Team Members/Volunteers/Tanuja.png';
 import Vanaja from './../../../Athithya/src/Assets/Core Team Members/Volunteers/Vanaja.png';
+import Bavani from './../../../Athithya/src/Assets/Core Team Members/Volunteers/Bavani.jpg';
 
 
 
@@ -95,19 +92,6 @@ function ACMTeams() {
         linkedin : "https://www.linkedin.com/in/geetheshwar-g-12262a255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
 
       },
-      {
-        id: 2,
-        name: "P HARSHA PAVAN",
-        position: "Graphics Team Member",
-        image: P_Harsha_Pavan,
-        linkedin :"https://www.linkedin.com/in/h-n-v-pavan-446549268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-      },
-      {
-        id: 3,
-        name: "N LAKSHMIKAR REDDY",
-        position: "Graphics Team Member",
-        image: Lakshmikar
-      }
     ]
   const web_dev_team_row1 =
     [
@@ -287,6 +271,32 @@ function ACMTeams() {
         image: Bharghav,
         linkedin : "https://www.linkedin.com/in/bhargav-balaram-ramanujakutam-a37861268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       },
+      
+    ]
+  const innovation_team_row2 =
+    [
+      {
+        id: 1,
+        name: "KARNIKASRI S",
+        position: "Innovation Team Member",
+        image: Karnikasri,
+        linkedin : "https://www.linkedin.com/in/karnikasri-s-7291252b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=and"
+      },
+      {
+        id: 2,
+        name: "Y SAI SREEJA",
+        position: "Innovation Team Member",
+        image: Sreeja,
+        linkedin : "https://www.linkedin.com/in/yaratapalli-sai-sreeja-635408307?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+
+      },
+      {
+        id: 3,
+        name: "SEELAM HARSHITHA",
+        position: "Innovation Team Member",
+        image: Harshitha,
+        linkedin : "https://www.linkedin.com/in/seelam-harshitha-820a3b302?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      },
       {
         id: 4,
         name: "GIRIJA SAI SIRI",
@@ -295,45 +305,12 @@ function ACMTeams() {
         linkedin : "https://www.linkedin.com/in/girija-sai-siri-cherukuri-231559256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       }
     ]
-  const innovation_team_row2 =
-    [
-      {
-        id: 1,
-        name: "YARLAGADDA MEENAKASHI",
-        position: "Innovation Team Member",
-        image: Meenakshi,
-        linkedin : "https://www.linkedin.com/in/meenakshi-yarlagadda-954861268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-
-      },
-      {
-        id: 2,
-        name: "KARNIKASRI S",
-        position: "Innovation Team Member",
-        image: Karnikasri,
-        linkedin : "https://www.linkedin.com/in/karnikasri-s-7291252b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=and"
-      },
-      {
-        id: 3,
-        name: "Y SAI SREEJA",
-        position: "Innovation Team Member",
-        image: Sreeja,
-        linkedin : "https://www.linkedin.com/in/yaratapalli-sai-sreeja-635408307?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-
-      },
-      {
-        id: 4,
-        name: "SEELAM HARSHITHA",
-        position: "Innovation Team Member",
-        image: Harshitha,
-        linkedin : "https://www.linkedin.com/in/seelam-harshitha-820a3b302?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-      }
-    ]
   const volunteer_team_row1 =
     [
       {
         id: 1,
         name: "J SAATHVIK REDDY",
-        position: "Event Coordinator Team Member",
+        position: "Volunteer Team Member",
         image: Saathvik,
         linkedin: "https://www.linkedin.com/in/j-saathvik-reddy-008022215?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
 
@@ -341,16 +318,25 @@ function ACMTeams() {
       {
         id: 2,
         name: "M TANUJA",
-        position: "Event Coordinator Team Member",
+        position: "Volunteer Team Member",
         image: Tanuja,
         linkedin : "https://www.linkedin.com/in/tanuja-maddukuri-652b672b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       },
       {
         id: 3,
         name: "M VANAJA",
-        position: "Event Coordinator Team Member",
+        position: "Volunteer Team Member",
         image: Vanaja,
         linkedin : "https://www.linkedin.com/in/vanaja-maddukuri-6260532b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      },
+      {
+        id: 4,
+        name: "D.Bhavani Prasanth",
+        position: "Volunteer Team Member",
+        image: Bavani,
+        linkedin:"https://www.linkedin.com/in/bhavani-prasanth-dannani-0b3656268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+
+
       }
     ]
 

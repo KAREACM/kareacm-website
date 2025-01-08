@@ -45,8 +45,18 @@
     padding-bottom: 3%;
 }
 
+.graphics-team-row1{
+    display: grid;
+    /* grid-template-columns: 18.812rem 18.812rem 18.812rem; */
+    justify-content: center;
+    gap: 4.125rem 3.125rem;
+    height: auto;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin: 2.1rem 0;
+}
+
 .finance-team-row1,
-.graphics-team-row1,
 .web-dev-team-row1,
 .social-media-team-row1,
 .lens-team-row1,
@@ -76,10 +86,20 @@
     margin: 2.1rem 0;
 }
 
-.innovation-team-row1,
+.innovation-team-row1 {
+    display: grid;
+    grid-template-columns: 18.812rem 18.812rem 18.812rem;
+    justify-content: center;
+    gap: 4.125rem 3.125rem;
+    height: auto;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin: 2.1rem 0;
+}
+
 .innovation-team-row2 {
     display: grid;
-    grid-template-columns: 18.812rem 18.812rem 18.812rem 18.812rem;
+    grid-template-columns: 18.812rem 18.812rem;
     justify-content: center;
     gap: 4.125rem 3.125rem;
     height: auto;
