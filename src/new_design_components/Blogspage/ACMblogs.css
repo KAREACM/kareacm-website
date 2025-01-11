@@ -1,27 +1,83 @@
-.blogspage{
-    background: radial-gradient(circle, #75BCE5 0%, #3a0097 80%);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: var(--body-font-family);
-    font-weight: var(--body-font-weight);
-    font-size: 6rem;
-    line-height: normal;
-    letter-spacing: 0.2px;
-    height: 86vmin;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.blogspage {
+  padding: 20px;
+  background-color: #05010D; 
 }
 
+.blogs-header {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 3.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700; 
+  background: linear-gradient(to right, #75BCE5 0%, #5A3499 100%); 
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
-@media (max-width: 768px) {
-    .blogspage {
-      font-size: 2.5rem; /* Reduce font size for smaller screens */
-      line-height: 1.2; /* Adjust line height for better spacing */
-      text-align: center; /* Center-align text */
-      padding: 10px; /* Add padding to avoid text touching screen edges */
-      height: auto; /* Adjust height for content scaling */
-      min-height: 50vh; /* Ensure a reasonable minimum height */
-    }
-  }
-  
+.blogs-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.blog-card {
+  background: #f3f2f72d; 
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.blog-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.blog-title {
+  font-size: 1.4rem;
+  font-family: "Poppins", sans-serif; 
+  font-weight: 600;
+  margin: 15px 0 10px;
+  background: linear-gradient(to right, #75BCE5 0%, #5A3499 100%); 
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
+.blog-description {
+  font-size: 1.2rem;
+  color: #a6a6a6; 
+  margin-bottom: 15px;
+}
+
+.read-more-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  transition: background-color 0.2s;
+}
+
+.read-more-button:hover {
+  background-color: #0056b3;
+}
