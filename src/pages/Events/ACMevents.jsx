@@ -43,6 +43,7 @@ import {
   hour_code_2k24,
   computing_week,
   hackAiThon,
+  Rocs
 } from '../../constants/data';
 
 // Categorized event data
@@ -103,7 +104,10 @@ const codex_series = [
   { title: 'CodeX Series 6', data: codex_series6 },
 ];
 
-const hourCode = [{ title: 'Hour of Code', data: hour_code_2k24 }];
+const hourCode = [
+  { title: 'Hour of Code', data: hour_code_2k24 },
+  { title: 'ROCS', data: Rocs},
+];
 
 const webinars = [{ title: 'Vertex AI', data: vertexAi }];
 
@@ -126,7 +130,7 @@ function renderEventCarousel(eventTitle, eventData) {
       <h2 className="event-title">{eventTitle}</h2>
       <Carousel showThumbs={false}>
         {eventData.map((event, index) => (
-          <div key={index}>
+          <div key={index} className="image">
             <img src={event.image} alt={`${eventTitle} ${index + 1}`} />
           </div>
         ))}
@@ -146,7 +150,7 @@ function ACMevents() {
           {hourCode.map((event) => (
             <div key={event.title} className="event-card">
               {renderEventCarousel(event.title, event.data)}
-
+              {event.title == 'Hour of Code' && (
               <div>
                 <Link to="/hour-of-code">
                   <button className="learn-more-btn mt-4 px-6 py-2 text-white bg-blue-500 rounded-lg shadow-md transition-transform duration-300 ease-in-out hover:bg-blue-600 hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-400">
@@ -154,6 +158,7 @@ function ACMevents() {
                   </button>
                 </Link>
               </div>
+              )}
             </div>
           ))}
         </div>
