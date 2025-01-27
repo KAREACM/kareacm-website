@@ -38,6 +38,21 @@ function ACMblogs() {
       description: 'Distributing computing resources for greater flexibility.',
       link: 'https://medium.com/@kareacm/decentralised-computing-d8c275b93ded',
     },
+    {
+      id: 6,
+      image: 'https://miro.medium.com/v2/resize:fit:1400/format:webp/0*UN_i0yyLD-C24qZP',
+      title: 'The internet of things and smart cities',
+      description: 'A New Era of Urban Development',
+      link: 'https://medium.com/@kareacm/the-internet-of-things-and-smart-cities-8ffbc1f3d6ec'
+
+    },
+    {
+      id: 7,
+      image: 'https://miro.medium.com/v2/resize:fit:1400/format:webp/1*4gtR9bVjRlc3yloHG0lVJA.png',
+      title: 'Gen AI in Nutshell',
+      description: 'The AI Revolution: How Generative AI is Reshaping Our World',
+      link: 'https://medium.com/@kareacm/gen-ai-in-nutshell-3ba5cdac6218'
+    }
   ];
 
   return (

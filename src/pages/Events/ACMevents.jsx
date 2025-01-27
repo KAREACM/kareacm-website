@@ -152,11 +152,11 @@ function ACMevents() {
               {renderEventCarousel(event.title, event.data)}
               {event.title == 'Hour of Code' && (
               <div>
-                <Link to="/hour-of-code">
+                {/* <Link to="/hour-of-code">
                   <button className="learn-more-btn mt-4 px-6 py-2 text-white bg-blue-500 rounded-lg shadow-md transition-transform duration-300 ease-in-out hover:bg-blue-600 hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-400">
                     Learn More
                   </button>
-                </Link>
+                </Link> */}
               </div>
               )}
             </div>
