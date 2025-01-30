@@ -52,6 +52,13 @@ function ACMblogs() {
       title: 'Gen AI in Nutshell',
       description: 'The AI Revolution: How Generative AI is Reshaping Our World',
       link: 'https://medium.com/@kareacm/gen-ai-in-nutshell-3ba5cdac6218'
+    },
+    {
+      id: 8,
+      image: 'https://miro.medium.com/v2/resize:fit:598/format:webp/0*o39MTmWXTprLsRlS',
+      title: 'LLMs and RAG',
+      description: 'LLMs generate human-like text, while RAG enhances accuracy by retrieving real-time data for more reliable and up-to-date AI responses.',
+      link: 'https://medium.com/@kareacm/understanding-large-language-models-llms-and-retrieval-augmented-generation-rag-fe5ff44e00fb'
     }
   ];
 
