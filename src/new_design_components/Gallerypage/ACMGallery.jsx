@@ -1,4 +1,3 @@
-import React from 'react'
 import './../Gallerypage/ACMGallery.css'
 import CodeX_series5_winners from './../../../Athithya/src/Assets/Student Acheivements/CodeX series5 winners.jpeg';
 import CodeX_series2_winners from './../../../Athithya/src/Assets/Student Acheivements/CodeX series2 winners.jpeg';
@@ -90,7 +89,7 @@ function ACMGallery() {
                     Acheivements and Awards
                 </div>
                 <div className="student-acheivements-pics-conatiner">
-                    {student_acheivements.map((value, index) => {
+                    {student_acheivements.map((value) => {
                         return (
                             <div className='box2 winners-pics ' key={value.id}>
                                 <img src={value.winners_pics} alt="" className='office-barrier-img' />
