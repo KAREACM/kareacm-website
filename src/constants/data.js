@@ -1258,11 +1258,18 @@ export const hackare2 = [
 
 //Hour of code 2024
 import hcode from "./../assets/Images/Hour_of_code_2024/hour-of-code.jpg";
+import hcode2 from "./../assets/Images/Hour_of_code_2024/img2.jpg";
+
 export const hour_code_2k24 = [
   {
     id: 0,
     image: hcode,
   },
+  {
+    id:1,
+    image: hcode2,
+
+  }
 ];
 
 // Computing week - Hour of code celebration

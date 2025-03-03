@@ -38,6 +38,28 @@ function ACMblogs() {
       description: 'Distributing computing resources for greater flexibility.',
       link: 'https://medium.com/@kareacm/decentralised-computing-d8c275b93ded',
     },
+    {
+      id: 6,
+      image: 'https://miro.medium.com/v2/resize:fit:1400/format:webp/0*UN_i0yyLD-C24qZP',
+      title: 'The internet of things and smart cities',
+      description: 'A New Era of Urban Development',
+      link: 'https://medium.com/@kareacm/the-internet-of-things-and-smart-cities-8ffbc1f3d6ec'
+
+    },
+    {
+      id: 7,
+      image: 'https://miro.medium.com/v2/resize:fit:1400/format:webp/1*4gtR9bVjRlc3yloHG0lVJA.png',
+      title: 'Gen AI in Nutshell',
+      description: 'The AI Revolution: How Generative AI is Reshaping Our World',
+      link: 'https://medium.com/@kareacm/gen-ai-in-nutshell-3ba5cdac6218'
+    },
+    {
+      id: 8,
+      image: 'https://miro.medium.com/v2/resize:fit:598/format:webp/0*o39MTmWXTprLsRlS',
+      title: 'LLMs and RAG',
+      description: 'LLMs generate human-like text, while RAG enhances accuracy by retrieving real-time data for more reliable and up-to-date AI responses.',
+      link: 'https://medium.com/@kareacm/understanding-large-language-models-llms-and-retrieval-augmented-generation-rag-fe5ff44e00fb'
+    }
   ];
 
   return (

@@ -10,7 +10,11 @@ import Hack_Odyssey_2k24_winners from './../../../Athithya/src/Assets/Student Ac
 import Idea_spark_series_winners from './../../../Athithya/src/Assets/Student Acheivements/Idea spark series winners.jpeg';
 import Tech_quest_winners from './../../../Athithya/src/Assets/Student Acheivements/Tech quest winners.jpeg';
 import Virtual_code_corner_winners from './../../../Athithya/src/Assets/Student Acheivements/Virtual Code corner winners.jpeg';
-import Winter_School_Selection from './../../assets/Images/Winter school selection/Winter-school-selection-poster.jpeg'
+import Winter_School_Selection from './../../assets/Images/Winter school selection/Winter-school-selection-poster.jpeg';
+import pizza_party from './../../assets/Images/pizza_party/img2.jpg';
+import acm_award from './../../assets/Images/acm_awards/img1.jpg';
+
+
 
 function ACMGallery() {
     const student_acheivements = [
@@ -64,12 +68,24 @@ function ACMGallery() {
             event: "Virtual code corner",
             winners_pics: Virtual_code_corner_winners
         },
+        {
+            id:11,
+            event:"pizza party",
+            winners_pics: pizza_party
+
+        },
+        {
+            id:12,
+            event:"outstanding chapter award",
+            winners_pics: acm_award
+
+        }
     ]
     return (
         <div>
             <div className="student-acheivements-container">
                 <div className="student-acheivements-heading basic-gallery-heading-style">
-                    Student Acheivements
+                    Acheivements and Awards
                 </div>
                 <div className="student-acheivements-pics-conatiner">
                     {student_acheivements.map((value, index) => {
