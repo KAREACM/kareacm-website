@@ -12,6 +12,7 @@ dist
 dist-ssr
 *.local
 dist.zip
+*.zip
 
 # Editor directories and files
 .vscode/*
