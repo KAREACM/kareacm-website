@@ -20,13 +20,15 @@ function ACMGallery() {
     const student_acheivements = [
         {
             id: 1,
-            event: "Winter School Selection",
-            winners_pics: Winter_School_Selection
+            
+            event:"outstanding chapter award",
+            winners_pics: acm_award
         },
         {
             id: 2,
-            event: "Disfrutar 2k24",
-            winners_pics: Disfrutar_2k24_winners
+            event:"pizza party",
+            winners_pics: pizza_party
+           
         },
         {
             id: 3,
@@ -70,14 +72,14 @@ function ACMGallery() {
         },
         {
             id:11,
-            event:"pizza party",
-            winners_pics: pizza_party
+            event: "Disfrutar 2k24",
+            winners_pics: Disfrutar_2k24_winners
 
         },
         {
             id:12,
-            event:"outstanding chapter award",
-            winners_pics: acm_award
+            event: "Winter School Selection",
+            winners_pics: Winter_School_Selection
 
         }
     ]
