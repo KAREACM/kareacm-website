@@ -531,10 +531,16 @@ export const hour_of_codes = [
 //rocs
 
 import rocs from "./../../src/assets/Images/rocs/rocs.jpg"
+import rocs1 from "./../../src/assets/Images/rocs/rocs2.jpg"
 export const Rocs = [
   {
     id: 0, 
     image: rocs
+  },
+  {
+    id:1,
+    image:rocs1
+
   }
 ]
 
