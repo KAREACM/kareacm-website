@@ -83,6 +83,26 @@ export const codex = [
   },
 ];
 
+//industry day
+import industry1 from "./../../src/assets/Images/industryday/Industry1.jpg"
+import keynote from "./../../src/assets/Images/industryday/Keynote.jpg"
+import pannel from "./../../src/assets/Images/industryday/pannel.jpg"
+
+export const industry_day = [
+  {
+    id: 0,
+    image: industry1
+  },
+  {
+    id: 1,
+    image: keynote
+  },
+  {
+    id: 2,
+    image: pannel
+  }
+]
+
 ///conversation on ai ml
 
 import cmi1 from "./../../src/assets/Images/conversation_on_ml_sw_hw/img1.jpeg";

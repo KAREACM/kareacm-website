@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 
 // Import event data
 import {
+  industry_day,
   codex,
   aiml,
   cookthecode,
@@ -107,6 +108,7 @@ const codex_series = [
 const hourCode = [
   { title: 'Hour of Code', data: hour_code_2k24 },
   { title: 'ROCS', data: Rocs},
+  { title: 'ACM Industry Day', data: industry_day}
 ];
 
 const webinars = [{ title: 'Vertex AI', data: vertexAi }];
