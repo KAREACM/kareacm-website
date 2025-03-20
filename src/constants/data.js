@@ -103,6 +103,16 @@ export const industry_day = [
   }
 ]
 
+//industry day- poster making 
+import poster from "./../../src/assets/Images/industryday/poster.jpg"
+
+export const poster_industry = [
+  {
+    id : 0,
+    image: poster
+  }
+]
+
 ///conversation on ai ml
 
 import cmi1 from "./../../src/assets/Images/conversation_on_ml_sw_hw/img1.jpeg";
