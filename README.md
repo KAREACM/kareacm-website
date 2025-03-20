@@ -153,6 +153,6 @@ git push origin --delete <feature-branch-name>
 - **[Sethu Sairam ](https://github.com/setusairam)**
 - **[Pranavi Srinivas ](https://github.com/kannapranavi15)**
 - **[Aathithiya Raman ](https://github.com/athithyaramaa1)**
-- **[Sahana Shree](https://github.com/Sahanashre-V)**
+- **[Sahanashre V](https://github.com/Sahanashre-V)**
 - **[Shiva Varma](https://github.com/varmashiva)**
 - **[Gargeya Mithra](https://github.com/GARGEYAMITHRA)**
