@@ -43,6 +43,9 @@ function Navbar() {
                         <NavLink to="/gallery" onClick={() => setMenuOpen(false)}>
                             <div className="gallery">Gallery</div>
                         </NavLink>
+                        <NavLink to="/summer-school" onClick={() => setMenuOpen(false)}>
+                            <div className="summer-school">Summer School</div>
+                        </NavLink>
                         <NavLink to="/contact" onClick={() => setMenuOpen(false)}>
                             <div className="contact">Contact</div>
                         </NavLink>

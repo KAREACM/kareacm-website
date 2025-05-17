@@ -81,7 +81,7 @@ body{
 /* ========== NAVBAR ========== */
 .navbar{
     display: grid;
-    grid-template-columns: 15% 15% 15% 15% 15% 15% 15%;
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
     font-family: var(--body-font-family);
     font-weight:400 ;
     font-size: var(--font-size-small);
@@ -90,7 +90,7 @@ body{
     color: #ffff;
 }
 
-.home, .about, .teams, .events, .blogs, .gallery, .contact{
+.home, .about, .teams, .events, .blogs, .gallery, .contact, .summer-school{
     color: #ffff;
 }
 
