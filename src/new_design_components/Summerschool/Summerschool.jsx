@@ -42,6 +42,69 @@ function Summerschool() {
         "https://typeset-prod-media-server.s3.amazonaws.com/author-images/debasis-das-2/fbff7bd1-5d7a-4182-a098-60356b8d1eb0/author.jpg",
     },
   ];
+
+  const scheduleData = [
+    {
+      date: "16/06/2025",
+      day: "Monday",
+      topic: "Introduction to IoT",
+    },
+    {
+      date: "17/06/2025",
+      day: "Tuesday",
+      topic: "Introduction to IoT",
+    },
+    {
+      date: "18/06/2025",
+      day: "Wednesday",
+      topic: "IoT Protocols, Sensors & Actuators",
+    },
+    {
+      date: "19/06/2025",
+      day: "Thursday",
+      topic: "IoT Protocols, Sensors & Actuators",
+    },
+    {
+      date: "20/06/2025",
+      day: "Friday",
+      topic:
+        "Next-generation network/communication technologies: 5G & Beyond for IoT, M2M, D2D etc",
+    },
+    {
+      date: "21/06/2025",
+      day: "Saturday",
+      topic:
+        "Next-generation network/communication technologies: 5G & Beyond for IoT, M2M, D2D etc",
+    },
+    {
+      date: "23/06/2025",
+      day: "Monday",
+      topic:
+        "Next-generation computing technologies for IoT (Cloud, Fog, Edge, SDN/NFV, etc)",
+    },
+    {
+      date: "24/06/2025",
+      day: "Tuesday",
+      topic:
+        "Next-generation computing technologies for IoT (Cloud, Fog, Edge, SDN/NFV, etc)",
+    },
+    {
+      date: "25/06/2025",
+      day: "Wednesday",
+      topic: "AI/ML for IoT (with Gen-AI)",
+    },
+    {
+      date: "26/06/2025",
+      day: "Thursday",
+      topic: "AI/ML for IoT (with Gen-AI)",
+    },
+    {
+      date: "27/06/2025",
+      day: "Friday",
+      topic: "Gen-AI Introduction and Techniques",
+    },
+  ];
+
   return (
     <div className="summerschool-container">
       <section className="hero-section">
@@ -176,6 +239,36 @@ function Summerschool() {
           </div>
         </div>
       </section>
+
+      {/* Schedule Section */}
+      <section className="schedule-section">
+        <div className="section-header">
+          <h2>Event Schedule</h2>
+          <div className="header-bar"></div>
+        </div>
+
+        <div className="schedule-container">
+          <div className="schedule-table">
+            <div className="schedule-header">
+              <div className="schedule-date">Date</div>
+              <div className="schedule-day">Day</div>
+              <div className="schedule-topic">Topic</div>
+            </div>
+
+            {scheduleData.map((item, index) => (
+              <div
+                className={`schedule-row ${index % 2 === 0 ? "even" : "odd"}`}
+                key={index}
+              >
+                <div className="schedule-date">{item.date}</div>
+                <div className="schedule-day">{item.day}</div>
+                <div className="schedule-topic">{item.topic}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="speakers-section">
         <div className="section-header">
           <h2>Featured Speakers</h2>
@@ -193,6 +286,49 @@ function Summerschool() {
               <p className="speaker-org">{speaker.organization}</p>
             </div>
           ))}
+        </div>
+      </section>
+      <section className="info-section">
+        <div className="section-header">
+          <h2>Campus Facilities</h2>
+          <div className="header-bar"></div>
+        </div>
+        <div className="facility-cards">
+          <div className="facility-card fade-in">
+            <img
+              src="https://img.freepik.com/free-photo/cozy-modern-dorm-room-with-bunk-beds_23-2150571404.jpg"
+              alt="Hostel"
+            />
+            <h3>Accommodation</h3>
+            <p>
+              Participants will be accommodated in our{" "}
+              <b style={{ color: "white" }}> On-Campus Hostel</b> with all
+              essential facilities to ensure a comfortable stay.
+            </p>
+          </div>
+          <div className="facility-card fade-in delay-1">
+            <img
+              src="https://img.freepik.com/free-photo/vegetarian-lunch-tray-with-different-dishes_114579-22391.jpg"
+              alt="Dining Hall"
+            />
+            <h3>Food</h3>
+            <p>
+              Delicious and hygienic vegetarian meals will be served at the
+              <b style={{ color: "white" }}> Campus Dining Hall</b> throughout
+              the event.
+            </p>
+          </div>
+          <div className="facility-card fade-in delay-2">
+            <img
+              src="https://img.freepik.com/free-photo/futuristic-server-room-hardware-technology-background_53876-124676.jpg"
+              alt="8501 Lab"
+            />
+            <h3>Venue</h3>
+            <p>
+              The program sessions will be conducted in the{" "}
+              <b style={{ color: "white" }}>8501 Lab</b>.
+            </p>
+          </div>
         </div>
       </section>
     </div>
