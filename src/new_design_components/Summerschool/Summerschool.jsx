@@ -1,4 +1,7 @@
 import "./Summerschool.css";
+import Dean_Deepalakshmi from "./../../../Athithya/src/Assets/Faculty Coordinators/Deepalakshmi Mam.png";
+import Chair_person from "./../../../Athithya/src/Assets/Office Barriers/YASHWANTH A.jpg";
+import Dr_P_Chinnasamy from "./../../../Athithya/src/Assets/Faculty Coordinators/Dr P Chinnasamy.jpeg";
 function Summerschool() {
   const speakers = [
     {
@@ -102,6 +105,27 @@ function Summerschool() {
       date: "27/06/2025",
       day: "Friday",
       topic: "Gen-AI Introduction and Techniques",
+    },
+  ];
+  const organizers = [
+    {
+      name: "Dr.P.Deepalakshmi Ramkumar",
+      title: "Dean, Shool of Computing, KARE",
+      image: Dean_Deepalakshmi,
+      linkedin:
+        "https://www.linkedin.com/in/dr-p-deepalakshmi-ramkumar-32408817/",
+    },
+    {
+      name: "Dr.P Chinnasamy",
+      title: "Assistant Professor, KARE",
+      image: Dr_P_Chinnasamy,
+      linkedin: "https://www.linkedin.com/in/dr-p-chinnasamy-52674b3b/",
+    },
+    {
+      name: "Yashwanth Aravind",
+      title: "Chairperson, ACM KARE",
+      image: Chair_person,
+      linkedin: "https://www.linkedin.com/in/yashwantharavind/",
     },
   ];
 
@@ -284,6 +308,34 @@ function Summerschool() {
               <h3>{speaker.name}</h3>
               <p className="speaker-title">{speaker.title}</p>
               <p className="speaker-org">{speaker.organization}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+      <section className="organizing-team-section">
+        <div className="section-header">
+          <h2>Organizing Team</h2>
+          <div className="header-bar"></div>
+        </div>
+        <div className="organizers-grid">
+          {organizers.map((member, index) => (
+            <div className="organizer-card" key={index}>
+              <div className="organizer-image">
+                <img src={member.image} alt={member.name} />
+              </div>
+              <h3>{member.name}</h3>
+              <p className="organizer-title">{member.title}</p>
+              <a
+                href={member.linkedin}
+                className="linkedin-icon"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+                  alt="LinkedIn"
+                />
+              </a>
             </div>
           ))}
         </div>
