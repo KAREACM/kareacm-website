@@ -1338,3 +1338,36 @@ export const computing_week = [
     image: img5,
   },
 ];
+
+import ss1 from "../assets/Images/summer_school/img1.jpg";
+import ss2 from "../assets/Images/summer_school/img2.png";  
+import ss3 from "../assets/Images/summer_school/img3.jpg";
+import ss4 from "../assets/Images/summer_school/img4.jpg";
+import ss5 from "../assets/Images/summer_school/img5.jpeg";
+import ss6 from "../assets/Images/summer_school/img6.jpg";
+export const summer_school = [
+  {
+    id: 0,
+    image: ss1,
+  },
+  {
+    id: 1,
+    image: ss2,
+  },
+  {
+    id: 2,
+    image: ss3,
+  },
+  {
+    id: 3,
+    image: ss4,
+  },
+  {
+    id: 4,
+    image: ss5,
+  },
+  {
+    id: 5,
+    image: ss6,
+  },
+];

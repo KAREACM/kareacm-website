@@ -2,47 +2,47 @@ import "./Summerschool.css";
 import Dean_Deepalakshmi from "./../../../Athithya/src/Assets/Faculty Coordinators/Deepalakshmi Mam.png";
 import Chair_person from "./../../../Athithya/src/Assets/Office Barriers/YASHWANTH A.jpg";
 import Dr_P_Chinnasamy from "./../../../Athithya/src/Assets/Faculty Coordinators/Dr P Chinnasamy.jpeg";
+import { summer_school } from "../../constants/data";
 function Summerschool() {
   const speakers = [
     {
       name: "Dr. Arijit Roy",
       title: "Assistant Professor",
       organization: "IIT Patna",
-      image: "https://arijit-iitkgp.github.io/assets/img/prof_pic.jpg",
+      image: summer_school[0].image,
     },
     {
       name: "Dr. Satendra Kumar",
       title: " Assistant Professor",
       organization: "IIT Patna",
-      image: "https://www.iitp.ac.in/~satendra/assets/img/find_user.png",
+      image: summer_school[1].image,
     },
     {
       name: "Mr.Sankar Narayan Das",
       title: "Postdoctoral researcher",
       organization: " IIT Kanpur",
       image:
-        "https://lh4.googleusercontent.com/GHb4yxB9mXfdc0FUkYFnc-rYNnfBcT4ehR7KD4XScMhxS0hLKJ-kHcAwhHyFoltY-RDZkUgY1BUWzs5AdOxTMbec9X6VnykssRQ91z_CdpZ4Apc2=w1280",
+        summer_school[2].image,
     },
     {
       name: "Barun Saha",
       title: "Senior researcher",
       organization: "IIT Kharagpur",
       image:
-        "https://media.licdn.com/dms/image/v2/C5103AQHD7KiG5C8AUQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1541338929753?e=1752710400&v=beta&t=xkc2bdng1rEXOsBRQl4wJ1Yck1RXVORFWqmk-ihfnF8",
+        summer_school[3].image,
     },
     {
       name: "Dr. Sujata Pal",
       title: " Assistant Professor",
       organization: "IIT Ropar",
       image:
-        "https://lh6.googleusercontent.com/z32hBavhQxbTyniTq0uXzUEpQm8Xjr6sHzOk9cVLYU1pv_F6GLtCg_0hiylq-YMMlNuOLSDSYLYUvovj7Yz-EAnV5J0eAp9n5eLIDCRX5buvBeuidUecR197K0WRAfrfFg=w1280",
+        summer_school[4].image,
     },
     {
       name: "Mr. Debasis Das",
       title: "Associate Professor",
       organization: "IIT Jodhpur",
-      image:
-        "https://typeset-prod-media-server.s3.amazonaws.com/author-images/debasis-das-2/fbff7bd1-5d7a-4182-a098-60356b8d1eb0/author.jpg",
+      image: summer_school[5].image,
     },
   ];
 
