@@ -10,26 +10,30 @@ function Summerschool() {
       title: "Assistant Professor",
       organization: "IIT Patna",
       image: summer_school[0].image,
+      personal_profile:"https://arijit-iitkgp.github.io/",
     },
     {
       name: "Dr. Satendra Kumar",
       title: " Assistant Professor",
       organization: "IIT Patna",
       image: summer_school[1].image,
+      personal_profile:"https://www.iitp.ac.in/~satendra/index.html",
+
     },
     {
-      name: "Mr.Sankar Narayan Das",
+      name: "Dr.Sankar Narayan Das",
       title: "Postdoctoral researcher",
       organization: " IIT Kanpur",
-      image:
-        summer_school[2].image,
+      image:summer_school[2].image,
+      personal_profile:"https://sites.google.com/view/sankardaspersonalpage/home",
     },
     {
-      name: "Barun Saha",
+      name: "Dr.Barun Saha",
       title: "Senior researcher",
       organization: "IIT Kharagpur",
       image:
         summer_school[3].image,
+      personal_profile:"https://www.linkedin.com/in/barunsaha/?originalSubdomain=in",
     },
     {
       name: "Dr. Sujata Pal",
@@ -37,12 +41,14 @@ function Summerschool() {
       organization: "IIT Ropar",
       image:
         summer_school[4].image,
+      personal_profile:"https://www.iitrpr.ac.in/saide/profile.faculty.php?mail=sujata%40iitrpr.ac.in",
     },
     {
-      name: "Mr. Debasis Das",
+      name: "Dr.Debasis Das",
       title: "Associate Professor",
       organization: "IIT Jodhpur",
       image: summer_school[5].image,
+      personal_profile:"https://research.iitj.ac.in/researcher/debasis-das-2",
     },
   ];
 
@@ -130,7 +136,30 @@ function Summerschool() {
   ];
 
   return (
+    
     <div className="summerschool-container">
+       <div className="fixed top-0 left-0 w-full bg-blue-600 text-white py-2 z-50">
+      <div className="overflow-hidden">
+        <div className="scrolling-text">
+          <span className="font-bold"> <b>"IMPORTANT ANNOUNCEMENT: Participants must bring their laptops for the entire duration of the Summer School program."</b></span>
+        </div>
+      </div>
+      
+      <style jsx>{`
+        .scrolling-text {
+          display: inline-block;
+          white-space: nowrap;
+          animation: scroll 12s linear infinite;
+          border: 0.5px solid white;  
+        }
+        
+        @keyframes scroll {
+          from { transform: translateX(100%); }
+          to { transform: translateX(-100%); }
+        }
+      `}</style>
+    </div>
+      
       <section className="hero-section">
         <div className="hero-content">
           <h1 className="main-title">ACM India Summer school 2025</h1>
@@ -308,6 +337,12 @@ function Summerschool() {
               <h3>{speaker.name}</h3>
               <p className="speaker-title">{speaker.title}</p>
               <p className="speaker-org">{speaker.organization}</p>
+              <a
+                href={speaker.personal_profile}
+                className="linkedin-icon"
+                target="_blank"
+                rel="noopener noreferrer">personal profile</a>
+
             </div>
           ))}
         </div>
