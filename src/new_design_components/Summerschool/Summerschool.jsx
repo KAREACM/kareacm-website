@@ -37,7 +37,7 @@ function Summerschool() {
     },
     {
       name: "Dr. Sujata Pal",
-      title: " Assistant Professor",
+      title: "Associate Professor",
       organization: "IIT Ropar",
       image:
         summer_school[4].image,
@@ -224,29 +224,9 @@ function Summerschool() {
           </div>
         </div>
 
-        <div className="info-card eligibility-card">
-          <div className="card-icon">
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-            >
-              <path d="M16 21v-2a4 4 0 00-4-4H6a4 4 0 00-4 4v2"></path>
-              <circle cx="9" cy="7" r="4"></circle>
-              <path d="M22 21v-2a4 4 0 00-3-3.87"></path>
-              <path d="M16 3.13a4 4 0 010 7.75"></path>
-            </svg>
-          </div>
-          <div className="card-content">
-            <h3>Eligibility</h3>
-            <p>Tech Enthusiast</p>
-            <span className="card-detail">
-              Students and professionals welcome
-            </span>
-          </div>
-        </div>
+
       </section>
+
 
       <section className="about-section">
         <div className="section-header">
